@@ -9,12 +9,24 @@
 
 \section{Data Analysis}
 \label{sec:method}
-\subsection{Experimental observables}
+\subsection{Experimental Observables}
 %\subsubsection{cumulant analysis}
 
 While from existing measurements an estimate can be placed on the average value of QGP's $\eta/s$, both at RHIC and LHC energies, what remains completely unknown is how the $\eta/s$ of QGP depends on temperature ($T$). This study has been just initiated by the theorists in Ref.~\cite{Niemi:2015qia}, where the first (and only rather qualitative) possibilities where investigated (see Fig.~1 therein). The emerging consensus of late is that it is unlikely that the study of individual flow harmonics $v_n$ will reveal the details of $\eta/s(T)$ dependence. In fact, in was demonstrated already in the initial study~\cite{Niemi:2015qia} that different $\eta/s(T)$ parameterizations can lead to the same centrality dependence of individual flow harmonics. In Ref.~\cite{Niemi:2012aj} new flow observables were introduced by the theorists, which quantify the degree of correlation between two different harmonics $v_m$ and $v_n$. The initial success of these new observables was attributed to their potential to discriminate for the first time the two respective contributions to anisotropic flow development---from initial conditions and from the transport properties of the QGP~\cite{Niemi:2012aj}. Therefore their mesurement in turn would enable the experimental verification of theoretical predictions for individual stages of heavy-ion evolution independently. Besides this advantage, it turned out that correlations of different flow harmonics are sensitive to the details of $\eta/s(T)$ dependence~\cite{ALICE:2016kpq}, to which individual flow harmonics are nearly insensitive~\cite{Niemi:2015qia}. 
  
-For technical reasons, discussed in detail in Refs.~\cite{ALICE:2016kpq,Bilandzic:2013kga}, the correlations between different flow harmonics cannot be studied experimentally with the same set of observables introduced by the theorists in Ref.~\cite{Niemi:2012aj}. Instead, in~\cite{Bilandzic:2013kga} the new flow observables obtained from multiparticle correlations, so-called \textit{Symmetric Cumulants~(SC)}, were introduced to quantify in the most realiable way (i.e. nearly insensitive to nonflow) the correlation of amplitudes of two different flow harmonics. The technical details are elaborated in Ref.~\cite{Bilandzic:2013kga}, while the first measurements of SC observables were recently released by ALICE Collaboration in Ref.~\cite{ALICE:2016kpq}.
+For technical reasons, discussed in detail in Refs.~\cite{ALICE:2016kpq,Bilandzic:2013kga}, the correlations between different flow harmonics cannot be studied experimentally with the same set of observables introduced by the theorists in Ref.~\cite{Niemi:2012aj}. The technical details are elaborated in Ref.~\cite{Bilandzic:2013kga}, while the first measurements of SC observables were recently released by ALICE Collaboration in Ref.~\cite{ALICE:2016kpq}.
+
+The SC observables are defined as:
+ %
+\begin{eqnarray}
+\left<\left<\cos(m\varphi_1\!+\!n\varphi_2\!-\!m\varphi_3-\!n\varphi_4)\right>\right>_c &=& \left<\left<\cos(m\varphi_1\!+\!n\varphi_2\!-\!m\varphi_3-\!n\varphi_4)\right>\right>\nonumber\\
+&&{}-\left<\left<\cos[m(\varphi_1\!-\!\varphi_2)]\right>\right>\left<\left<\cos[n(\varphi_1\!-\!\varphi_2)]\right>\right>\nonumber\\
+&=&\left<v_{m}^2v_{n}^2\right>-\left<v_{m}^2\right>\left<v_{n}^2\right>\,,%\nonumber\\
+%&=&0\,.
+\label{eq:4p_cumulant}
+\end{eqnarray}
+%
+with the condition $m\neq n$ for two positive integers $m$ and $n$. The complete discussion can be found in Section IV C of Ref.~\cite{Bilandzic:2013kga}.
 
 SC($m$,$n$) can be normalized with the product $\left<v_{m}^2\right>\left<v_{n}^2\right>$ to obtain \textit{normalized} symmetric cumulants~\cite{ALICE:2016kpq,Giacalone:2016afq}, which we denote by NSC($m$,$n$), i.e.
 %
@@ -23,7 +35,7 @@ SC($m$,$n$) can be normalized with the product $\left<v_{m}^2\right>\left<v_{n}^
 \label{eq:nsc}
 \end{equation}
 %
-Normalized symmetric cumulants reflect only the degree of the correlation which is expected to be insensitive to the magnitudes of $v_{m}$ and $v_{n}$, while SC$(m,n)$ contains both the degree of the correlation and individual $v_{n}$ harmonics. In Eq.~(\ref{eq:nsc}) the products in the denominator are obtained with two-particle correlations and using a pseudorapidity gap of $|\Delta\eta|>1.0$ to suppress biases from few-particle nonflow correlations. On the other hand, in the two two-particle correlations which appear in the definition of SC$(m,n)$ the psedorapidity gap is not needed, since nonflow is suppressed by construction in SC observable, as the study based on HIJING model has clearly demonstrated in Ref.~\cite{ALICE:2016kpq}.
+Normalized symmetric cumulants reflect only the degree of the correlation which is expected to be insensitive to the magnitudes of $v_{m}$ and $v_{n}$, while SC$(m,n)$ contains both the degree of the correlation and individual $v_{n}$ harmonics. In Eq.~(\ref{eq:nsc}) the products in the denominator are obtained with two-particle correlations and using a pseudorapidity gap of $|\Delta\eta|>1.0$ to suppress biases from few-particle nonflow correlations. On the other hand, in the two two-particle correlations which appear in the definition of SC$(m,n)$ in Eq.~\ref{eq:4p_cumulant} the psedorapidity gap is not needed, since nonflow is suppressed by construction in SC observable, as the study based on HIJING model has clearly demonstrated in Ref.~\cite{ALICE:2016kpq}.
 
 The first measurements of SC observables have revealed that fluctuations of $v_2$ and $v_3$ are anti-correlated, while fluctuations of $v_2$ and $v_4$ are correlated in all centralities~\cite{ALICE:2016kpq}. However, the details of the centrality dependence differ in the fluctutation-dominated (most central) and the geometry-dominated (mid-central) regimes~\cite{ALICE:2016kpq}. Most importantly, the centrality dependence of SC(4,2) cannot be captured with the constant $\eta/s$ dependence, indicating clearly that the temperature plays an important role in describing QGP's $\eta/s$ dependence in various stages of heavy-ion evolution. These results were also used to discriminate between different parameterizations of initial conditions and it was demonstrated that in the fluctuation-dominated regime (in central collisions) MC-Glauber initial conditions with binary collisions weights are favored over wounded nucleon weights~\cite{ALICE:2016kpq}. 
 

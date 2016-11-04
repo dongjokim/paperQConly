@@ -55,14 +55,16 @@
 \begin{abstract}
 
 The correlations between event-by-event fluctuations of amplitudes of anisotropic flow harmonics
-in $\PbPb$ collisions at $\snn=2.76$~TeV were measured with the ALICE detector at the Large Hadron Collider. 
-The results were obtained with the multi-particle cumulant method.
-The method is robust against systematic biases originating from non-flow effects. 
-The centrality dependence of correlation between the higher Fourier harmonics ($v_3$, $v_4$, $v_5$) and the lower harmonics ($v_2$, $v_3$) as well as the transverse momentum dependence of $v_3$-$v_2$ and $v_4$-$v_2$ correlations are presented. 
-The results are compared to predictions from viscous hydrodynamics and  A Multi-Phase Transport model  ({AMPT}) models.
+in $\PbPb$ collisions at $\snn=2.76$~TeV have been measured with the ALICE detector at the Large Hadron Collider. 
+The results were obtained with the new multi-particle cumulant method dubbed symmetric cumulants.
+This method is robust against systematic biases originating from non-flow effects. 
+The centrality dependence of correlation between the higher harmonics ($v_3$, $v_4$, $v_5$) and the lower harmonics ($v_2$, $v_3$) as well as the transverse momentum dependence of $v_3$-$v_2$ and $v_4$-$v_2$ correlations are presented. 
+The results are compared to calculations from viscous hydrodynamics and  A Multi-Phase Transport ({AMPT}) models.
 The comparisons to viscous hydrodynamic models demonstrate that
-the different order Fourier harmonic correlations respond differently to the initial conditions or $\eta/s$ and the small $\eta/s$ regardless of initial conditions is flavored and the small $\eta/s$ with the AMPT initial condition is closest to the results. 
+the different order Fourier harmonic correlations respond differently to the initial conditions or the shear viscosity to the entropy density ratio ($\eta/s$). The small $\eta/s$ regardless of initial conditions is favored and the small $\eta/s$ with the AMPT initial condition is closest to the results. 
+We have found that $v_3$-$v_2$ and $v_4$-$v_2$ correlations have moderate $p_{\rm T}$ dependence in mid central collisions. This might be an indication of possible viscous corrections for the equilibrium distribution at hadronic freeze-out.
 %However the $v_3$-$v_2$ and  $v_4$-$v_3$ cannot be described by any model setting.
+%pt dependence ??
 Together with the existing measurements of individual flow harmonics the presented results provide further constraints 
 on initial conditions and the transport properties of the system produced in heavy-ion collisions.
 \end{abstract}
@@ -77,25 +79,21 @@ on initial conditions and the transport properties of the system produced in hea
 
 %\textbf{{[A general history on HI]}}
 
-The main emphasis of the ultra-relativistic heavy ion collisions at the Relativistic Heavy Ion Collider (RHIC) and the Large Hadron Collider (LHC) is to study deconfined phase of the strongly interacting matter, the Quark-Gluon Plasma (QGP). 
-This matter exhibits strong collective and anisotropic flow in the transverse plane driven by the pressure gradients, with more particles emitted in the direction of the largest gradients.
-The large elliptic flow discovered at RHIC energies~\cite{Ackermann:2000tr} continues to increase also in LHC energies~\cite{Aamodt:2010pa,Adam:2016izf}. This has been predicted by calculations utilising viscous hydrodynamics~\cite{Romatschke:2007mq,Shen:2011eg,Schenke:2011zz,Bozek:2012qs,Gale:2012rq,Hirano:2010je}.
+The main emphasis of the ultra-relativistic heavy-ion collisions at the Relativistic Heavy Ion Collider (RHIC) and the Large Hadron Collider (LHC) is to study deconfined phase of the strongly interacting nuclear matter, the Quark-Gluon Plasma (QGP). 
+This matter exhibits strong collective and anisotropic flow in the plane transverse to the beam direction, which is driven by the anisotropic pressure gradients, resulting in more particles emitted in the direction of the largest gradients.
+The large elliptic flow discovered at RHIC energies~\cite{Ackermann:2000tr} continues to increase also at LHC energies~\cite{Aamodt:2010pa,Adam:2016izf}. This has been predicted by calculations utilising viscous hydrodynamics~\cite{Romatschke:2007mq,Shen:2011eg,Schenke:2011zz,Bozek:2012qs,Gale:2012rq,Hirano:2010je}.
 %and microscopic transport models ~\cite{Xu:2007jv}.  
-These calculations also demonstrated that the shear viscosity to the entropy density ratio ($\eta/s$) of strongly interacting matter is close to a universal lower bound $1/4\pi$~\cite{Kovtun:2004de} in heavy ion collisions at RHIC and LHC energies.
+These calculations also demonstrated that the shear viscosity to the entropy density ratio ($\eta/s$) of QGP is close to a universal lower bound $1/4\pi$~\cite{Kovtun:2004de} in heavy-ion collisions at RHIC and LHC energies.
 
 %The magnitude of the anisotropic flow has been to found to be sensitive to the transport properties, as well as the space-momentum profile in the initial state~\cite{}. 
-The temperature dependence of the $\eta/s$ has some generic features that most of the known fluids obey. One such general behavior is that the ratio typically reaches its minimum value close to the phase transition region~\cite{Lacey:2006bc}. 
-It was shown, using kinetic theory and quantum mechanical considerations~\cite{PhysRevD.31.53}, that $\eta/s\sim0.1$ would be an order of magnitude for the lowest possible shear viscosity to entropy ratio in nature. Later it was found that one can calculate an exact lower bound $(\eta/s)_{\rm min}=1/4\pi\approx0.08$ using the AdS/CFT correspondence~\cite{Kovtun:2004de}. Hydrodynamical simulations supports as well the view that the QGP matter indeed is close to that limit~\cite{Gale:2012rq}. This in turn may have an important implications to other fundamental physics goals. It is argued that such a low value might imply that thermodynamic trajectories for the expanding matter would lie close to the QCD critical end point, which is another subject of intensive experimental quest~\cite{Lacey:2006bc}.
-%which in turn would gain better prospects to search of critical end point~\cite{PhysRevLett.98.092301}.
-
-Anisotropic flow is traditionally quantified with harmonics $v_n$ and corresponding symmetry plane angles $\psi_n$ in the Fourier series decomposition of particle azimuthal distribution in the plane transverse to the beam direction~\cite{Voloshin:1994mz}:
+Anisotropic flow~\cite{Ollitrault:1992bk} is traditionally quantified with harmonics $v_n$ and corresponding symmetry plane angles $\psi_n$ in the Fourier series decomposition of particle azimuthal distribution in the plane transverse to the beam direction~\cite{Voloshin:1994mz}:
 
 \begin{equation}
 E\frac{\mathrm{d}^3N}{\mathrm{d}p^3} = \frac{1}{2\pi}\frac{\mathrm{d}^2N}{p_{\mathrm{T}}\mathrm{d}p_{\mathrm{T}}\mathrm{d}\eta} \Big\{1 + 2\sum_{n=1}^{\infty} v_n(p_{\mathrm{T}},\eta) \cos[n(\varphi - \Psi_n)]\Big\},
 \label{Eq:Fourier}
 \end{equation}
 
-\noindent where $E$, $N$, $p$, $p_{\mathrm{T}}$, $\varphi$ and $\eta$ are the energy, particle yield, total momentum, transverse momentum, azimuthal angle and pseudorapidity of particles, respectively, and $\Psi_n$ is the azimuthal angle of the symmetry plane of the $n^{\mathrm{th}}$-order harmonic. The $n^{\mathrm{th}}$-order flow coefficients are denoted as $v_n$ and can be derived as $v_{n} = \langle{\cos[n(\varphi - \Psi_n)]}\rangle$, where the brackets denote an average over all particles in all events.
+\noindent where $E$, $N$, $p$, $p_{\mathrm{T}}$, $\varphi$ and $\eta$ are the energy, particle yield, total momentum, transverse momentum, azimuthal angle and pseudorapidity of particles, respectively, and $\Psi_n$ is the azimuthal angle of the symmetry plane of the $n^{\mathrm{th}}$-order harmonic. The $n^{\mathrm{th}}$-order flow coefficients are denoted as $v_n$ and can be calculated as $v_{n} = \langle{\cos[n(\varphi - \Psi_n)]}\rangle$, where the brackets denote an average over all particles in all events.
 %Anisotropic flow in Heavy-ion collision can be written as an azimuthal ($\phi$) asymmetry of the single-particle distribution~\cite{Luzum:2011mm}:
 %\begin{equation}
 %\label{defVn}
@@ -103,27 +101,31 @@ E\frac{\mathrm{d}^3N}{\mathrm{d}p^3} = \frac{1}{2\pi}\frac{\mathrm{d}^2N}{p_{\ma
 %\end{equation}
 %where $V_n$ is the (complex) anisotropic flow coefficient in the $n$th harmonic.
 %One usually uses the notation $v_n$ for the magnitude: $v_n\equiv|V_n|$.
-The anisotropic flow is understood as hydrodynamic response to spatial deformation of the initial density profile.
+The anisotropic flow in heavy-ion collisions is understood as hydrodynamic response of produced matter to spatial deformations of the initial energy density profile.
 This profile fluctuates event-by-event due to fluctuations of the positions of the constituents inside the colliding nuclei, which in turn implies that the flow also fluctuates~\cite{Miller:2003kd,Alver:2006wh}.
-The recognition of the importance of flow fluctuation has led to triangular flow and higher harmonics~\cite{Alver:2010gr,ALICE:2011ab} as well as the correlations between different Fourier harmonics~\cite{Aad:2014fla}.
+The recognition of the importance of flow fluctuations has led to triangular flow and higher flow harmonics~\cite{Alver:2010gr,ALICE:2011ab} as well as the correlations between different Fourier harmonics~\cite{Niemi:2012aj,Aad:2014fla}.
 %The measurements by the ATLAS Collaboration~\cite{} show that higher order harmonics are sensitive to the $\eta/s$~\cite{Luzum:2012wu}.
-The higher order harmonics are expected to be particularly sensitive to fluctuations in the initial conditions and to the $\eta/s$~\cite{Alver:2010dn,Luzum:2012wu}.
+The higher order harmonics are expected to be particularly sensitive to fluctuations in the initial conditions and to the $\eta/s$~\cite{Alver:2010dn,Luzum:2012wu}, while correlations have the potential to discriminate the two respective contributions to anisotropic flow development~\cite{Niemi:2012aj}.
 And the $v_{n}$ distributions carry detailed information about the initial density profile~\cite{Renk:2014jja,Yan:2014nsa}.
 
-However, difficulties on extracting the shear viscosity in heavy ion has been realized since it strongly depends on the specific choice of the initial conditions~\cite{Romatschke:2007mq,Luzum:2012wu,Shen:2011zc}.
+The temperature dependence of the $\eta/s$ has some generic features that most of the known fluids obey. For instance, one such general behavior is that the ratio typically reaches its minimum value close to the phase transition region~\cite{Lacey:2006bc}. 
+It was shown, using kinetic theory and quantum mechanical considerations~\cite{PhysRevD.31.53}, that $\eta/s\sim0.1$ would be the correct order of magnitude for the lowest possible shear viscosity to entropy ratio value found in nature. Later it was demonstrated that an exact lower bound $(\eta/s)_{\rm min}=1/4\pi\approx0.08$ can be caculated using the AdS/CFT correspondence~\cite{Kovtun:2004de}. Hydrodynamical simulations support as well the view that the QGP matter is close to that limit~\cite{Gale:2012rq}. This in turn may have an important implications for other fundamental physics goals. It is argued that such a low value might imply that thermodynamic trajectories for the expanding matter would lie close to the quantum chromodynamics (QCD) critical end point, which is another subject of intensive experimental quest~\cite{Lacey:2006bc}.
+%which in turn would gain better prospects to search of critical end point~\cite{PhysRevLett.98.092301}.
+
+However, difficulties on extracting $\eta/s$ in heavy-ion collisions can be attributed mostly to the fact that it strongly depends on the specific choice of the initial conditions~\cite{Romatschke:2007mq,Luzum:2012wu,Shen:2011zc}.
 The viscous effects reduce the magnitude of the elliptic flow. Furthermore, the magnitude of $\eta/s$ used in these calculations should be considered as an average over the temperature history of the expanding fireball as it is known that $\eta/s$ of other fluids depends on temperature. 
 In addition, part of the elliptic flow can also originate from the hadronic phase~\cite{Bozek:2011ua,Rose:2014fba,Ryu:2015vwa}. Therefore,
 knowledge of both the temperature dependence and the relative contributions from the partonic and hadronic phases should be understood better to quantify $\eta/s$ of the partonic fluid.
 
-The higher harmonics ($n>3$) are understood as superpositions of linear and nonlinear responses, through which they are correlated with lower-order harmonics ~\cite{Teaney:2012ke,Bravina:2013ora}. When the harmonic order is large, the nonlinear response contribution in viscous hydrodynamics is dominant~\cite{Teaney:2012ke,Bravina:2013ora}.
-The magnitude of the viscous corrections as a function of $p_{\rm T}$ for $v_4$ and $v_5$ is sensitive to ansatz used for the viscous distribution function, $\delta f$, a correction for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad}.
+While elliptic and triangular flow can be described well solely in terms of linear response, the higher harmonics ($n>3$) could be understood as superpositions of linear and nonlinear responses, through which they are correlated with lower order harmonics ~\cite{Teaney:2012ke,Bravina:2013ora}. When the order of harmonic is large, the nonlinear response contribution in viscous hydrodynamics is dominant~\cite{Teaney:2012ke,Bravina:2013ora}.
+The magnitude of the viscous corrections as a function of $p_{\rm T}$ for $v_4$ and $v_5$ is sensitive to ansatz used for the viscous distribution function, a correction for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad}.
 Hence the studies of the higher order ($n>3$) to lower order ($v_2$ or $v_3$) harmonic correlations and their $p_{\rm T}$ dependence can help to understand the viscous correction to the momentum distribution at hadronic freeze-out which is probably the least understood part of hydrodynamic calculations~\cite{Teaney:2012ke,Niemi:2015qia}.
 
-Recently we measured for the first time the new multiparticle observables, the Symmetric 2-harmonic 4-particle Cumulants (SC), which quantify the relationship between event-by-event fluctuations of two different flow harmonics. The new observables are particularly robust against few-particle non-flow correlations and they provide orthogonal information to recently analysed symmetry plane correlators~\cite{ALICE:2016kpq}. 
-It was demonstrated that they are sensitive to the $\eta/s$ of the expending medium and simultaneous descriptions of different order harmonic correlations would constrain 
+Recently, ALICE Collaboration measured for the first time the new multiparticle observables, the Symmetric 2-harmonic 4-particle Cumulants (SC), which quantify the relationship between event-by-event fluctuations of two different flow harmonics~\cite{ALICE:2016kpq}. The new observables are particularly robust against few-particle non-flow correlations and they provide orthogonal information to recently analysed symmetry plane correlators. 
+It was demonstrated that they are sensitive to the $\eta/s$ of the expanding medium and therefore simultaneous descriptions of different order harmonic correlations would constrain 
 both the initial conditions and the medium properties.
-In this article, we have extended the analysis to higher order Fourier harmonic (up to 5th order) correlations as well as $p_{\rm T}$ dependence of correlations for the lower order harmonic ($v_3$-$v_2$ and $v_4$-$v_2$).  We also include a systematic comparison to hydrodynamic and AMPT models.
-In Sec.~\ref{sec:method} we present the details of the analysis methods. The experimental setting and measurements are described in Sec.~\ref{sec:experiment} and the sources of systematic uncertainties are explained in Sec.~\ref{sec:uncertainties}. The results of the measurements are presented in Sec.~\ref{sec:results}.
+In this article, we have extended that analysis to higher order Fourier harmonic (up to $5^{\mathrm{th}}$ order) correlations as well as to $p_{\rm T}$ dependence of correlations for the lower order harmonic ($v_3$-$v_2$ and $v_4$-$v_2$).  We also include extensive comparisons to hydrodynamic and AMPT model calculations.
+In Sec.~\ref{sec:method} we present the details of the analysis methods. The experimental setting and measurements are described in Sec.~\ref{sec:experiment} and the sources of systematic uncertainties are explained in Sec.~\ref{sec:uncertainties}. Various theoretical models used in the articles are described in Sec.~\ref{sec:models}. The results of the measurements are presented in Sec.~\ref{sec:results}.
  In Sec.~\ref{sec:theory} we present comparisons to theoretical calculations. Sec.~\ref{sec:summary} summarizes our findings.
  
  
@@ -134,7 +136,8 @@ In Sec.~\ref{sec:method} we present the details of the analysis methods. The exp
 
 \section{Theoretical models}
 \label{sec:models}
-We have used various models in this article. The {HIJING} model~\cite{Wang:1991hta,Gyulassy:1994ew} was utilized to obtain the $p_{\rm T}$-weights~\cite{Bilandzic:2013kga} which were used to estimate systematic bias due to non-uniform reconstruction efficiency. Secondly, the HIJING model was used to estimate the strength of non-flow correlations (typically few-particle correlations insensitive to the collision geometry). 
+We have used various models in this article. The {HIJING} model~\cite{Wang:1991hta,Gyulassy:1994ew} was utilized to obtain the $p_{\rm T}$-weights~\cite{Bilandzic:2013kga} which were used to estimate systematic bias due to non-uniform reconstruction efficiency. 
+%Secondly, the HIJING model was used to estimate the strength of non-flow correlations (typically few-particle correlations insensitive to the collision geometry). 
 %We have evaluated the observables of interest in coordinate space by modeling the initial conditions with a MC-Glauber model~\cite{Miller:2007ri}. 
 
 We have compared the centrality dependence of our observables with theoretical model from~\cite{Niemi:2015qia}, where the initial energy density profiles are calculated using a next-to-leading order perturbative-QCD+saturation model~\cite{Paatelainen:2012at,Paatelainen:2013eea}. The subsequent spacetime evolution is described by relativistic dissipative fluid dynamics with different parametrizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$. Each of the $\eta/s(T)$ parametrizations is adjusted to reproduce the measured $v_n$ from central to mid-peripheral collisions. 
@@ -146,7 +149,7 @@ Traditionally, the Glauber model constructs the initial entropy density of the Q
 %The AMPT initial conditions is basically HIJING with the location of the strings specified according to the sites of the nucleon nucleon collisions. The model then introduces the string melting procedure to produce initial partons. These partons are then evolved for the short duration using the ZPC parton cascade model. Instead the initial energy momentum tensor is directly fed into the hydrodynamic calculations, the energy density and the flow velocity are first obtained using the Landau condition and only the ideal fluid parts are used as the initial condition for the hydrodynamic evolution. Mini-jets from semi-hard parton scatterings are assumed to be locally thermalized through a Gaussian smearing and give rise to non-vanishing initial local flow velocities~\cite{Pang:2012he}.
 
 Finally, we provide an independent estimate of the centrality dependence of our observables by utilizing the {AMPT} model~\cite{Zhang:1999bd,Lin:2000cx,Lin:2004en}.
-Even though thermalization could be achieved in collisions of very large nuclei and/or at extremely high energy, the dense matter created in heavy ion collisions may not reach full thermal or chemical equilibrium as a result of its finite volume and energy. To address such non-equilibrium many-body dynamics, AMPT has been developed, which includes both initial partonic and final hadronic interactions and the transition between these two phases of matter.
+Even though thermalization could be achieved in collisions of very large nuclei and/or at extremely high energy, the dense matter created in heavy-ion collisions may not reach full thermal or chemical equilibrium as a result of its finite volume and energy. To address such non-equilibrium many-body dynamics, AMPT has been developed, which includes both initial partonic and final hadronic interactions and the transition between these two phases of matter.
 For the initial conditions, the AMPT model uses the spatial and momentum distributions of hard minijet partons and soft strings from the HIJING model~\cite{Wang:1991hta,Gyulassy:1994ew}.
 The AMPT model can be run in two main configurations, the default and the string melting model.
 In the default version, partons are recombined with their parent strings when they stop interacting. The resulting strings are later converted into hadrons using the Lund string fragmentation model~\cite{Andersson:1986gw,NilssonAlmqvist:1986rx}. In the string melting version, the initial strings are melted into partons whose interactions are described by the ZPC parton cascade model~\cite{Zhang:1997ej}. These partons are then combined into the final-state hadrons via a quark coalescence model. 
@@ -237,7 +240,7 @@ However, the sign of NSC(3,2) is positive in the models in 0-10\% central collis
 In the most central collisions the anisotropies originate mainly from fluctuations, i.e.\ the initial ellipsoidal geometry characteristic for mid-central collisions plays little role in this regime. Hence this observation will help to understand the fluctuations in initial conditions better.
 NSC(4,2) observable shows better sensitivity for different $\eta/s(T)$ parameterizations, i.e.\ medium property but the model cannot describe the centrality dependence nor the absolute values. These observed distinct discrepancies between data and models might indicate that the current understanding of initial conditions used in the model need to be revisited
 to further constrain the $\eta/s(T)$, considering the difficulties on separating the role of the $\eta/s$  from the initial condition to the final state particle anisotropies~\cite{Romatschke:2007mq,Shen:2011zc}.
-Hence the use of SC$(m,n)$ and NSC$(m,n)$ can provide new constraints on the detailed modeling of the initial-state condition and the fluctuations of the medium created in heavy ion collisions and the better constraints on the initial-state conditions will certainly improve the uncertainties of determining $\eta/s(T)$.
+Hence the use of SC$(m,n)$ and NSC$(m,n)$ can provide new constraints on the detailed modeling of the initial-state condition and the fluctuations of the medium created in heavy-ion collisions and the better constraints on the initial-state conditions will certainly improve the uncertainties of determining $\eta/s(T)$.
 
 \begin{figure}[htbp]
             \begin{center}
