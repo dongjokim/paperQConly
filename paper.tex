@@ -58,7 +58,7 @@ The correlations between event-by-event fluctuations of amplitudes of anisotropi
 in $\PbPb$ collisions at $\snn=2.76$~TeV have been measured with the ALICE detector at the Large Hadron Collider. 
 The results were obtained with the new multi-particle cumulant method dubbed symmetric cumulants.
 This method is robust against systematic biases originating from non-flow effects. 
-The centrality dependence of correlation between the higher harmonics ($v_3$, $v_4$, $v_5$) and the lower harmonics ($v_2$, $v_3$) as well as the transverse momentum dependence of $v_3$-$v_2$ and $v_4$-$v_2$ correlations are presented. 
+The centrality dependence of correlation between the higher order harmonics ($v_3$, $v_4$, $v_5$) and the lower order harmonics ($v_2$, $v_3$) as well as the transverse momentum dependence of $v_3$-$v_2$ and $v_4$-$v_2$ correlations are presented. 
 The results are compared to calculations from viscous hydrodynamics and  A Multi-Phase Transport ({AMPT}) models.
 The comparisons to viscous hydrodynamic models demonstrate that
 the different order Fourier harmonic correlations respond differently to the initial conditions or the shear viscosity to the entropy density ratio ($\eta/s$). The small $\eta/s$ regardless of initial conditions is favored and the small $\eta/s$ with the AMPT initial condition is closest to the results. 
@@ -101,7 +101,7 @@ E\frac{\mathrm{d}^3N}{\mathrm{d}p^3} = \frac{1}{2\pi}\frac{\mathrm{d}^2N}{p_{\ma
 %\end{equation}
 %where $V_n$ is the (complex) anisotropic flow coefficient in the $n$th harmonic.
 %One usually uses the notation $v_n$ for the magnitude: $v_n\equiv|V_n|$.
-The anisotropic flow in heavy-ion collisions is understood as hydrodynamic response of produced matter to spatial deformations of the initial energy density profile.
+The anisotropic flow in heavy-ion collisions is understood as hydrodynamic response of produced matter to spatial deformations of the initial energy density profile~\cite{Floerchinger:2013tya}.
 This profile fluctuates event-by-event due to fluctuations of the positions of the constituents inside the colliding nuclei, which in turn implies that the flow also fluctuates~\cite{Miller:2003kd,Alver:2006wh}.
 The recognition of the importance of flow fluctuations has led to triangular flow and higher flow harmonics~\cite{Alver:2010gr,ALICE:2011ab} as well as the correlations between different Fourier harmonics~\cite{Niemi:2012aj,Aad:2014fla}.
 %The measurements by the ATLAS Collaboration~\cite{} show that higher order harmonics are sensitive to the $\eta/s$~\cite{Luzum:2012wu}.
@@ -109,7 +109,7 @@ The higher order harmonics are expected to be particularly sensitive to fluctuat
 And the $v_{n}$ distributions carry detailed information about the initial density profile~\cite{Renk:2014jja,Yan:2014nsa}.
 
 The temperature dependence of the $\eta/s$ has some generic features that most of the known fluids obey. For instance, one such general behavior is that the ratio typically reaches its minimum value close to the phase transition region~\cite{Lacey:2006bc}. 
-It was shown, using kinetic theory and quantum mechanical considerations~\cite{PhysRevD.31.53}, that $\eta/s\sim0.1$ would be the correct order of magnitude for the lowest possible shear viscosity to entropy ratio value found in nature. Later it was demonstrated that an exact lower bound $(\eta/s)_{\rm min}=1/4\pi\approx0.08$ can be caculated using the AdS/CFT correspondence~\cite{Kovtun:2004de}. Hydrodynamical simulations support as well the view that the QGP matter is close to that limit~\cite{Gale:2012rq}. This in turn may have an important implications for other fundamental physics goals. It is argued that such a low value might imply that thermodynamic trajectories for the expanding matter would lie close to the quantum chromodynamics (QCD) critical end point, which is another subject of intensive experimental quest~\cite{Lacey:2006bc}.
+It was shown, using kinetic theory and quantum mechanical considerations~\cite{PhysRevD.31.53}, that $\eta/s\sim0.1$ would be the correct order of magnitude for the lowest possible shear viscosity to entropy ratio value found in nature. Later it was demonstrated that an exact lower bound $(\eta/s)_{\rm min}=1/4\pi\approx0.08$ can be caculated using the AdS/CFT correspondence~\cite{Kovtun:2004de}. Hydrodynamical simulations support as well the view that the QGP matter is close to that limit~\cite{Gale:2012rq}. This in turn may have important implications for other fundamental physics goals. It is argued that such a low value might imply that thermodynamic trajectories for the expanding matter would lie close to the quantum chromodynamics (QCD) critical end point, which is another subject of intensive experimental quest~\cite{Lacey:2006bc}.
 %which in turn would gain better prospects to search of critical end point~\cite{PhysRevLett.98.092301}.
 
 However, difficulties on extracting $\eta/s$ in heavy-ion collisions can be attributed mostly to the fact that it strongly depends on the specific choice of the initial conditions~\cite{Romatschke:2007mq,Luzum:2012wu,Shen:2011zc}.
@@ -117,14 +117,23 @@ The viscous effects reduce the magnitude of the elliptic flow. Furthermore, the 
 In addition, part of the elliptic flow can also originate from the hadronic phase~\cite{Bozek:2011ua,Rose:2014fba,Ryu:2015vwa}. Therefore,
 knowledge of both the temperature dependence and the relative contributions from the partonic and hadronic phases should be understood better to quantify $\eta/s$ of the partonic fluid.
 
-While elliptic and triangular flow can be described well solely in terms of linear response, the higher harmonics ($n>3$) could be understood as superpositions of linear and nonlinear responses, through which they are correlated with lower order harmonics ~\cite{Teaney:2012ke,Bravina:2013ora}. When the order of harmonic is large, the nonlinear response contribution in viscous hydrodynamics is dominant~\cite{Teaney:2012ke,Bravina:2013ora}.
+An important input to the hydrodynamic simulations is the distribution of energy density in the transverse plane (the initial density profile), which is usually estimated from the known probability distribution of nucleons in the incoming nuclei.
+This initial density profile can be quantified by calculating the distribution of the spatial eccentricity~\cite{Alver:2010gr},
+\begin{equation}
+ \varepsilon_{n} e^{in\Psi_{n}} = -\{r^n e^{in\phi}\}/ \{r^n\} 
+  \label{eq:eccentricities}
+\end{equation}
+where the curly brackets denote the average over the transverse plane, i.e., $\{\cdots\} = \int dxdy\, e(x,y,\tau_0) (\cdots)$, $r$ is the distance to the system's center of mass, $e(x,y,\tau_0)$ is the energy density at the initial time $\tau_0$, and $\Psi_{n}$ is the participant plane angle (see Sec.3 in Ref.~\cite{Niemi:2015qia}).
+There is experimental and theoretical evidences~\cite{Alver:2010gr,Qiu:2011iv} that the harmonic coefficients, $v_2$ and $v_3$, are to a good approximation linearly proportional to the deformations in the initial energy density in the transverse plane (e.g. $v_n \propto \varepsilon_n$ for n=2 or 3).
+$v_4$ and higher order flow coefficients can arise from initial anisotropies in the same harmonic~\cite{Alver:2010gr,Teaney:2010vd,Gubser:2010ui,Hatta:2014jva}(linear response) or can be induced by lower-order harmonics~\cite{Bravina:2013xla,Bravina:2013ora}(nonlinear response).
+While elliptic and triangular flow can be described well solely in terms of linear response, the higher harmonics ($n>3$) could be understood as superpositions of linear and nonlinear responses, through which they are correlated with lower order harmonics ~\cite{Teaney:2012ke,Bravina:2013ora,Gubser:2010ui,Hatta:2014jva}. When the order of harmonic is large, the nonlinear response contribution in viscous hydrodynamics is dominant and become larger for more peripheral collisions~\cite{Teaney:2012ke,Bravina:2013ora}.
 The magnitude of the viscous corrections as a function of $p_{\rm T}$ for $v_4$ and $v_5$ is sensitive to ansatz used for the viscous distribution function, a correction for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad}.
 Hence the studies of the higher order ($n>3$) to lower order ($v_2$ or $v_3$) harmonic correlations and their $p_{\rm T}$ dependence can help to understand the viscous correction to the momentum distribution at hadronic freeze-out which is probably the least understood part of hydrodynamic calculations~\cite{Teaney:2012ke,Niemi:2015qia}.
 
 Recently, ALICE Collaboration measured for the first time the new multiparticle observables, the Symmetric 2-harmonic 4-particle Cumulants (SC), which quantify the relationship between event-by-event fluctuations of two different flow harmonics~\cite{ALICE:2016kpq}. The new observables are particularly robust against few-particle non-flow correlations and they provide orthogonal information to recently analysed symmetry plane correlators. 
 It was demonstrated that they are sensitive to the $\eta/s$ of the expanding medium and therefore simultaneous descriptions of different order harmonic correlations would constrain 
 both the initial conditions and the medium properties.
-In this article, we have extended that analysis to higher order Fourier harmonic (up to $5^{\mathrm{th}}$ order) correlations as well as to $p_{\rm T}$ dependence of correlations for the lower order harmonic ($v_3$-$v_2$ and $v_4$-$v_2$).  We also include extensive comparisons to hydrodynamic and AMPT model calculations.
+In this article, we have extended that analysis to higher order Fourier harmonic (up to $5^{\mathrm{th}}$ order) correlations as well as to $p_{\rm T}$ dependence of correlations for the lower order harmonics ($v_3$-$v_2$ and $v_4$-$v_2$).  We also include extensive comparisons to hydrodynamic and AMPT model calculations.
 In Sec.~\ref{sec:method} we present the details of the analysis methods. The experimental setting and measurements are described in Sec.~\ref{sec:experiment} and the sources of systematic uncertainties are explained in Sec.~\ref{sec:uncertainties}. Various theoretical models used in the articles are described in Sec.~\ref{sec:models}. The results of the measurements are presented in Sec.~\ref{sec:results}.
  In Sec.~\ref{sec:theory} we present comparisons to theoretical calculations. Sec.~\ref{sec:summary} summarizes our findings.
  
@@ -143,8 +152,8 @@ We have used various models in this article. The {HIJING} model~\cite{Wang:1991h
 We have compared the centrality dependence of our observables with theoretical model from~\cite{Niemi:2015qia}, where the initial energy density profiles are calculated using a next-to-leading order perturbative-QCD+saturation model~\cite{Paatelainen:2012at,Paatelainen:2013eea}. The subsequent spacetime evolution is described by relativistic dissipative fluid dynamics with different parametrizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$. Each of the $\eta/s(T)$ parametrizations is adjusted to reproduce the measured $v_n$ from central to mid-peripheral collisions. 
 %\textbf{Need a short descriotion of event-by-event viscous hydrody-namic calculations from VISH2+1}.
 
-The VISH2+1~\cite{Zhu:2016puf} is an event-by-event theoretical framework model for relativistic heavy-ion collision based on (2+1)-dimensional viscous hydrodynamics which describes both the QGP fluid and the highly dissipative and even off-equilibrium late hadronic stage with fluid-dynamics. With well tuned transport coefficients, decoupling temperature  and some well-chosen initial conditions (like {AMPT}~\cite{Xu:2016hmp,Bhalerao:2015iya,Pang:2012he} etc.), it could fit many related soft hadron data, such as the $p_{\rm T}$ spectra and different flow harmonics at RHIC and the LHC~\cite{Qiu:2011hf, Shen:2010uy, Shen:2011eg, Bhalerao:2015iya}.
-Three different initial conditions ({MC-Glauber}, {MC-KLN} and {AMPT}) along with different constant $\eta/s$ parametrizations are used in the model. 
+The VISH2+1~\cite{Shen:2010uy} is an event-by-event theoretical framework model for relativistic heavy-ion collision based on (2+1)-dimensional viscous hydrodynamics which describes both the QGP fluid and the highly dissipative and even off-equilibrium late hadronic stage with fluid-dynamics. With well tuned transport coefficients, decoupling temperature  and some well-chosen initial conditions (like {AMPT}~\cite{Xu:2016hmp,Bhalerao:2015iya,Pang:2012he} etc.), it could fit many related soft hadron data, such as the $p_{\rm T}$ spectra and different flow harmonics at RHIC and the LHC~\cite{Qiu:2011hf, Shen:2010uy, Shen:2011eg, Bhalerao:2015iya}.
+Three different initial conditions ({MC-Glauber}, {MC-KLN} and {AMPT}) along with different constant $\eta/s$ parametrizations are used in the model~\cite{Zhu:2016puf}. 
 Traditionally, the Glauber model constructs the initial entropy density of the QGP fireball from a mixture of the wounded nucleon and binary collision density profiles~\cite{Kolb:2000sd}, and the {KLN} model assumes the initial entropy density is proportional to the initial gluon density calculated from the corresponding $k_T$ factorization formula~\cite{Kharzeev:2000ph}. In the Monte-Carlo versions ({MC-Glauber} and {MC-KLN})~\cite{Miller:2007ri,Drescher:2006ca,Hirano:2009ah}, additional initial state fluctuations are introduced through the position fluctuations of individual nucleons inside the colliding nuclei. For the {AMPT} initial conditions~\cite{Bhalerao:2015iya,Pang:2012he,Xu:2016hmp}, the fluctuating energy density profiles are constructed from the energy decompositions of individual partons, which fluctuate in both momentum and position space. Compared with the {MC-Glauber} and {MC-KLN} initial conditions, the additional Gaussian smearing parameter in the {AMPT} initial conditions makes the typical initial fluctuation scales changeable which gives rise to non-vanishing initial local flow velocities~\cite{Pang:2012he}.
 %The AMPT initial conditions is basically HIJING with the location of the strings specified according to the sites of the nucleon nucleon collisions. The model then introduces the string melting procedure to produce initial partons. These partons are then evolved for the short duration using the ZPC parton cascade model. Instead the initial energy momentum tensor is directly fed into the hydrodynamic calculations, the energy density and the flow velocity are first obtained using the Landau condition and only the ideal fluid parts are used as the initial condition for the hydrodynamic evolution. Mini-jets from semi-hard parton scatterings are assumed to be locally thermalized through a Gaussian smearing and give rise to non-vanishing initial local flow velocities~\cite{Pang:2012he}.
 
@@ -174,7 +183,7 @@ Even though the string melting version of AMPT~\cite{Lin:2001zk,Lin:2004en} reas
               \end{center}
 \end{figure}
 
-The centrality dependence of SC(4,2) and SC(3,2) are presented in Fig.~\ref{fig:Figure_1} as shadow bands which are the same as the published results~\cite{ALICE:2016kpq}. Positive values of SC(4,2) are observed for all measured centralities. This suggests a positive correlation between the event-by-event fluctuations of $v_2$ and $v_4$. It also indicates that finding $v_2$ larger than average ($\langle v_2 \rangle$) in an event enhances the probability of finding $v_4$ larger than average ($\langle v_4 \rangle$) in that event. On the other hand, the negative results of SC(3,2) over all measured centralities show the anti-correlation between $v_2$ and $v_3$ flow harmonic magnitudes, which further implies that finding $v_2$ larger than average ($v_2 > \langle v_2 \rangle$) enhancing the probability of finding smaller $v_3$ than average ($v_3 < \langle v_3 \rangle$).
+%The centrality dependence of SC(4,2) and SC(3,2) are presented in Fig.~\ref{fig:Figure_1} as shadow bands which are the same as the published results~\cite{ALICE:2016kpq}. Positive values of SC(4,2) are observed for all measured centralities. This suggests a positive correlation between the event-by-event fluctuations of $v_2$ and $v_4$. It also indicates that finding $v_2$ larger than average ($\langle v_2 \rangle$) in an event enhances the probability of finding $v_4$ larger than average ($\langle v_4 \rangle$) in that event. On the other hand, the negative results of SC(3,2) over all measured centralities show the anti-correlation between $v_2$ and $v_3$ flow harmonic magnitudes, which further implies that finding $v_2$ larger than average ($v_2 > \langle v_2 \rangle$) enhancing the probability of finding smaller $v_3$ than average ($v_3 < \langle v_3 \rangle$).
 
 % \begin{figure}[htbp]
 %            \begin{center}
@@ -194,8 +203,9 @@ The centrality dependence of SC(4,2) and SC(3,2) are presented in Fig.~\ref{fig:
 %        \end{center}   
 %\end{figure}
 
-The centrality dependence of the higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are presented in Fig.~\ref{fig:Figure_1} and compared to the lower order harmonic correlations (SC(4,2),SC(3,2)). The correlation between $v_3$ and $v_4$ is negative as similarly as $v_3$ and $v_2$ while the others are all positive. 
+The centrality dependence of the higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are presented in Fig.~\ref{fig:Figure_1} and compared to the lower order harmonic correlations (SC(4,2),SC(3,2)) which are the same as the published results~\cite{ALICE:2016kpq}. The correlation between $v_3$ and $v_4$ is negative as similarly as $v_3$ and $v_2$ while the others are all positive, which reveals that $v_2$ and $v_5$, $v_3$ and $v_5$ are correlated as $v_2$ and $v_4$, while $v_3$ and $v_4$ are anti-correlated as $v_3$ and $v_2$.
 The higher order flow harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are much smaller compared to the lower order harmonics (SC(3,2) and SC(4,2)). Especially SC(5,2) is 10 times smaller than SC(4,2) and SC(4,3) is about 20 times smaller that SC(3,2).
+
 
 However, unlike SC$(m,n)$, NSC$(m,n)$ results with the higher order flow harmonics show almost same order of the correlation strength as the lower order flow harmonic correlations (NSC(3,2) or NSC(4,2)). NSC(4,3)) is comparable to NSC(3,2) and one finds that a hierarchy NSC(5,3)$>$NSC(4,2)$>$NSC(5,2) holds for most of centrality ranges within the errors.
 These results indicate that the lower order harmonic correlations (SC(3,2) and SC(4,2)) are larger than higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)), not only because of the correlation strength itself but also the individual flow strength. 
@@ -227,29 +237,16 @@ This might be an indication of possible viscous corrections for the equilibrium 
 \end{figure}
  
 \newpage
-\section{Model comparisons}
+\section{Model Comparisons}
 \label{sec:theory}
-\subsection{Low order harmonic correlations}
-SC(3,2) and SC(4,2) are compared to several theoretical calculations. First, the fluid hydrodynamic predictions with the different parameterizations for the temperature dependence of the shear viscosity to entropy ratio $\eta/s(T)$ are shown on the left in Fig.~\ref{fig:Figure_3}. The hydrodynamic calculations roughly capture qualitatively the centrality dependence, but not quantitively. Both SC(3,2) with data and hydrodynamics have negative values for all centralities, while SC(4,2) results have positive values over all measured centralities. However, there is no single centrality for which a given $\eta/s(T)$ parameterization describes both SC(3,2) and SC(4,2) simultaneously. On the other hand, the same hydrodynamic calculations capture the centrality dependence of the individual $v_n$ quantitively~\cite{Eskola:2015uda}.
-
-NSC(3,2) and NSC(4,2) are also compared to the same model on the right in Fig.~\ref{fig:Figure_3}. 
-While NSC(3,2) does not show sensitivity to  different $\eta/s(T)$ parameterizations,  NSC(4,2) exhibit much better sensitivity
-than NSC(3,2) observable and the individual flow harmonics~\cite{Niemi:2015qia}.
-These findings indicate that NSC(3,2) observable is sensitive mainly to the initial conditions, while NSC(4,2) observable is sensitive to both the initial conditions and the system properties, which is consistent with the prediction from~\cite{Niemi:2012aj}.
+\subsection{Low Order Harmonic Correlations}
+SC(3,2) and SC(4,2) are compared to several theoretical calculations. 
+First, the fluid hydrodynamic predictions with the different parameterizations for the temperature dependence of the shear viscosity to entropy ratio $\eta/s(T)$ are shown on the in Fig2 in Ref.~\cite{ALICE:2016kpq}. 
+It has been demonstrated that NSC(3,2) observable is sensitive mainly to the initial conditions, while NSC(4,2) observable is sensitive to both the initial conditions and the system properties, which is consistent with the prediction from~\cite{Niemi:2012aj}.
 However, the sign of NSC(3,2) is positive in the models in 0-10\% central collisions while it is negative in data.
 In the most central collisions the anisotropies originate mainly from fluctuations, i.e.\ the initial ellipsoidal geometry characteristic for mid-central collisions plays little role in this regime. Hence this observation will help to understand the fluctuations in initial conditions better.
-NSC(4,2) observable shows better sensitivity for different $\eta/s(T)$ parameterizations, i.e.\ medium property but the model cannot describe the centrality dependence nor the absolute values. These observed distinct discrepancies between data and models might indicate that the current understanding of initial conditions used in the model need to be revisited
-to further constrain the $\eta/s(T)$, considering the difficulties on separating the role of the $\eta/s$  from the initial condition to the final state particle anisotropies~\cite{Romatschke:2007mq,Shen:2011zc}.
+NSC(4,2) observable shows better sensitivity for different $\eta/s(T)$ parameterizations, i.e.\ medium property but the model cannot describe the centrality dependence nor the absolute values. These observed distinct discrepancies between data and models might indicate that the current understanding of initial conditions used in the model need to be revisited to further constrain the $\eta/s(T)$, considering the difficulties on separating the role of the $\eta/s$  from the initial condition to the final state particle anisotropies~\cite{Romatschke:2007mq,Shen:2011zc}.
 Hence the use of SC$(m,n)$ and NSC$(m,n)$ can provide new constraints on the detailed modeling of the initial-state condition and the fluctuations of the medium created in heavy-ion collisions and the better constraints on the initial-state conditions will certainly improve the uncertainties of determining $\eta/s(T)$.
-
-\begin{figure}[htbp]
-            \begin{center}
-                       \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig1_QConly_hydro.eps}}
-                       \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig1_QConly_hydro_norm.eps}}
-              \end{center}
-        \caption{Results from SC(m,n) in $\PbPb$ $\snn=2.76$~TeV are compared to hydrodynamic calculations. The dashed lines are hydrodynamic predictions with various $\eta/s(T)$ parametrizations~\cite{Niemi:2015qia}.}
-        \label{fig:Figure_3}
-\end{figure}
 
 The results with the comparison to VISH2+1 calculation are shown in Fig.~\ref{fig:Figure_4}.  All the models with the large share viscosity regardless of the initial conditions ($\eta/s=0.2$ for MC-KLN and MC-Glauber initial conditions and $\eta/s=0.16$ for AMPT initial condition) fails to capture the centrality dependence of SC(3,2) and SC(4,2). 
 And among the models with small shear viscosities ($\eta/s=0.08$), the one with the AMPT initial condition describes the data better both for SC(3,2) and SC(4,2) but they cannot describe the data quantitively for most of the centrality ranges.
@@ -262,7 +259,7 @@ SC(4,2) can be only described by smaller $\eta/s$ from AMPT and MC-Glauber initi
 	\begin{center}
         	\resizebox{0.48\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_vish.eps}}
         	\resizebox{0.48\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_vish.eps}}
-        \caption{Results of  SC(3,2) and SC(4,2) are compared to various VISH2+1 calculations with different settings. Three initial conditions from AMPT, MC-KLN, and MC-Glauber  are drawn as different colors and markers. The $\eta/s$ parameters are shown as different line styles, the small shear viscosities ($\eta/s=0.08$) are shown as solid lines, and large shear viscosities ($\eta/s=0.2$ for MC-KLN and MC-Glauber, 0.16 for AMPT) are drawn as dashed lines. Upper panels are the result of SC$(m,n)$ and lower panels are the results of NSC$(m,n)$.}
+        \caption{Results of  SC(3,2) and SC(4,2) are compared to various VISH2+1 calculations~\cite{Zhu:2016puf} with different settings. Three initial conditions from AMPT, MC-KLN, and MC-Glauber  are drawn as different colors and markers. The $\eta/s$ parameters are shown as different line styles, the small shear viscosities ($\eta/s=0.08$) are shown as solid lines, and large shear viscosities ($\eta/s=0.2$ for MC-KLN and MC-Glauber, 0.16 for AMPT) are drawn as dashed lines. Upper panels are the result of SC$(m,n)$ and lower panels are the results of NSC$(m,n)$.}
          \label{fig:Figure_4}
         \end{center}   
  \end{figure}
@@ -280,7 +277,6 @@ The influence of the hadronic rescattering phase for NSC(4,2) is opposite to oth
 It should be noted that the better agreement for SC$(m,n)$ should not be overemphasized since there are discrepancies in the individual $v_n$ between AMPT and data as it was demonstrated for SC(3,2).
 Hence the simultaneous description of SC$(m,n)$ and NSC$(m,n)$ should give better constraints to the parameters in AMPT.
 
-
 \begin{figure}[p]
 	\begin{center}
         	\resizebox{0.48\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_ampt.eps}}
@@ -291,11 +287,24 @@ Hence the simultaneous description of SC$(m,n)$ and NSC$(m,n)$ should give bette
  \end{figure}
  
  \newpage
-\subsection{Higher order harmonic correlations}
-The higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are compared to VISH2+1 calculation, shown in Fig.~\ref{fig:Figure_6}. 
+\subsection{Higher Order Harmonic Correlations}
+The higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are compared to several theoretical calculations. 
+First, the fluid hydrodynamic predictions with the different parameterizations for the temperature dependence of the shear viscosity to entropy ratio $\eta/s(T)$ are shown on the left in Fig.~\ref{fig:Figure_x}. 
+\noindent\textbf{\textcolor{blue}{[Waiting for $\eta/s(T)$ hydro calculations from Harri Niemi et. al, figure will be replaced later, just a place holder]}}
+
+\begin{figure}[htbp]
+            \begin{center}
+                       \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig1_QConly_hydro.eps}}
+                       \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig1_QConly_hydro_norm.eps}}
+              \end{center}
+        \caption{Results from SC(m,n) in $\PbPb$ $\snn=2.76$~TeV are compared to hydrodynamic calculations. The dashed lines are hydrodynamic predictions with various $\eta/s(T)$ parametrizations~\cite{Niemi:2015qia}. This will be replaced with new figures once we have the calculations for Harri}
+        \label{fig:Figure_4}
+\end{figure}
+
+The higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are compared to VISH2+1 calculations~\cite{Zhu:2016puf}, shown in Fig.~\ref{fig:Figure_6}. 
 All the models with the large share viscosity regardless of the initial conditions ($\eta/s=0.2$ for MC-KLN and MC-Glauber initial conditions, and $\eta/s=0.16$ for AMPT) failed to capture the centrality dependence of SC(5,2), SC(5,2) and SC(5,3), more clearly than lower order harmonic correlations (SC(3,2), SC(4,2)).
 And among the models with small shear viscosity ($\eta/s=0.08$), the one from the AMPT initial condition describes the data much better than the other initial conditions. 
-A quite clear separation between different initial conditions is observed for these higher order harmonics correlations compared to the lower order harmonic correlations.
+A quite clear separation between different initial conditions is observed for these higher order harmonic correlations compared to the lower order harmonic correlations.
 NSC(5,2) and SC(5,3) are quite sensitive to both the initial conditions and the $\eta/s$ parametrizations.
 As similarly as the above mentioned hydrodynamic calculations~\cite{Niemi:2015qia}, the sign of the normalised NSC(4,3) in these models is opposite to the data in 0-10\% central collisions. NSC(4,3) shows sensitivity to both initial conditions and $\eta/s$ parametrizations while NSC(3,2) didn't show sensitivity to initial conditions or $\eta/s$ parametrizations.
 SC(4,3) data is clearly favoured by smaller $\eta/s$ but NSC(4,3) cannot be described by these models quantitively.
@@ -305,7 +314,7 @@ SC(4,3) data is clearly favoured by smaller $\eta/s$ but NSC(4,3) cannot be desc
         	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC52_vish.eps}}
         	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC53_vish.eps}}
         	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC43_vish.eps}}
-        \caption{Results of  SC(5,2), SC(5,3) and SC(4,3) are compared to various VISH2+1 calculations. Three initial conditions from AMPT, MC-KLN and MC-Glauber are drawn as different colors and markers. The $\eta/s$ parameters are shown as different line styles, the small shear viscosity ($\eta/s=0.08$) are shown as solid lines, and large shear viscosities ($\eta/s=0.2$ for MC-KLN and MC-Glauber, 0.16 for AMPT) are drawn as dashed lines. Upper panels are the results of SC$(m,n)$ and lower panels are the results of NSC$(m,n)$.}
+        \caption{Results of  SC(5,2), SC(5,3) and SC(4,3) are compared to various VISH2+1 calculations~\cite{Zhu:2016puf}. Three initial conditions from AMPT, MC-KLN and MC-Glauber are drawn as different colors and markers. The $\eta/s$ parameters are shown as different line styles, the small shear viscosity ($\eta/s=0.08$) are shown as solid lines, and large shear viscosities ($\eta/s=0.2$ for MC-KLN and MC-Glauber, 0.16 for AMPT) are drawn as dashed lines. Upper panels are the results of SC$(m,n)$ and lower panels are the results of NSC$(m,n)$.}
         \label{fig:Figure_6}
         \end{center}   
  \end{figure}
@@ -314,7 +323,7 @@ The extracted results  from particle level AMPT simulations in the same way as f
 The string melting AMPT model describes SC(5,2) and SC(5,3) well. The same setting describes only NSC(5,3) but it overestimates NSC(5,2). 
 However the default AMPT model can describe NSC(5,3) and NSC(5,2) fairly well as similarly as NSC(3,2) and NSC(4,2).
 % intersting AMPT String Melting OFF, Rescatering ON < AMPT String Melting ON, Rescatering OFF
-in the case of SC(4,3), neither of the settings can describe the data but the default AMPT model follows the data closest. 
+In the case of SC(4,3), neither of the settings can describe the data but the default AMPT model follows the data closest. 
 The string melting AMPT model fails to describe SC(4,3) and NSC(4,3).
 In summary, the default AMPT model describes the normalized SC (NSC$(m,n)$) from lower to higher order harmonic correlation while the string melting AMPT model overestimates NSC(5,2) and 
 underestimates (or very weak correlations) NSC(4,3). 
@@ -335,7 +344,7 @@ underestimates (or very weak correlations) NSC(4,3).
  \end{figure}
  
  \newpage
-\subsection{Transverse momentum dependence of Low order harmonic correlations}
+\subsection{Transverse Momentum Dependence of Low Order Harmonic Correlations}
 \label{sec:ptdepsc}
 NSC(3,2) and NSC(4,2) as a function of different minimum $p_{\rm T}$ cut are compared to the {AMPT} simulations in Fig.~\ref{fig:Figure_8}.
 As discussed in Sec.~\ref{sec:results}, the $p_{\rm T}$ dependence for NSC(3,2) and NSC(4,2) in mid central collisions is seen also in AMPT simulations for higher minimum $p_{\rm T}$ cuts.
