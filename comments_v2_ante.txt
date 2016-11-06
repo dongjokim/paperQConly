@@ -1,0 +1,123 @@
+===================================
+
+Abstract
+9 "The results were obtained with the multi-particle cumulant method." => "The results were obtained with the new multiparticle method dubbed symmetric cumulants.”
+done
+10 "The method" => "This method”
+done
+13 See if you can drop here "model" (since there is "models" immediately afterwards)
+done
+14 See if you want to split large sentence "The comparisons..." in two or even three smaller ones
+done
+15 \eta/s is used before being defined
+defined
+16 flavored => favored
+fixed
+16 Is anything special about "AMPT initial condition"? If not, perhaps we can spell out immediately the details of most successive Glauber configuration for initial conditions
+this is special, it is described in the model description.
+o What is clearly missing in the abstract in some executive summary for pT dependence (e.g. is it trivial, non-trivial, same trends for all correlations, etc.)
+yes, i try to add it but forgot it.
+I prepared as following and try to improve it a bit later.
+We have found that $v_3$-$v_2$ and $v_4$-$v_2$ correlations have moderate $p_{\rm T}$ dependence in mid central collisions. This might be an indication of possible viscous corrections for the equilibrium distribution at hadronic freeze-out.
+
+===================================
+
+1 Introduction
+21,28,54 "heavy ion" => "heavy-ion”
+done
+23 "matter" => "nuclear matter”
+done
+24 "transverse plane, driven" => "plane transverse to the beam direction, which is driven”
+done
+24 "pressure" => "anisotropic pressure”
+done
+24 "with more" => "resulting in a more". Btw, is this really so: Do we have the same number of particles, just particles in the direction of largest gradients are pushed faster?
+
+26 in => at
+fixed
+28 "strongly interacting matter" => “QGP"
+done
+30 I feel that the transition to paragraph 2 is a bit too sharp, in a sense that it is not clear why all of a sudden temperature dependence of \eta/s is so important. To motivate it, perhaps we can advocate that otherwise it is very difficult to understand why ideal hydro worked better at RHIC than at LHC. For a help to formulate this, we can ask Pasi Huovinen (I see later that you have discussed this in lines 56-58)
+i reshuffled the order, will try to bridge them smoothly
+31 "One such general behavior is that" => "For instance, “
+done
+31 "ratio" => "it" (note that you refer to "temperature dependence", not to "ratio"). If you adopt this suggestion, than please change on the same line "its" into “the"
+ratio
+33 "an order" => "the correct order”
+done
+33 "shear viscosity to entropy ratio" => "value found”
+done
+34 found => demonstrated
+done
+34 "one can calculate" is too colloquial, see if you want to replace this with "can be calculated", and pull it just before “using"
+done
+35 supports => support
+done
+36 see if you want to drop “indeed"
+done
+36 "to other" => "for other”
+fixed
+38 "QCD" abbreviation is not defined
+done
+40 Again, transition to this paragraph is too sharp. Perhaps at the end of previous paragraph you could write that we can probe \eta/s by studying non-trivial collective properties of QGP, like anisotropic flow, and then naturally in the next paragraph you start describing what is anisotropic flow
+yes, after i changed the oerder of the phragraph, it looks better, originally it was intended differently ^;;
+I will try to bridge them smoothly ...
+
+40 See if immediately after "Anisotropic flow" you want to cite http://inspirehep.net/record/31918/
+done
+41,44 Please unify the notation for symmetry planes
+i think it is ok.
+46 derived => calculated
+done
+46 "flow" => "flow in heavy-ion collisions", and "response" => "response of produced matter”
+done
+47 deformation => deformations
+done
+47 I think we need to specify "density" of what, perhaps "energy density”
+yes, it should be energy density
+50 fluctuation => fluctuations
+done
+50 "higher" => "higher flow”
+done
+51 Besides ATLAS, I would cite here also https://arxiv.org/abs/1212.1008
+done
+52 "[19,20]." => "[19,20], while correlations have the potential to discriminate the two respective contributions to anisotropic flow development [cite https://arxiv.org/abs/1212.1008]”
+done
+52 See if you want to drop the sentence "And ...", or at least rephrase it, it doesn't read well in the current form
+54 on => in
+i am not sure, it should be “on” ?
+54 "shear viscosity" alone or the ratio?
+changed to eta/s
+54 "has been realized since it" => "collisions can be attributed mostly to the fact that it”
+done
+55 "of the" => "for the”
+i think it is correct.
+55-56 Is this statement true for anisotropic flow, or only for elliptic flow? (The same comment for sentence in 58-59)
+This is a good question, only it was demonstrated for v2 in the papers cited, but i think it should be similar as others aw well.
+Quantitively it will be different but the general trend should be. 
+61 "The higher harmonics" => "While elliptic and triangular flow can be described well solely in terms of linear response, the higher harmonics". Btw, I fear that before starting to speak about linear and nonlinear response, most likely we will need to introduce eccentricities, etc 
+Let’s me see if i can add few sentences there.
+62 "lower-order" => "lower order”
+done
+62 "harmonic order" => "order of harmonic”
+done
+65 If it's not used afterwards in the text, see if you want to drop "\delta f". If you adopt this suggestion, then just pre-pend "which is”
+to "a correction”
+done
+69 "Recently we measured" => "Recently, the ALICE Collaboration measured" (and that somewhere in this sentence add citation)
+done
+73 expending => expanding
+done
+73 "and simultaneous" => "and therefore simultaneous”
+done
+75 "the analysis" => "that analysis”
+done
+45,76 Please unify the notation for “th"
+
+done
+76 "as well as" => "as well as to”
+done
+77-81 It is not mentioned what is done in Sec. 3
+added.
+
+
