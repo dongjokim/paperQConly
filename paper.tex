@@ -139,11 +139,120 @@ In Sec.~\ref{sec:method} we present the details of the analysis methods. The exp
  In Sec.~\ref{sec:theory} we present comparisons to theoretical calculations. Sec.~\ref{sec:summary} summarizes our findings.
  
  
-%\input{sec_method}
-\input{sec_method_0a}
-\input{sec_eventtrack}
-\input{sec_syst}
+% Experimental observables
+%% Flow correlations in general
+   % Niemi, ATLAS paper
+%% Symmetric Cumulants (SC)
+%% Normalized Symmetric Cumulants (NSC)
+%% Summary of results of 1st ALICE paper on SC
+%% Review of papers which cited ALICE 
+\section{Data Analysis}
+\label{sec:method}
+\subsection{Experimental Observables}
+%\subsubsection{cumulant analysis}
 
+While from existing measurements an estimate can be placed on the average value of QGP's $\eta/s$, both at RHIC and LHC energies, what remains completely unknown is how the $\eta/s$ of QGP depends on temperature ($T$). This study has been just initiated by the theorists in Ref.~\cite{Niemi:2015qia}, where the first (and only rather qualitative) possibilities where investigated (see Fig.~1 therein). The emerging consensus of late is that it is unlikely that the study of individual flow harmonics $v_n$ will reveal the details of $\eta/s(T)$ dependence. In fact, in was demonstrated already in the initial study~\cite{Niemi:2015qia} that different $\eta/s(T)$ parameterizations can lead to the same centrality dependence of individual flow harmonics. In Ref.~\cite{Niemi:2012aj} new flow observables were introduced by the theorists, which quantify the degree of correlation between two different harmonics $v_m$ and $v_n$. The initial success of these new observables was attributed to their potential to discriminate for the first time the two respective contributions to anisotropic flow development---from initial conditions and from the transport properties of the QGP~\cite{Niemi:2012aj}. Therefore their mesurement in turn would enable the experimental verification of theoretical predictions for individual stages of heavy-ion evolution independently. Besides this advantage, it turned out that correlations of different flow harmonics are sensitive to the details of $\eta/s(T)$ dependence~\cite{ALICE:2016kpq}, to which individual flow harmonics are nearly insensitive~\cite{Niemi:2015qia}. 
+ 
+For technical reasons, discussed in detail in Refs.~\cite{ALICE:2016kpq,Bilandzic:2013kga}, the correlations between different flow harmonics cannot be studied experimentally with the same set of observables introduced by the theorists in Ref.~\cite{Niemi:2012aj}. The technical details are elaborated in Ref.~\cite{Bilandzic:2013kga}, while the first measurements of SC observables were recently released by ALICE Collaboration in Ref.~\cite{ALICE:2016kpq}.
+
+The SC observables are defined as:
+ %
+\begin{eqnarray}
+\left<\left<\cos(m\varphi_1\!+\!n\varphi_2\!-\!m\varphi_3-\!n\varphi_4)\right>\right>_c &=& \left<\left<\cos(m\varphi_1\!+\!n\varphi_2\!-\!m\varphi_3-\!n\varphi_4)\right>\right>\nonumber\\
+&&{}-\left<\left<\cos[m(\varphi_1\!-\!\varphi_2)]\right>\right>\left<\left<\cos[n(\varphi_1\!-\!\varphi_2)]\right>\right>\nonumber\\
+&=&\left<v_{m}^2v_{n}^2\right>-\left<v_{m}^2\right>\left<v_{n}^2\right>\,,%\nonumber\\
+%&=&0\,.
+\label{eq:4p_cumulant}
+\end{eqnarray}
+%
+with the condition $m\neq n$ for two positive integers $m$ and $n$. The complete discussion can be found in Section IV C of Ref.~\cite{Bilandzic:2013kga}.
+
+SC($m$,$n$) can be normalized with the product $\left<v_{m}^2\right>\left<v_{n}^2\right>$ to obtain \textit{normalized} symmetric cumulants~\cite{ALICE:2016kpq,Giacalone:2016afq}, which we denote by NSC($m$,$n$), i.e.
+%
+\begin{equation}
+\mathrm{NSC}(m,n) \equiv \frac{\mathrm{SC}(m,n)}{\left<v_{m}^2\right>\left<v_{n}^2\right>}\,.
+\label{eq:nsc}
+\end{equation}
+%
+Normalized symmetric cumulants reflect only the degree of the correlation which is expected to be insensitive to the magnitudes of $v_{m}$ and $v_{n}$, while SC$(m,n)$ contains both the degree of the correlation and individual $v_{n}$ harmonics. In Eq.~(\ref{eq:nsc}) the products in the denominator are obtained with two-particle correlations and using a pseudorapidity gap of $|\Delta\eta|>1.0$ to suppress biases from few-particle nonflow correlations. On the other hand, in the two two-particle correlations which appear in the definition of SC$(m,n)$ in Eq.~\ref{eq:4p_cumulant} the psedorapidity gap is not needed, since nonflow is suppressed by construction in SC observable, as the study based on HIJING model has clearly demonstrated in Ref.~\cite{ALICE:2016kpq}.
+
+The first measurements of SC observables have revealed that fluctuations of $v_2$ and $v_3$ are anti-correlated, while fluctuations of $v_2$ and $v_4$ are correlated in all centralities~\cite{ALICE:2016kpq}. However, the details of the centrality dependence differ in the fluctutation-dominated (most central) and the geometry-dominated (mid-central) regimes~\cite{ALICE:2016kpq}. Most importantly, the centrality dependence of SC(4,2) cannot be captured with the constant $\eta/s$ dependence, indicating clearly that the temperature plays an important role in describing QGP's $\eta/s$ dependence in various stages of heavy-ion evolution. These results were also used to discriminate between different parameterizations of initial conditions and it was demonstrated that in the fluctuation-dominated regime (in central collisions) MC-Glauber initial conditions with binary collisions weights are favored over wounded nucleon weights~\cite{ALICE:2016kpq}. 
+
+%\noindent\textbf{\textcolor{blue}{[Review of recent theoretical papers which discuss SC.]}} 
+The SC observables provide orthogonal information to recently measured symmetry plane correlators in Refs.~\cite{ALICE:2011ab,Adare:2011tg,Aad:2014fla}. This statement does not exclude the possibility that both set of observables can be sensitive to the same physical mechanisms. In the recent theoretical study~\cite{Giacalone:2016afq} it was pointed out that the mechanism giving rise to symmetry plane correlations (nonlinear coupling) can also contribute to symmetric cumulants. As a concrete example it was discussed that the existing correlation due to hydrodynamic evolution between $V_4$ and $V_2^2$ (which are vectors in the transverse plane) implies that both the angles and the magnitudes are correlated~\cite{Giacalone:2016afq}. 
+
+Interpretation of flow results obtained with multiparticle correlation techniques in small colliding systems, like pp and p--Pb at LHC, remains a challenge. The underlying difficulty stems from the fact that when anisotropic flow harmonic $v_n$ is estimated with $k$-particle correlator, the statistical spread of that estimate scales to leading order as $\sigma_{v_{n}}\sim\frac{1}{\sqrt{N}}\frac{1}{M^{k/2}}\frac{1}{v_{n}^{k-1}}$, where $M$ is the number of particles in an event (multiplicity) and $N$ is total number of events. This generic scaling ensures that multiparticle correlations are precision method only in heavy-ion collisions, characterized both with large values of multiplicity and flow. To leading order the measurements in small systems~\cite{Aad:2013fja,Abelev:2014mda,Khachatryan:2015waa,Adamczyk:2015xjc,Adare:2015ctn} and the measurements in heavy-ion collisions resemble the same features, which can be attributed to collective anisotropic flow in both cases. However, such interpretation is challenged by the outcome of recent Monte Carlo study~\cite{Loizides:2016tew} for $e^+e^-$ systems in which collective effects are not expected. Nonetheless, in this study to leading order multiparticle correlations exhibit yet again the similar universal trends first seen in heavy-ion collisions, both for elliptic and triangular flow. Therefore, it seems unlikely that the analysis of individual flow harmonics with multiparticle techniques will answer whether collective effects can develop and QGP be formed in small systems---instead new observables, like SC, might provide the final answer due to their better sensitivity~\cite{Niemi:2012aj,ALICE:2016kpq}.
+
+
+\subsection{Event and Track Selection}
+\label{sec:experiment}
+The data sample recorded by ALICE during the 2010 heavy-ion run at the
+LHC is used for this analysis. Detailed descriptions of the ALICE
+detector can be found
+in~\cite{Aamodt:2008zz,Carminati:2004fp,Alessandro:2006yt}. The Time
+Projection Chamber (TPC) was used to reconstruct charged particle
+tracks and measure their momenta with full azimuthal coverage in the
+pseudorapidity range $|\eta|<0.8$. Two scintillator
+arrays (V0) which cover the pseudo-rapidity ranges $-3.7<\eta<-1.7$
+and $2.8<\eta<5.1$ were used for triggering and the determination of
+centrality~\cite{Aamodt:2010cz}. The trigger
+conditions and the event selection criteria are identical to those
+described in~\cite{Aamodt:2010pa, Aamodt:2010cz}.
+Approximately $10^7$ minimum-bias Pb-Pb events with
+a reconstructed primary vertex within $\pm 10$ cm from the nominal
+interaction point in the beam direction are used for this
+analysis. Charged particles reconstructed in the TPC in $|\eta|<0.8$
+and $0.2<\pt<5$ GeV/$c$ were selected. The charged track quality cuts
+described in~\cite{Aamodt:2010pa} were applied to minimize
+contamination from secondary charged particles and fake tracks.
+The reconstruction efficiency and contamination of charged particles
+were estimated from {\sc HIJING} Monte Carlo
+simulations~\cite{Wang:1991hta} combined with a {\sc
+GEANT3}~\cite{Brun:1994aa} detector model and were found to be independent of
+the collision centrality. The reconstruction efficiency increases from
+70\% to 80\% for particles with $0.2<\pt<1$~GeV/$c$ and remains
+constant at $(80 \pm 5)$\% for $\pt>1$~GeV/$c$. The estimated
+contamination by secondary charged particles from weak decays and
+photon conversions is less than 6\% at $\pt=0.2$~GeV/$c$ and falls
+below 1\% for $\pt>1$~GeV/$c$.
+With this choice of low $\pt{}$ cut-off we are reducing event-by-event biases from smaller reconstruction efficiency 
+at lower $\pt{}$, while the high $\pt{}$ cut-off of 5~GeV/$c$ was introduced to reduce the contribution to the anisotropies from jets. 
+Reconstructed tracks were required to have at least 70 TPC space points (out of a maximum of 159). 
+Only tracks with a transverse distance of closest approach (DCA) to the primary vertex less than 3 mm, both in longitudinal and transverse direction, are accepted to reduce the contamination from secondary tracks (for instance the charged particles produced 
+in the detector material, particles from weak decays, etc.). 
+Tracks with kinks (the tracks that appear to change direction due to multiple scattering, $K^{\pm}$ decays) were rejected.
+
+
+\subsection{Systematic Uncertainties}
+\label{sec:uncertainties}
+%\textbf{\tmp{[Track selection criteria.]}}
+
+%p10================================================================================
+
+%\textbf{\tmp{[An independent analysis with different tracks (if any).]}}
+
+The systematic uncertainties are estimated by varying the event and track selection criteria. All systematic checks described here are performed independently. 
+All results of SC$(m,n)$ with a selected criterion are compared to ones from the default event and track selection described in the previous section.
+The differences between the default results and the ones obtained from the variation of the selection criteria are taken as systematic uncertainty of each individual source.
+The contributions from different sources were then added in quadrature to obtain the final value of the systematic uncertainty.
+
+The event centrality was determined by the V0 detectors \cite{Abbas:2013taa} with better than 2\%  resolution of centrality determination. The systematic uncertainty from centrality determination was evaluated by using TPC and Silicon Pixel Detector (SPD) \cite{Dellacasa:1999kf} detectors instead of the default, V0 detectors. The systematic uncertainties from the centrality determinations were about 3\% both for SC(5,2) and SC(4,3), and 8\% for  SC(5,3).
+
+As described in Sec.~\ref{sec:experiment}, the reconstructed vertex position in beam axis ($z$-vertex) is required to be located within 10 cm of interaction point (IP) to ensure
+an uniform detector acceptance for the tracks within $|\eta|<0.8$ for all the vertices. The systematic uncertainty from $z$-vertex cut was estimated by reducing the $z$-vertex to 8cm and was found to be less than 3\%.  
+
+The analyzed events were recorded with two settings of the magnetic field polarities and the resulting data sets have almost the same number of events. Events with both magnetic polarizations were used for the default analysis and the systematic uncertainties were evaluated from the results from each of two polarized magnetic field settings. 
+Moreover, because of incompleteness of track reconstruction, correction steps are necessary to trace back from reconstructed tracks to the originally generated particles from the collisions. The effects from $p_{\rm T}$ dependence reconstruction efficiency were taken into systematic uncertainty. Magnetic polarizations and reconstruction efficiency effects are relatively small and difference from the default settings were less than 2\%.
+
+The systematic uncertainty due to the track reconstruction was estimated using two additional tracking creteria, first relying on the so-called standalone TPC tracking with the 
+same parameters as described in Sec.~\ref{sec:experiment}, and the second that relies on the combination of the TPC and the Inner Tracking System (ITS) detectors with tighter selection criteria.
+To correct for non-uniform azimuthal acceptance due to dead zones in SPD, and to get the best transverse momentum resolution, approach of hybrid selection with SPD hit and/or ITS refit tracks combined with TPC were used. Then each track reconstruction was evaluated by varying the threshold on parameters used to select the tracks at the reconstruction level. 
+The systematic difference of up to 12\% was observed in SC$(m,n)$ results from the different track selections. 
+In addition, we applied the like-sign technique to estimate non-flow effects on SC$(m,n)$. The difference between both charged combinations and like-sign combinations were the largest contribution to the systematic uncertainty and they were about 7\% for SC(4,3) and 20\% for SC(5,3). 
+
+One of the other largest contributions to the systematic uncertainty originates from the non-uniform reconstruction efficiency. In order to estimate the effects on the measurements of these azimuthal correlators for various detector inefficiencies, we use the AMPT models (see the details in Sec.~\ref{sec:theory}) which have flat uniform distribution of azimuthal angles. Then we enforce detector inefficiencies by imposing non-uniform azimuthal distribution from the data. For the observables, SC(5,2), SC(5,3) and SC(4,3), the uncertainties from the non-uniform distribution of azimuthal angles were about 9\%, 17\% and 11\%, respectively.
+Generally, systematic uncertainties are larger for the SC(5,3) and SC(5,2) than for the lower harmonics of SC$(m,n)$, because smaller values of $v_n$ are more sensitive to azimuthal modulation and $v_n$ decreases with $n$ increasing. 
+%Furthermore, the various AMPT models (see the details in Sec.~\ref{sec:theory}) were used to check the sensitivities of the observables due to the strength of the signals we are measuring, it turned out that the effect is negligible.
 \section{Theoretical models}
 \label{sec:models}
 We have used various models in this article. The {HIJING} model~\cite{Wang:1991hta,Gyulassy:1994ew} was utilized to obtain the $p_{\rm T}$-weights~\cite{Bilandzic:2013kga} which were used to estimate systematic bias due to non-uniform reconstruction efficiency. 
