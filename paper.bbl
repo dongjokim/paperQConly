@@ -97,6 +97,13 @@ P.~Danielewicz and M.~Gyulassy, ``Dissipative phenomena in quark-gluon
   {\bfseries 31} (Jan, 1985) 53--62}.
   \url{http://link.aps.org/doi/10.1103/PhysRevD.31.53}.
 
+\bibitem{Ollitrault:1992bk}
+J.-Y. Ollitrault, ``{Anisotropy as a signature of transverse collective
+  flow},''
+\href{http://dx.doi.org/10.1103/PhysRevD.46.229}{{\em Phys. Rev.} {\bfseries
+  D46} (1992) 229--245}.
+%%CITATION = PHRVA,D46,229;%%.
+
 \bibitem{Voloshin:1994mz}
 S.~Voloshin and Y.~Zhang, ``{Flow study in relativistic nuclear collisions by
   Fourier expansion of Azimuthal particle distributions},''
@@ -105,6 +112,14 @@ S.~Voloshin and Y.~Zhang, ``{Flow study in relativistic nuclear collisions by
 \href{http://arxiv.org/abs/hep-ph/9407282}{{\ttfamily arXiv:hep-ph/9407282
   [hep-ph]}}.
 %%CITATION = HEP-PH/9407282;%%.
+
+\bibitem{Floerchinger:2013tya}
+S.~Floerchinger, U.~A. Wiedemann, A.~Beraudo, L.~Del~Zanna, G.~Inghirami, and
+  V.~Rolando, ``{How (non-)linear is the hydrodynamics of heavy ion
+  collisions?},'' \href{http://dx.doi.org/10.1016/j.physletb.2014.06.049}{{\em
+  Phys. Lett.} {\bfseries B735} (2014) 305--310},
+\href{http://arxiv.org/abs/1312.5482}{{\ttfamily arXiv:1312.5482 [hep-ph]}}.
+%%CITATION = ARXIV:1312.5482;%%.
 
 \bibitem{Miller:2003kd}
 M.~Miller and R.~Snellings, ``{Eccentricity fluctuations and its possible
@@ -140,6 +155,14 @@ B.~Alver and G.~Roland, ``{Collision geometry fluctuations and triangular flow
 \href{http://arxiv.org/abs/1105.3865}{{\ttfamily arXiv:1105.3865 [nucl-ex]}}.
 %%CITATION = ARXIV:1105.3865;%%.
 
+\bibitem{Niemi:2012aj}
+H.~Niemi, G.~S. Denicol, H.~Holopainen, and P.~Huovinen, ``{Event-by-event
+  distributions of azimuthal asymmetries in ultrarelativistic heavy-ion
+  collisions},'' \href{http://dx.doi.org/10.1103/PhysRevC.87.054901}{{\em Phys.
+  Rev.} {\bfseries C87} no.~5, (2013) 054901},
+\href{http://arxiv.org/abs/1212.1008}{{\ttfamily arXiv:1212.1008 [nucl-th]}}.
+%%CITATION = ARXIV:1212.1008;%%.
+
 \bibitem{Aad:2014fla}
 {\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Measurement of
   event-plane correlations in $\sqrt{s_{NN}}=2.76$ TeV lead-lead collisions
@@ -148,6 +171,14 @@ B.~Alver and G.~Roland, ``{Collision geometry fluctuations and triangular flow
   {\bfseries C90} no.~2, (2014) 024905},
 \href{http://arxiv.org/abs/1403.0489}{{\ttfamily arXiv:1403.0489 [hep-ex]}}.
 %%CITATION = ARXIV:1403.0489;%%.
+
+\bibitem{Alver:2010dn}
+B.~H. Alver, C.~Gombeaud, M.~Luzum, and J.-Y. Ollitrault, ``{Triangular flow in
+  hydrodynamics and transport theory},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.82.034913}{{\em Phys. Rev.}
+  {\bfseries C82} (2010) 034913},
+\href{http://arxiv.org/abs/1007.5469}{{\ttfamily arXiv:1007.5469 [nucl-th]}}.
+%%CITATION = ARXIV:1007.5469;%%.
 
 \bibitem{Luzum:2012wu}
 M.~Luzum and J.-Y. Ollitrault, ``{Extracting the shear viscosity of the
@@ -204,13 +235,55 @@ S.~Ryu, J.~F. Paquet, C.~Shen, G.~S. Denicol, B.~Schenke, S.~Jeon, and C.~Gale,
 \href{http://arxiv.org/abs/1502.01675}{{\ttfamily arXiv:1502.01675 [nucl-th]}}.
 %%CITATION = ARXIV:1502.01675;%%.
 
-\bibitem{Teaney:2012ke}
-D.~Teaney and L.~Yan, ``{Non linearities in the harmonic spectrum of heavy ion
-  collisions with ideal and viscous hydrodynamics},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.86.044908}{{\em Phys. Rev.}
-  {\bfseries C86} (2012) 044908},
-\href{http://arxiv.org/abs/1206.1905}{{\ttfamily arXiv:1206.1905 [nucl-th]}}.
-%%CITATION = ARXIV:1206.1905;%%.
+\bibitem{Teaney:2010vd}
+D.~Teaney and L.~Yan, ``{Triangularity and Dipole Asymmetry in Heavy Ion
+  Collisions},'' \href{http://dx.doi.org/10.1103/PhysRevC.83.064904}{{\em Phys.
+  Rev.} {\bfseries C83} (2011) 064904},
+\href{http://arxiv.org/abs/1010.1876}{{\ttfamily arXiv:1010.1876 [nucl-th]}}.
+%%CITATION = ARXIV:1010.1876;%%.
+
+\bibitem{Niemi:2015qia}
+H.~Niemi, K.~J. Eskola, and R.~Paatelainen, ``{Event-by-event fluctuations in a
+  perturbative QCD + saturation + hydrodynamics model: Determining QCD matter
+  shear viscosity in ultrarelativistic heavy-ion collisions},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.93.024907}{{\em Phys. Rev.}
+  {\bfseries C93} no.~2, (2016) 024907},
+\href{http://arxiv.org/abs/1505.02677}{{\ttfamily arXiv:1505.02677 [hep-ph]}}.
+%%CITATION = ARXIV:1505.02677;%%.
+
+\bibitem{Qiu:2011iv}
+Z.~Qiu and U.~W. Heinz, ``{Event-by-event shape and flow fluctuations of
+  relativistic heavy-ion collision fireballs},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.84.024911}{{\em Phys. Rev.}
+  {\bfseries C84} (2011) 024911},
+\href{http://arxiv.org/abs/1104.0650}{{\ttfamily arXiv:1104.0650 [nucl-th]}}.
+%%CITATION = ARXIV:1104.0650;%%.
+
+\bibitem{Gubser:2010ui}
+S.~S. Gubser and A.~Yarom, ``{Conformal hydrodynamics in Minkowski and de
+  Sitter spacetimes},''
+  \href{http://dx.doi.org/10.1016/j.nuclphysb.2011.01.012}{{\em Nucl. Phys.}
+  {\bfseries B846} (2011) 469--511},
+\href{http://arxiv.org/abs/1012.1314}{{\ttfamily arXiv:1012.1314 [hep-th]}}.
+%%CITATION = ARXIV:1012.1314;%%.
+
+\bibitem{Hatta:2014jva}
+Y.~Hatta, J.~Noronha, G.~Torrieri, and B.-W. Xiao, ``{Flow harmonics within an
+  analytically solvable viscous hydrodynamic model},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.90.074026}{{\em Phys. Rev.}
+  {\bfseries D90} no.~7, (2014) 074026},
+\href{http://arxiv.org/abs/1407.5952}{{\ttfamily arXiv:1407.5952 [hep-ph]}}.
+%%CITATION = ARXIV:1407.5952;%%.
+
+\bibitem{Bravina:2013xla}
+L.~V. Bravina, B.~H. Brusheim~Johansson, G.~K. Eyyubova, V.~L. Korotkikh, I.~P.
+  Lokhtin, L.~V. Malinina, S.~V. Petrushanko, A.~M. Snigirev, and E.~E.
+  Zabrodin, ``{Higher harmonics of azimuthal anisotropy in relativistic heavy
+  ion collisions in HYDJET++ model},''
+  \href{http://dx.doi.org/10.1140/epjc/s10052-014-2807-5}{{\em Eur. Phys. J.}
+  {\bfseries C74} no.~3, (2014) 2807},
+\href{http://arxiv.org/abs/1311.7054}{{\ttfamily arXiv:1311.7054 [nucl-th]}}.
+%%CITATION = ARXIV:1311.7054;%%.
 
 \bibitem{Bravina:2013ora}
 L.~V. Bravina, B.~H. Brusheim~Johansson, G.~K. Eyyubova, V.~L. Korotkikh, I.~P.
@@ -222,6 +295,14 @@ L.~V. Bravina, B.~H. Brusheim~Johansson, G.~K. Eyyubova, V.~L. Korotkikh, I.~P.
 \href{http://arxiv.org/abs/1311.0747}{{\ttfamily arXiv:1311.0747 [hep-ph]}}.
 %%CITATION = ARXIV:1311.0747;%%.
 
+\bibitem{Teaney:2012ke}
+D.~Teaney and L.~Yan, ``{Non linearities in the harmonic spectrum of heavy ion
+  collisions with ideal and viscous hydrodynamics},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.86.044908}{{\em Phys. Rev.}
+  {\bfseries C86} (2012) 044908},
+\href{http://arxiv.org/abs/1206.1905}{{\ttfamily arXiv:1206.1905 [nucl-th]}}.
+%%CITATION = ARXIV:1206.1905;%%.
+
 \bibitem{Luzum:2010ad}
 M.~Luzum and J.-Y. Ollitrault, ``{Constraining the viscous freeze-out
   distribution function with data obtained at the BNL Relativistic Heavy Ion
@@ -230,29 +311,14 @@ M.~Luzum and J.-Y. Ollitrault, ``{Constraining the viscous freeze-out
 \href{http://arxiv.org/abs/1004.2023}{{\ttfamily arXiv:1004.2023 [nucl-th]}}.
 %%CITATION = ARXIV:1004.2023;%%.
 
-\bibitem{Niemi:2015qia}
-H.~Niemi, K.~J. Eskola, and R.~Paatelainen, ``{Event-by-event fluctuations in a
-  perturbative QCD + saturation + hydrodynamics model: Determining QCD matter
-  shear viscosity in ultrarelativistic heavy-ion collisions},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.93.024907}{{\em Phys. Rev.}
-  {\bfseries C93} no.~2, (2016) 024907},
-\href{http://arxiv.org/abs/1505.02677}{{\ttfamily arXiv:1505.02677 [hep-ph]}}.
-%%CITATION = ARXIV:1505.02677;%%.
-
 \bibitem{ALICE:2016kpq}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Correlated
   event-by-event fluctuations of flow harmonics in Pb-Pb collisions at
   $\sqrt{s_{_{\rm NN}}}=2.76$ TeV},''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.117.182301}{{\em Phys. Rev.
+  Lett.} {\bfseries 117} (2016) 182301},
 \href{http://arxiv.org/abs/1604.07663}{{\ttfamily arXiv:1604.07663 [nucl-ex]}}.
 %%CITATION = ARXIV:1604.07663;%%.
-
-\bibitem{Niemi:2012aj}
-H.~Niemi, G.~S. Denicol, H.~Holopainen, and P.~Huovinen, ``{Event-by-event
-  distributions of azimuthal asymmetries in ultrarelativistic heavy-ion
-  collisions},'' \href{http://dx.doi.org/10.1103/PhysRevC.87.054901}{{\em Phys.
-  Rev.} {\bfseries C87} no.~5, (2013) 054901},
-\href{http://arxiv.org/abs/1212.1008}{{\ttfamily arXiv:1212.1008 [nucl-th]}}.
-%%CITATION = ARXIV:1212.1008;%%.
 
 \bibitem{Bilandzic:2013kga}
 A.~Bilandzic, C.~H. Christensen, K.~Gulbrandsen, A.~Hansen, and Y.~Zhou,
@@ -417,11 +483,22 @@ R.~Paatelainen, K.~J. Eskola, H.~Niemi, and K.~Tuominen, ``{Fluid dynamics with
 \href{http://arxiv.org/abs/1310.3105}{{\ttfamily arXiv:1310.3105 [hep-ph]}}.
 %%CITATION = ARXIV:1310.3105;%%.
 
-\bibitem{Zhu:2016puf}
-X.~Zhu, Y.~Zhou, H.~Xu, and H.~Song, ``{Correlations of flow harmonics in 2.76A
-  TeV Pb--Pb collisions},''
-\href{http://arxiv.org/abs/1608.05305}{{\ttfamily arXiv:1608.05305 [nucl-th]}}.
-%%CITATION = ARXIV:1608.05305;%%.
+\bibitem{Shen:2010uy}
+C.~Shen, U.~Heinz, P.~Huovinen, and H.~Song, ``{Systematic parameter study of
+  hadron spectra and elliptic flow from viscous hydrodynamic simulations of
+  Au+Au collisions at $\sqrt{s_{NN}}=200$ GeV},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.82.054904}{{\em Phys. Rev.}
+  {\bfseries C82} (2010) 054904},
+\href{http://arxiv.org/abs/1010.1856}{{\ttfamily arXiv:1010.1856 [nucl-th]}}.
+%%CITATION = ARXIV:1010.1856;%%.
+
+\bibitem{Shen:2014vra}
+C.~Shen, Z.~Qiu, H.~Song, J.~Bernhard, S.~Bass, and U.~Heinz, ``{The
+  iEBE-VISHNU code package for relativistic heavy-ion collisions},''
+  \href{http://dx.doi.org/10.1016/j.cpc.2015.08.039}{{\em Comput. Phys.
+  Commun.} {\bfseries 199} (2016) 61--85},
+\href{http://arxiv.org/abs/1409.8164}{{\ttfamily arXiv:1409.8164 [nucl-th]}}.
+%%CITATION = ARXIV:1409.8164;%%.
 
 \bibitem{Xu:2016hmp}
 H.-j. Xu, Z.~Li, and H.~Song, ``{High-order flow harmonics of identified
@@ -455,14 +532,11 @@ Z.~Qiu, C.~Shen, and U.~Heinz, ``{Hydrodynamic elliptic and triangular flow in
 \href{http://arxiv.org/abs/1110.3033}{{\ttfamily arXiv:1110.3033 [nucl-th]}}.
 %%CITATION = ARXIV:1110.3033;%%.
 
-\bibitem{Shen:2010uy}
-C.~Shen, U.~Heinz, P.~Huovinen, and H.~Song, ``{Systematic parameter study of
-  hadron spectra and elliptic flow from viscous hydrodynamic simulations of
-  Au+Au collisions at $\sqrt{s_{NN}}=200$ GeV},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.82.054904}{{\em Phys. Rev.}
-  {\bfseries C82} (2010) 054904},
-\href{http://arxiv.org/abs/1010.1856}{{\ttfamily arXiv:1010.1856 [nucl-th]}}.
-%%CITATION = ARXIV:1010.1856;%%.
+\bibitem{Zhu:2016puf}
+X.~Zhu, Y.~Zhou, H.~Xu, and H.~Song, ``{Correlations of flow harmonics in 2.76A
+  TeV Pb--Pb collisions},''
+\href{http://arxiv.org/abs/1608.05305}{{\ttfamily arXiv:1608.05305 [nucl-th]}}.
+%%CITATION = ARXIV:1608.05305;%%.
 
 \bibitem{Kolb:2000sd}
 P.~F. Kolb, J.~Sollfrank, and U.~W. Heinz, ``{Anisotropic transverse flow and
@@ -588,18 +662,5 @@ Z.-W. Lin, ``{Evolution of transverse flow and effective temperatures in the
   {\bfseries 09} (2016) 164},
 \href{http://arxiv.org/abs/1606.06057}{{\ttfamily arXiv:1606.06057 [nucl-ex]}}.
 %%CITATION = ARXIV:1606.06057;%%.
-
-\bibitem{Eskola:2015uda}
-K.~J. Eskola, H.~Niemi, and R.~Paatelainen,
-  \href{http://dx.doi.org/10.1016/j.nuclphysbps.2016.05.034}{``{Pinning down
-  QCD-matter shear viscosity in ultrarelativistic heavy-ion collisions via EbyE
-  fluctuations using pQCD + saturation + hydrodynamics},''}
-\newblock 2016.
-\newblock \href{http://arxiv.org/abs/1509.02767}{{\ttfamily arXiv:1509.02767
-  [hep-ph]}}.
-\newblock
-\url{http://inspirehep.net/record/1392658/files/arXiv:1509.02767.pdf}.
-\newblock
-%%CITATION = ARXIV:1509.02767;%%.
 
 \end{thebibliography}\endgroup
