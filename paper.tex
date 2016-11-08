@@ -12,9 +12,9 @@
 % \usepackage{mathpazo}%  Matching math fonts (see http://www.math.uiuc.edu/~hartke/computer/latex/survey/survey.html)                                           
 % \usepackage{helvet}%
 
+
 \linenumbers
 
-\input{helpers.tex}
 \begin{document}
 %%%%%%%%%%%%% ptdr definitions %%%%%%%%%%%%%%%%%%%%%
 %
@@ -24,6 +24,7 @@
 \newcommand{\PbPb}{\textnormal{Pb--Pb}}
 \newcommand{\AuAu}{\textnormal{Au--Au}}
 \newcommand{\pp}{\ensuremath{\mbox{p}\mbox{p}}}
+\newcommand{\tn}[1]{\textnormal{#1}}
 \newcommand{\snn}{\ensuremath{\sqrt{s_\tn{NN}}}}
 \newcommand{\pt}{\ensuremath{p_\tn{T}}}\newcommand{\pT}{\pt}
  % off by redefinding CKBNOTEje
@@ -37,8 +38,8 @@
 \begin{titlepage}
 %
 \PHyear{2016}
-\PHnumber{040}                 % required, obtained from PH
-\PHdate{24 Novermer}              % required, will be obtained from PH
+\PHnumber{xxx}                 % required, obtained from PH
+\PHdate{9 November}              % required, will be obtained from PH
 %
 %
 %%% Put your own title + short title here:
@@ -316,7 +317,7 @@ Even though the string melting version of AMPT~\cite{Lin:2001zk,Lin:2004en} reas
 %        \end{center}   
 %\end{figure}
 
-\sloppy
+
 The centrality dependence of the higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are presented in Fig.~\ref{fig:Figure_1} and compared to the lower order harmonic correlations (SC(4,2),SC(3,2)) which are taken from the recent publication~\cite{ALICE:2016kpq}. The correlation between $v_3$ and $v_4$ is negative, and similarly for $v_3$ and $v_2$, while the other correlations are all positive, which reveals that $v_2$ and $v_5$, $v_3$ and $v_5$ are correlated as $v_2$ and $v_4$, while $v_3$ and $v_4$ are anti-correlated as $v_3$ and $v_2$.
 The higher order flow harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are much smaller compared to the lower order harmonic correlations (SC(3,2) and SC(4,2)).
 In particular SC(5,2) is 10 times smaller than SC(4,2) and SC(4,3) is about 20 times smaller that SC(3,2).
@@ -327,9 +328,9 @@ These results indicate that the lower order harmonic correlations (SC(3,2) and S
 SC(5,2) is stronger than SC(5,3), but as for NSC, the normalized correlation between $v_5$ and $v_3$ is stronger than the normalize correlation between $v_5$ and $v_2$. 
 
 It can be seen in Fig.~\ref{fig:Figure_1} that the lower order harmonic correlations (SC(3,2) and SC(4,2)) and SC(5,2) increase non-linearly toward peripheral collisions.
-In case of SC(5,3) and SC(4,3), the centrality dependence is weaker than the other harmonic correlations and a monotonic increase is observed.
-In case of NSC($m$,$n$), NSC(5,3) shows the strongest centrality dependence and NSC(4,2), NSC(5,2) shows a weak centrality dependence.
-Both NSC(3,2) and NSC(4,3) show a monotonic increase toward peripheral collisions with similar magnitude.
+In case of SC(5,3) and SC(4,3), the centrality dependence is weaker than the other harmonic correlations and a monotonic increase is observed for these harmonic correlations.
+NSC(5,3) shows the strongest centrality dependence among all harmonic correlations and NSC(4,2), NSC(5,2) shows a weak centrality dependence.
+Both NSC(3,2) and NSC(4,3) show a monotonic increase toward peripheral collisions with the similar magnitude.
 
 To obtain the $p_{\rm T}$ dependence of SC$(m,n)$ results, we vary minimum $p_{\rm T}$ cuts, instead of $p_{\rm T}$ bin-by-bin interval, in order to avoid large statistical fluctuations in the results. The various minimum $p_{\rm T}$ cuts from 0.2 to 1.5~GeV/$c$ are applied.
 The results of $p_{\rm T}$ dependence SC(3,2) and SC(4,2) with minimum $p_{\rm T}$ cuts, $0.2<p_{\rm T}<0.7$~GeV/$c$, are shown on the left top in Fig.~\ref{fig:Figure_2}.
@@ -341,10 +342,10 @@ The strong $p_{\rm T}$ dependence observed in SC$(m,n)$ is not clearly seen in N
 This may indicate that the $p_{\rm T}$ dependence of SC$(m,n)$ does not solely result from the correlation between flow harmonics but results from the $p_{\rm T}$  dependent individual $v_n$ values. 
 The minimum $p_{\rm T}$ cuts are extended from 0.8  to 1.5~GeV/$c$ and the results are shown on the bottom panels in Fig.~\ref{fig:Figure_2}.
 As for SC$(m,n)$, the similar trends are observed as for $p_{\rm T}<0.8$~GeV/$c$, however NSC$(m,n)$ tends to decrease as the minimum $p_{\rm T}$ or the centrality increase.
-The $p_{\rm T}$ dependence for NSC(3,2) is not clearly seen and it is consistent with no $p_{\rm T}$ dependence within the current statistical and systematic errors except for 40-50\% centrality
-and NSC(4,2) shows a moderate decreasing trend for increasing $p_{\rm T}$ (see further discussions in Sec.~\ref{sec:ptdepsc}).
-%which is strikingly different from $p_{\rm T}$ dependence of individual flow harmonics, which is nearly flat (see Fig. 3 in Ref.~\cite{Abelev:2012di}).
-This might be an indication of possible viscous corrections for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad}.
+The $p_{\rm T}$ dependence for NSC(3,2) is not clearly seen and it is consistent with no $p_{\rm T}$ dependence within the current statistical and systematic errors for the centrality range $<$30\% and shows moderate decreasing trend for increasing $p_{\rm T}$ for $>$30\% centrality range.
+NSC(4,2) shows a moderate decreasing trend as $p_{\rm T}$ or the centrality increase. These observations are strikingly different from $p_{\rm T}$ dependence of individual flow harmonics, where the relative flow fluctuations $\sigma_{v_2}/\langle v_{2} \rangle$~\cite{Voloshin:2008dg} are independent of momentum up to $p_{\rm T}$ $\sim$ 8~GeV/$c$ (see Fig. 3 in Ref.~\cite{Abelev:2012di}).
+%(see further discussions in Sec.~\ref{sec:ptdepsc})
+%This might be an indication of possible viscous corrections for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad}.
 %However within the current statistical and systematic errors, it is consistent with no $p_{\rm T}$ dependence of NSC$(m,n)$ (see further discussions in Sec.~\ref{sec:ptdepsc}).
 
 \begin{figure}[p]
@@ -476,6 +477,10 @@ NSC($m$,$n$) correlators increase with the larger $\eta/s$ in Hydrodynamic calcu
 \pagebreak
 \subsection{Transverse Momentum Dependence of Low Order Harmonic Correlations}
 \label{sec:ptdepsc}
+
+The $p_{\rm T}$ dependence for NSC(3,2) is not clearly seen and it is consistent with no $p_{\rm T}$ dependence within the current statistical and systematic errors except for 40-50\% centrality
+and NSC(4,2) shows a moderate decreasing trend for increasing $p_{\rm T}$, which is strikingly different from $p_{\rm T}$ dependence of individual flow harmonics, which is nearly flat (see Fig. 3 in Ref.~\cite{Abelev:2012di}).
+
 NSC(3,2) and NSC(4,2) as a function of different minimum $p_{\rm T}$ cut are compared to the {AMPT} simulations in Fig.~\ref{fig:Figure_8}.
 As discussed in Sec.~\ref{sec:results}, the $p_{\rm T}$ dependence for NSC(3,2) and NSC(4,2) in mid central collisions is seen also in AMPT simulations for higher minimum $p_{\rm T}$ cuts.
 The other AMPT configurations except for the default AMPT model give very strong $p_{\rm T}$ dependence above 1~GeV/$c$ and cannot describe the magnitude of the data both for NSC(3,2) and NSC(4,2).
@@ -504,7 +509,7 @@ This feature was explored to discriminate between various hydro model calculatio
 We have found that the different order harmonic correlations have different sensitivities to the initial conditions and the system properties. Therefore they have discriminating power on separating the role of the $\eta/s$  from the initial condition to the final state particle anisotropies.
 Furthermore, the sign of $v_3$-$v_2$ correlation in the model in 0-10\% central collisions was found to be different between the data and hydrodynamic model calculations.
 In the most central collisions the anisotropies originate mainly from fluctuations, i.e.\ the initial ellipsoidal geometry characteristic for mid-central collisions plays little role in this regime. Hence this observation might help to understand the details of the fluctuations in initial conditions. 
-The comparisons to VISH2+1 calculation show that all the models with the large share viscosity regardless of the initial conditions failed to capture the centrality dependence of higher order correlations, more clearly than lower order harmonic correlations and based on the tested model parameters that the $\eta/s$ should be small and AMPT initial condition is flavored by the data. A quite clear separation of the correlation strength between different initial conditions is observed for these higher order harmonic correlations compared to the lower order harmonic correlations.
+The comparisons to VISH2+1 calculation show that all the models with the large share viscosity regardless of the initial conditions failed to capture the centrality dependence of higher order correlations, more clearly than lower order harmonic correlations and based on the tested model parameters that the $\eta/s$ should be small and AMPT initial condition is favored by the data. A quite clear separation of the correlation strength between different initial conditions is observed for these higher order harmonic correlations compared to the lower order harmonic correlations.
 Finally we have found that $v_3$-$v_2$ and $v_4$-$v_2$ correlations have moderate $p_{\rm T}$ dependence in mid central collisions. This might be an indication of possible viscous corrections for the equilibrium distribution at hadronic freeze-out.
 The results presented in this article can be used to further optimize model parameters and put better constraints on the initial conditions and the transport properties in ultra-relativistic heavy-ion collisions.
 

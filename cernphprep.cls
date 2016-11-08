@@ -1,3 +1,4 @@
+% $Id: cernphprep.cls 1789 2014-11-20 19:53:48Z loizides $
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Name:     cernphprep.cls                                       %
 %                                                                 %
@@ -27,13 +28,13 @@
 %                                                                 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\def\fileversion{1.04}
-\def\filedate{6 June April 2010}
-\def\docdate{6 June April 2010}
+\def\fileversion{1.06}
+\def\filedate{11 Mar 2015}
+\def\docdate{11 Mar 2015}
 \typeout{Document Style 'cernphprep'. Version <\fileversion>, <\filedate>}
 % -------------------------------- identification ---------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{cernphprep}[2010/06/06]
+\ProvidesClass{cernphprep}[2014/01/10]
 % ---------------------------  declaration of options --
 % Define experiment logo for first page
 \providecommand*\EXPLOGO{nonelogo}
@@ -299,12 +300,12 @@
 % Experiment date of approval
 %\put(0,-30){\makebox(0,0)[lb]{\normalsize\@EXPdate}}
 % CERN PH Preprint number 
-\put(160,-25){\makebox(0,0)[rb]{\normalsize CERN-PH-EP-\@PHyear-\@PHnumber}}
+\put(160,-25){\makebox(0,0)[rb]{\normalsize CERN-EP-\@PHyear-\@PHnumber}}
 % CERN PH Preprint date of approval
 \put(160,-30){\makebox(0,0)[rb]{\normalsize\@PHdate\ \@PHyear}}
 \put(0,-222){\makebox(0,0)[l]{\CERNCopyright}}
 \put(0,-227){\makebox(0,0)[l]{Reproduction of this article or parts of it is allowed as specified in the 
-\href{http://creativecommons.org/licenses/by/3.0}{CC-BY-3.0 license}.}}
+\href{http://creativecommons.org/licenses/by/4.0}{CC-BY-4.0 license}.}}
 \end{picture}                
 \begin{center}
 \mbox{}\\[25mm]
