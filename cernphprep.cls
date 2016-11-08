@@ -1,4 +1,4 @@
-% $Id: cernphprep.cls 1789 2014-11-20 19:53:48Z loizides $
+% $Id: cernphprep.cls 1994 2015-03-14 10:49:09Z loizides $
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Name:     cernphprep.cls                                       %
 %                                                                 %
@@ -6,6 +6,7 @@
 %                                                                 %
 %  Rewrite of CERN preprint class for LHC results (April 2010)    %
 %                                                                 %
+% 25 April 2016 (version 1.07) CERN-PH-EP -> CERN-EP
 % 12 April 2010 (version 1.00)                                    %
 %   - Special treatment of title page                             %
 %   - Basic point size 11pt                                       %
@@ -28,9 +29,9 @@
 %                                                                 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\def\fileversion{1.06}
-\def\filedate{11 Mar 2015}
-\def\docdate{11 Mar 2015}
+\def\fileversion{1.07}
+\def\filedate{25 Apr 2016}
+\def\docdate{25 Apr 2016}
 \typeout{Document Style 'cernphprep'. Version <\fileversion>, <\filedate>}
 % -------------------------------- identification ---------------------------
 \NeedsTeXFormat{LaTeX2e}
