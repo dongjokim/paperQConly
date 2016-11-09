@@ -1,0 +1,115 @@
+\RequirePackage{lineno}
+\setlength{\linenumbersep}{6pt}
+\linenumbers
+
+% For Phys. Rev. C choose (uncomment) one of:
+\documentclass[twocolumn,letterpaper,aps,prc,longbibliography,superscriptaddress,showpacs,nofootinbib,floatfix]{revtex4-1}
+%\documentclass[onecolumn,letterpaper,aps,prc,longbibliography,superscriptaddress,showpacs,nofootinbib,floatfix]{revtex4-1}
+
+\usepackage{graphicx}	% Include figure filed
+\usepackage{multirow}
+%\usepackage{lscape}
+\usepackage{amsmath}      % breaks equations that are longer than line
+\usepackage{xspace}	% Include xspace
+\usepackage{url,color}
+%\linenumbers\relax % Commence numbering lines
+\usepackage{lipsum}
+
+%\usepackage[showframe,%Uncomment any one of the following lines to test 
+%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
+%%text={7in,10in},centering,
+%%margin=1.5in,
+%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
+%%height=10in,a5paper,hmargin={3cm,0.8in},
+%]{geometry}
+\newcommand{\PbPb}{\textnormal{Pb--Pb}}
+\newcommand{\AuAu}{\textnormal{Au--Au}}
+\newcommand{\tn}[1]{\textnormal{#1}}
+\newcommand{\snn}{\ensuremath{\sqrt{s_\tn{NN}}}}
+
+\begin{document}
+
+%\preprint{APS/123-QED}
+
+\title{Systematic studies of correlations between different order flow harmonics in $\PbPb$ collisions at $\snn = 2.76$~TeV}% Force line breaks with \\
+\thanks{A footnote to the article title}%
+
+\author{Ann Author}
+ \altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
+\author{Second Author}%
+ \email{Second.Author@institution.edu}
+\affiliation{%
+ Authors' institution and/or address\\
+ This line break forced with \textbackslash\textbackslash
+}%
+
+\collaboration{ALICE Collaboration}%\noaffiliation
+
+\author{Charlie Author}
+ \homepage{http://www.Second.institution.edu/~Charlie.Author}
+\affiliation{
+ Second institution and/or address\\
+ This line break forced% with \\
+}%
+\affiliation{
+ Third institution, the second for Charlie Author
+}%
+\author{Delta Author}
+\affiliation{%
+ Authors' institution and/or address\\
+ This line break forced with \textbackslash\textbackslash
+}%
+
+\collaboration{ALICE Collaboration}%\noaffiliation
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+\begin{abstract}
+\input{abstract.tex}
+\end{abstract}
+
+\pacs{Valid PACS appear here}% PACS, the Physics and Astronomy
+                             % Classification Scheme.
+\keywords{heay-ion,flow}%Use showkeys class option if keyword
+                              %display desired
+\maketitle
+
+%\tableofcontents
+\input{longSC.tex}
+
+%%%%%%%% acknowledgements
+\newenvironment{acknowledgement}{\relax}{\relax}
+\begin{acknowledgement}
+\section*{Acknowledgements}
+%\input{acknowledgements_jan2015.tex}    %%%%%%% get the lates version before submitting
+\end{acknowledgement}
+%
+%
+%%%%%%%% Bibliography (In case of using bibtex generate the bbl requested by arXiv)
+%\bibliographystyle{apsrev4-1}   % Put here the style file name for the paper, i.e.apsrev4-1
+%\bibliography{biblio}
+%\input {bibliography.tex}
+%
+
+% \bibliographystyle{mybibstyle}
+%\bibliographystyle{utphys}
+%\bibliography{paper}
+\bibliographystyle{utphys}
+\bibliography{paper}
+
+\newpage
+%
+%\input{}               %%%%%%%%%%% put your appendices here
+%
+%%%%%%%%% appendix with author list
+\appendix
+\section{The ALICE Collaboration}
+\label{app:collab}
+%\input{Alice_Authorlist_2015-Feb-18.tex}  %%%%%%% done by webmaster team
+%\input{}              %%%%%%%%%%%% put the references here
+%
+
+\end{document}
+%
+% ****** End of file apssamp.tex ******
