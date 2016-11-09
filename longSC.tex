@@ -212,15 +212,6 @@ Even though the string melting version of AMPT~\cite{Lin:2001zk,Lin:2004en} reas
 \section{Results}
 \label{sec:results}
 
-\begin{figure}[htbp]
-            \begin{center}
-                       \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig2_QConly_higherSC.eps}}
-                       \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig2_QConly_higherNSC.eps}}
-        \caption{The result of SC($m$,$n$) (left figure) and NSC($m$,$n$) (right figure) with flow harmonic order up to $5^{\mathrm{th}}$ in $\PbPb$ collisions at $\snn=2.76$~TeV. The lower order harmonic correlations (SC(3,2), SC(4,2), NSC(3,2) and NSC(4,2)) are taken from the recent publication~\cite{ALICE:2016kpq} and shown as bands. Note that the systematic and statistical errors are merged quadratically for these lower order harmonic correlations  and SC(4,2) and SC(3,2) on the left figure are scaled down by factor of 10.}
-        \label{fig:Figure_1}
-              \end{center}
-\end{figure}
-
 %The centrality dependence of SC(4,2) and SC(3,2) are presented in Fig.~\ref{fig:Figure_1} as shadow bands which are the same as the published results~\cite{ALICE:2016kpq}. Positive values of SC(4,2) are observed for all measured centralities. This suggests a positive correlation between the event-by-event fluctuations of $v_2$ and $v_4$. It also indicates that finding $v_2$ larger than average ($\langle v_2 \rangle$) in an event enhances the probability of finding $v_4$ larger than average ($\langle v_4 \rangle$) in that event. On the other hand, the negative results of SC(3,2) over all measured centralities show the anti-correlation between $v_2$ and $v_3$ flow harmonic magnitudes, which further implies that finding $v_2$ larger than average ($v_2 > \langle v_2 \rangle$) enhancing the probability of finding smaller $v_3$ than average ($v_3 < \langle v_3 \rangle$).
 
 % \begin{figure}[htbp]
@@ -243,6 +234,16 @@ Even though the string melting version of AMPT~\cite{Lin:2001zk,Lin:2004en} reas
 
 
 The centrality dependence of the higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are presented in Fig.~\ref{fig:Figure_1} and compared to the lower order harmonic correlations (SC(4,2) and SC(3,2)) which are taken from the recent publication~\cite{ALICE:2016kpq}. The correlation between $v_3$ and $v_4$ is negative, and similarly for $v_3$ and $v_2$, while the other correlations are all positive, which reveals that $v_2$ and $v_5$, $v_3$ and $v_5$ are correlated as $v_2$ and $v_4$, while $v_3$ and $v_4$ are anti-correlated as $v_3$ and $v_2$.
+
+\begin{figure*}[h]
+            \begin{center}
+                       \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig2_QConly_higherSC.eps}}
+                       \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig2_QConly_higherNSC.eps}}
+        \caption{The result of SC($m$,$n$) (left figure) and NSC($m$,$n$) (right figure) with flow harmonic order up to $5^{\mathrm{th}}$ in $\PbPb$ collisions at $\snn=2.76$~TeV. The lower order harmonic correlations (SC(3,2), SC(4,2), NSC(3,2) and NSC(4,2)) are taken from the recent publication~\cite{ALICE:2016kpq} and shown as bands. Note that the systematic and statistical errors are merged quadratically for these lower order harmonic correlations  and SC(4,2) and SC(3,2) on the left figure are scaled down by factor of 10.}
+        \label{fig:Figure_1}
+              \end{center}
+\end{figure*}
+
 The higher order flow harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are much smaller compared to the lower order harmonic correlations (SC(3,2) and SC(4,2)).
 In particular SC(5,2) is 10 times smaller than SC(4,2) and SC(4,3) is about 20 times smaller that SC(3,2).
 
@@ -272,7 +273,7 @@ NSC(4,2) shows a moderate decreasing trend as $p_{\rm T}$ or the centrality incr
 %This might be an indication of possible viscous corrections for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad}.
 %However within the current statistical and systematic errors, it is consistent with no $p_{\rm T}$ dependence of NSC$(m,n)$ (see further discussions in Sec.~\ref{sec:ptdepsc}).
 
-\begin{figure}[p]
+\begin{figure*}
 	\begin{center}
         	\resizebox{0.48\columnwidth}{!}{\includegraphics{figs/fig4_QConly_SC_ptdep}}
         	\resizebox{0.48\columnwidth}{!}{\includegraphics{figs/fig4_QConly_nSC_ptdep}}
@@ -281,9 +282,8 @@ NSC(4,2) shows a moderate decreasing trend as $p_{\rm T}$ or the centrality incr
         \caption{SC(3,2) and SC(4,2) with various minimum $p_{\rm T}$ cuts (left) and results of normalized SC(3,2) and SC(4,2) (right). The upper panels show the results for minimum $p_{\rm T}$ range, $0.2<p_{\rm T}<0.7$~GeV/$c$ and the bottom panels are for minimum $p_{\rm T}$ range, $0.8<p_{\rm T}<1.5$~GeV/$c$. Note that NSC data points from each minimum $p_{\rm T}$ in a centrality percentile bin are shifted for visibility.}
         \label{fig:Figure_2}
         \end{center}   
-\end{figure}
+\end{figure*}
  
-\pagebreak
 
 \section{Model Comparisons}
 \label{sec:theory}
@@ -296,21 +296,30 @@ In the most central collisions the anisotropies originate mainly from fluctuatio
 NSC(4,2) observable shows better sensitivity for different $\eta/s(T)$ parameterizations but the model cannot describe neither the centrality dependence nor the absolute values. These observed distinct discrepancy between data and theoretical predictions indicate that the current understanding of initial conditions used to model the initial stages of heavy-ion collision need to be revisited to further constrain the $\eta/s(T)$, considering the difficulties on separating the role of the $\eta/s$  from the initial conditions to the final state particle anisotropies~\cite{Romatschke:2007mq,Shen:2011zc}.
 Hence the use of SC$(m,n)$ and NSC$(m,n)$ can provide new constraints on the detailed modeling of the initial state conditions and the fluctuations of the medium created in heavy-ion collisions. The better constraints on the initial state conditions will certainly reduce the uncertainties of determining $\eta/s(T)$.
 
+\begin{figure*}[h]
+	\begin{center}
+        	\resizebox{0.45\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_vish.eps}}
+        	\resizebox{0.45\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_vish.eps}}
+        \caption{Results of  SC(3,2) and SC(4,2) are compared to various VISH2+1 calculations~\cite{Zhu:2016puf} with different settings. Three initial conditions from AMPT, MC-KLN, and MC-Glauber  are drawn as different colors and markers. The $\eta/s$ parameters are shown as different line styles, the small shear viscosities ($\eta/s=0.08$) are shown as solid lines, and large shear viscosities ($\eta/s=0.2$ for MC-KLN and MC-Glauber, 0.16 for AMPT) are drawn as dashed lines. Upper panels are the result of SC$(m,n)$ and lower panels are the results of NSC$(m,n)$.}
+         \label{fig:Figure_3}
+        \end{center}   
+ \end{figure*}
+ 
 The results with the comparison to VISH2+1 calculation~\cite{Zhu:2016puf} are shown in Fig.~\ref{fig:Figure_3}.  All the models with large $\eta/s$ regardless of the initial conditions ($\eta/s=0.2$ for MC-KLN and MC-Glauber initial conditions and $\eta/s=0.16$ for AMPT initial condition) fail to capture the centrality dependence of SC(3,2) and SC(4,2). 
 On the other hand, among the models with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial condition describes the data better both for SC(3,2) and SC(4,2) in general but it cannot describe the data quantitively for most of the centrality ranges.
 Similarly as the above mentioned hydrodynamic calculations~\cite{Niemi:2015qia}, the sign of the normalised NSC(3,2) in these models is opposite to its signature in the data in 0-10\% central collisions. NSC(3,2) does not show sensitivity to initial conditions nor to different $\eta/s$ parametrizations and cannot be described by these models quantitively.
 However NSC(4,2) is sensitive both to initial conditions and $\eta/s$ parametrizations.
 Even though NSC(4,2) favors both AMPT initial condition with $\eta/s=0.08$ and MC-Glauber initial condition with $\eta/s=0.20$,
-SC(4,2) can be only described by smaller $\eta/s$ from AMPT and MC-Glauber initial conditions. Because the Glauber initial condition with $\eta/s=0.20$ can be ruled out, we come to a conclusion based on the tested model parameters that $\eta/s$ should be small and AMPT initial condition is favored by the data.
+SC(4,2) can be only described by smaller $\eta/s$ from AMPT and MC-Glauber initial conditions. Hence the Glauber initial condition with $\eta/s=0.20$ can be ruled out. We come to a conclusion based on the tested model parameters that $\eta/s$ should be small and AMPT initial condition is favored by the data.
 
-\begin{figure}[!p]
+\begin{figure*}[!]
 	\begin{center}
-        	\resizebox{0.48\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_vish.eps}}
-        	\resizebox{0.48\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_vish.eps}}
-        \caption{Results of  SC(3,2) and SC(4,2) are compared to various VISH2+1 calculations~\cite{Zhu:2016puf} with different settings. Three initial conditions from AMPT, MC-KLN, and MC-Glauber  are drawn as different colors and markers. The $\eta/s$ parameters are shown as different line styles, the small shear viscosities ($\eta/s=0.08$) are shown as solid lines, and large shear viscosities ($\eta/s=0.2$ for MC-KLN and MC-Glauber, 0.16 for AMPT) are drawn as dashed lines. Upper panels are the result of SC$(m,n)$ and lower panels are the results of NSC$(m,n)$.}
-         \label{fig:Figure_3}
+        	\resizebox{0.45\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_ampt.eps}}
+        	\resizebox{0.45\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_ampt.eps}}
+        \caption{Results of  SC(3,2) and SC(4,2) are compared to various AMPT simulations. Upper panels are the results of SC$(m,n)$ and the lower panels are the results of NSC$(m,n)$. The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
+        \label{fig:Figure_4}
         \end{center}   
- \end{figure}
+ \end{figure*}
  
 Finally, the extracted results for final state particles from AMPT simulations in the same way as for the data are compared in Fig.~\ref{fig:Figure_4}.
 As for SC(3,2), neither of the settings can describe the data and the setting with the default AMPT model somewhat follows the trend of the data closest. The same setting can describe NSC(3,2) fairly well and also the sign of NSC(3,2) is well reproduced by this setting while all the hydrodynamic calculations in this article failed to describe the sign of the observable in the most central collisions.
@@ -322,33 +331,22 @@ Further we investigated why the default AMPT model can describe NSC(3,2) fairly 
 In the case of SC(4,2), the string melting AMPT model can fairly well describe the data while the default model underestimates it.
 NSC(4,2) is slightly overestimated by the same setting which can describe SC(4,2) but the default AMPT model can describe the data better.
 The influence of the hadronic rescattering phase for NSC(4,2) is opposite to other observables (SC(3,2), NSC(3,2) and SC(4,2)), where the hadronic rescattering makes NSC(4,2) slightly smaller.
-It should be noted that the better agreement for SC$(m,n)$ should not be overemphasized since there are discrepancies in the individual $v_n$ between AMPT and data as it was demonstrated for SC(3,2).
+It should be noted that the better agreement for SC$(m,n)$ should not be overemphasized since there are discrepancies in the individual $v_n$ between the AMPT models and the data as it was demonstrated for SC(3,2).
 Hence the simultaneous description of SC$(m,n)$ and NSC$(m,n)$ should give better constraints to the parameters in AMPT models.
-
-\begin{figure}[p]
-	\begin{center}
-        	\resizebox{0.48\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_ampt.eps}}
-        	\resizebox{0.48\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_ampt.eps}}
-        \caption{Results of  SC(3,2) and SC(4,2) are compared to various AMPT simulations. Upper panels are the results of SC$(m,n)$ and the lower panels are the results of NSC$(m,n)$. The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
-        \label{fig:Figure_4}
-        \end{center}   
- \end{figure}
-
-\pagebreak
 
 \subsection{Higher Order Harmonic Correlations}
 The higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are compared to several theoretical calculations. 
 First, the hydrodynamic predictions with the different parameterizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$ are shown on the left in Fig.~\ref{fig:Figure_5}. 
 \noindent\textbf{\textcolor{blue}{[Waiting for $\eta/s(T)$ hydro calculations from Harri Niemi et. al~\cite{Niemi:2015qia}, figure will be replaced later, just a place holder]}}
 
-\begin{figure}[htbp]
+\begin{figure*}[h]
             \begin{center}
                        \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig1_QConly_hydro.eps}}
                        \resizebox{0.48\textwidth}{!}{\includegraphics{figs/fig1_QConly_hydro_norm.eps}}
               \end{center}
-        \caption{Results from SC($m$,$n$) in $\PbPb$ at $\snn=2.76$~TeV are compared to hydrodynamic calculations. The dashed lines are hydrodynamic predictions with various $\eta/s(T)$ parametrizations~\cite{Niemi:2015qia}. This will be replaced with new figures once we have the calculations for Harri}
+        \caption{Results from SC($m$,$n$) in $\PbPb$ at $\snn=2.76$~TeV are compared to hydrodynamic calculations. The dashed lines are hydrodynamic predictions with various $\eta/s(T)$ parametrizations~\cite{Niemi:2015qia}. This will be replaced with new figures once we have the calculations from Harri Niemi et. al~\cite{Niemi:2015qia}.}
         \label{fig:Figure_5}
-\end{figure}
+\end{figure*}
 
 The higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are compared to VISH2+1 calculations~\cite{Zhu:2016puf}, shown in Fig.~\ref{fig:Figure_6}. 
 All the models with large $\eta/s$ regardless of the initial conditions ($\eta/s=0.2$ for MC-KLN and MC-Glauber initial conditions, and $\eta/s=0.16$ for AMPT) failed to capture the centrality dependence of SC(5,2), SC(5,2) and SC(5,3), more clearly than for the lower order harmonic correlations (SC(3,2) and SC(4,2)).
@@ -359,7 +357,7 @@ Similarly as the above mentioned hydrodynamic calculations~\cite{Niemi:2015qia},
 % while NSC(3,2) does not show sensitivity to initial conditions nor to different $\eta/s$ parametrizations.
 SC(4,3) data is clearly favored by smaller $\eta/s$ but NSC(4,3) cannot be described by these models quantitively.
      
-\begin{figure}[p]
+\begin{figure*}[!]
 	\begin{center}
         	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC52_vish.eps}}
         	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC53_vish.eps}}
@@ -367,7 +365,17 @@ SC(4,3) data is clearly favored by smaller $\eta/s$ but NSC(4,3) cannot be descr
         \caption{Results of  SC(5,2), SC(5,3) and SC(4,3) are compared to various VISH2+1 calculations~\cite{Zhu:2016puf}. Three initial conditions from AMPT, MC-KLN and MC-Glauber are drawn as different colors and markers. The $\eta/s$ parameters are shown as different line styles, the small shear viscosity ($\eta/s=0.08$) are shown as solid lines, and large shear viscosities ($\eta/s=0.2$ for MC-KLN and MC-Glauber, 0.16 for AMPT) are drawn as dashed lines. Upper panels are the results of SC$(m,n)$ and lower panels are the results of NSC$(m,n)$.}
         \label{fig:Figure_6}
         \end{center}   
- \end{figure}
+ \end{figure*}
+ 
+ \begin{figure*}[h]
+	\begin{center}
+        	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC52_ampt.eps}}
+        	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC53_ampt.eps}}
+        	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC43_ampt.eps}}
+        \caption{Results of  SC(5,2), SC(5,3) and SC(4,3) are compared to various AMPT simulations. Upper panels are the results of SC$(m,n)$ and the lower panels are the results of NSC$(m,n)$. The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
+        \label{fig:Figure_7}
+        \end{center}   
+ \end{figure*}
  
 The extracted results for final state particles from AMPT simulations in the same way as for the data are compared in Fig.~\ref{fig:Figure_7}.
 The string melting AMPT model describes SC(5,3) and NSC(5,3) well. The same setting overestimates SC(5,2) and NSC(5,2). 
@@ -377,6 +385,8 @@ In the case of SC(4,3), neither of the settings can describe the data but the de
 The string melting AMPT model fails to describe SC(4,3) and NSC(4,3).
 In summary, the default AMPT model describes well the normalized symmetric cumulants (NSC$(m,n)$) from lower to higher order harmonic correlations while the string melting AMPT model overestimates NSC(5,2) and underestimates (or predicts very weak correlation) NSC(4,3). 
 
+
+ 
 %It should be noted that the better agreement for SC$(m,n)$ should not be overemphasized since there are discrepancies in the individual $v_n$ between AMPT and data as it was demonstrated for SC(3,2).
 %Hence the simultaneous description of SC$(m,n)$ and NSC$(m,n)$ should give better constrains to the parameters in AMPT.
 %Can we conclude that the hadronic rescattering only can reproduce the correlation strength well ?
@@ -388,23 +398,26 @@ The observed difference between SC(5,2) and SC(5,3) (SC(5,2) $>$ SC(5,3)) can be
 The opposite trend are observed for the normalized SC (NSC(5,3) $>$ NSC(5,2)). This can be attributed to the fact that the flow fluctuation is stronger for $v_3$ than $v_2$~\cite{Aad:2013xma}. It was claimed in Ref.~\cite{Zhu:2016puf} and seen also in Ref.~\cite{Bhalerao:2014xra} based on a AMPT model. 
 NSC($m$,$n$) correlators increase with the larger $\eta/s$ in hydrodynamic calculations in 0-30\% centrality range in the same way as the event plane correlations~\cite{Bhalerao:2013ina,Teaney:2013dta}. In semi-peripheral collisions ($>$40\%), the opposite trend is observed.
 
-\begin{figure}[p]
-	\begin{center}
-        	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC52_ampt.eps}}
-        	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC53_ampt.eps}}
-        	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC43_ampt.eps}}
-        \caption{Results of  SC(5,2), SC(5,3) and SC(4,3) are compared to various AMPT simulations. Upper panels are the results of SC$(m,n)$ and the lower panels are the results of NSC$(m,n)$. The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
-        \label{fig:Figure_7}
-        \end{center}   
- \end{figure}
+
 
 \pagebreak
+
 \subsection{Transverse Momentum Dependence of Low Order Harmonic Correlations}
 \label{sec:ptdepsc}
 
 It can be seen in Fig.~\ref{fig:Figure_2} that the $p_{\rm T}$ dependence for NSC(3,2) is not clearly seen and it is consistent with no $p_{\rm T}$ dependence for the centrality range $<$30\% and shows moderate decreasing trend for increasing $p_{\rm T}$ for $>$30\% centrality range.
 NSC(4,2) shows a moderate decreasing trend as $p_{\rm T}$ or the centrality increase. 
 In oder to see the trend more clearly, we show NSC($m$,$n$) results as a function of minimum $p_{\rm T}$ cut in Fig.~\ref{fig:Figure_8}.
+
+\begin{figure}[p]
+             \begin{center}
+              \resizebox{0.95\textwidth}{!}{\includegraphics{figs/fig5_QConly_xminpt_nSC32.eps}}
+              \resizebox{0.95\textwidth}{!}{\includegraphics{figs/fig5_QConly_xminpt_nSC42.eps}}
+              \end{center}
+             \caption{NSC(3,2) (Top) and NSC(4,2) (Bottom) as a function of minimum $p_{\rm T}$ cuts are compared to various AMPT models. The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
+             \label{fig:Figure_8}
+\end{figure}
+
 NSC(3,2) and NSC(4,2) as a function of different minimum $p_{\rm T}$ cut are compared to the {AMPT} simulations in Fig.~\ref{fig:Figure_8}.
 These observed $p_{\rm T}$ dependence for NSC(3,2) and NSC(4,2) in mid-central collisions is seen also in AMPT simulations for higher minimum $p_{\rm T}$ cuts.
 The other AMPT configurations except for the default AMPT model give very strong $p_{\rm T}$ dependence above 1~GeV/$c$ and cannot describe the magnitude of the data both for NSC(3,2) and NSC(4,2) simultaneously.
@@ -416,14 +429,7 @@ This observed moderate $p_{\rm T}$ dependence in mid-central collisions both for
 The comparisons to hydrodynamic models can further help to understand the viscous correction to the momentum distribution at hadronic freeze-out~\cite{Teaney:2012ke,Niemi:2015qia}.
 \noindent\textbf{\textcolor{blue}{[Waiting for $\eta/s(T)$ hydro calculations from Harri Niemi et. al~\cite{} and VISH2+1 calculations~\cite{Zhu:2016puf}]}}
 
-\begin{figure}[htbp]
-             \begin{center}
-              \resizebox{0.95\textwidth}{!}{\includegraphics{figs/fig5_QConly_xminpt_nSC32.eps}}
-              \resizebox{0.95\textwidth}{!}{\includegraphics{figs/fig5_QConly_xminpt_nSC42.eps}}
-              \end{center}
-             \caption{NSC(3,2) (Top) and NSC(4,2) (Bottom) as a function of minimum $p_{\rm T}$ cuts are compared to various AMPT models. The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
-             \label{fig:Figure_8}
-\end{figure}
+
 
 \pagebreak
  
