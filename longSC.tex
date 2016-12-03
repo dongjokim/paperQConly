@@ -204,6 +204,17 @@ In case of SC(5,3) and SC(4,3), the centrality dependence is weaker than the oth
 NSC(5,3) shows the strongest correlation among all harmonics and NSC(4,2), NSC(5,2) shows a weak centrality dependence.
 Both NSC(3,2) and NSC(4,3) show a monotonic increase toward peripheral collisions with the similar magnitude.
 
+\begin{figure*}
+	\begin{center}
+        	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig4_QConly_SC_ptdep}}
+        	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig4_QConly_nSC_ptdep}}
+	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig4b_QConly_SC_ptdep}}
+        	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig4b_QConly_nSC_ptdep}}
+        \caption{SC(3,2) and SC(4,2) with various minimum $p_{\rm T}$ cuts ((a) and (c)) and results of normalized SC(3,2) and SC(4,2) ((b) and (d)). The panel (a) and (b) show the results for minimum $p_{\rm T}$ range, $0.2<p_{\rm T}<0.7$~GeV/$c$ and the panel (c) and (d) are for minimum $p_{\rm T}$ range, $0.8<p_{\rm T}<1.5$~GeV/$c$. Note that NSC data points from each minimum $p_{\rm T}$ in a centrality percentile bin are shifted for visibility.}
+        \label{fig:Figure_2}
+        \end{center}   
+\end{figure*}
+
 To study the $p_{\rm T}$ dependence of SC$(m,n)$, we change the low $p_{\rm T}$ cut-off, instead of using independent $p_{\rm T}$ interval, in order to avoid large statistical fluctuations in the results. Various minimum $p_{\rm T}$ cuts from 0.2 to 1.5~GeV/$c$ are applied.
 The results of $p_{\rm T}$ dependence of SC(3,2) and SC(4,2) with minimum $p_{\rm T}$ cuts, $0.2<p_{\rm T}<0.7$~GeV/$c$, are shown on the panel (a) in Fig.~\ref{fig:Figure_2}.
 The strength of SC$(m,n)$ becomes larger as the minimum $p_{\rm T}$ increases. 
@@ -219,18 +230,6 @@ NSC(4,2) shows a moderate decreasing trend as $p_{\rm T}$ or the centrality incr
 %(see further discussions in Sec.~\ref{sec:ptdepsc})
 %This might be an indication of possible viscous corrections for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad}.
 %However within the current statistical and systematic errors, it is consistent with no $p_{\rm T}$ dependence of NSC$(m,n)$ (see further discussions in Sec.~\ref{sec:ptdepsc}).
-
-\begin{figure*}
-	\begin{center}
-        	\resizebox{0.44\columnwidth}{!}{\includegraphics{figs/fig4_QConly_SC_ptdep}}
-        	\resizebox{0.44\columnwidth}{!}{\includegraphics{figs/fig4_QConly_nSC_ptdep}}
-	\resizebox{0.44\columnwidth}{!}{\includegraphics{figs/fig4b_QConly_SC_ptdep}}
-        	\resizebox{0.44\columnwidth}{!}{\includegraphics{figs/fig4b_QConly_nSC_ptdep}}
-        \caption{SC(3,2) and SC(4,2) with various minimum $p_{\rm T}$ cuts ((a) and (c)) and results of normalized SC(3,2) and SC(4,2) ((b) and (d)). The panel (a) and (b) show the results for minimum $p_{\rm T}$ range, $0.2<p_{\rm T}<0.7$~GeV/$c$ and the panel (c) and (d) are for minimum $p_{\rm T}$ range, $0.8<p_{\rm T}<1.5$~GeV/$c$. Note that NSC data points from each minimum $p_{\rm T}$ in a centrality percentile bin are shifted for visibility.}
-        \label{fig:Figure_2}
-        \end{center}   
-\end{figure*}
- 
 
 \section{Model Comparisons}
 \label{sec:theory}
@@ -252,16 +251,13 @@ Traditionally, the Glauber model constructs the initial entropy density from con
 The centrality dependence of SC observables is compared to that in the {AMPT} model~\cite{Zhang:1999bd,Lin:2000cx,Lin:2004en}.
 Even though thermalization could be achieved in collisions of very large nuclei and/or at extremely high energy~\cite{Kurkela:2015qoa}, the dense matter created in heavy-ion collisions may not reach full thermal or chemical equilibrium as a result of its finite volume and short time scale. To address such non-equilibrium many-body dynamics, AMPT has been developed, which includes both initial partonic and final hadronic interactions and the transition between these two phases of matter.
 For the initial conditions, the AMPT model uses the spatial and momentum distributions of hard minijet partons and soft strings from the HIJING model~\cite{Wang:1991hta,Gyulassy:1994ew}.
-The AMPT model can be run in two main configurations, the default and the string melting model.
+The AMPT model can be run in two main configurations, the default and the string melting model~\footnote{The input parameters used in both configurations are: $\alpha_s = 0.33$, a partonic cross-section of 1.5~mb, while the Lund string fragmentation parameters were set to $\alpha = 0.5$ and $b = 0.9$~GeV$^{-2}$.}.
 In the default version, partons are recombined with their parent strings when they stop interacting. The resulting strings are later converted into hadrons using the Lund string fragmentation model~\cite{Andersson:1986gw,NilssonAlmqvist:1986rx}. In the string melting version, the initial strings are melted into partons whose interactions are described by the ZPC parton cascade model~\cite{Zhang:1997ej}. These partons are then combined into the final state hadrons via a quark coalescence model. 
 In both configurations, the dynamics of the subsequent hadronic matter is described by a hadronic cascade based on A Relativistic Transport (ART) model~\cite{Li:2001xh} which also includes resonance decays.
-The third version used in this article is based on the string melting configuration, in which the hadronic rescattering phase is switched off to study its influence to the development of anisotropic flow.
-The input parameters used in both configurations are: $\alpha_s = 0.33$, a partonic cross-section of 1.5~mb, while the Lund string fragmentation parameters were set to $\alpha = 0.5$ and $b = 0.9$~GeV$^{-2}$. 
+The third version used in this article is based on the string melting configuration, in which the hadronic rescattering phase is switched off to study its influence to the development of anisotropic flow. 
 Even though the string melting version of AMPT~\cite{Lin:2001zk,Lin:2004en} reasonably reproduces particle yields, $p_{\rm T}$ spectra, and $v_2$ of low-$p_{\rm T}$ pions and kaons in central and mid-central $\AuAu$ collisions at $\snn=200$~GeV and $\PbPb$ collisions at $\snn=2.76$~TeV~\cite{Lin:2014tya}, it was seen clearly in the recent study~\cite{Adam:2016nfo} that it fails to quantitatively reproduce the harmonic flow coefficients of identified hadrons ($v_2$, $v_3$, $v_4$ and $v_5$) at $\snn=2.76$~TeV. It turns out that the radial flow in AMPT is 25\% lower than the measured value at the LHC, which indicates that the unrealistically low radial flow in AMPT is responsible for the quantitative disagreement~\cite{Adam:2016nfo}. The details of configurations of AMPT settings used for this article and the comparisons of $p_{\rm T}$ differential $v_{n}$ for pions, kaons and protons to the data can be found in \cite{Adam:2016nfo}.
 
 %Two mechanisms in {AMPT} produce collective effects: partonic and hadronic rescattering. Before partonic rescattering, the initially produced strings may be broken into smaller pieces by the %so-called string melting. Three different {AMPT} settings are considered, having either string melting or hadronic rescattering or both activated.
-
-% 
 
 \subsection{Low Order Harmonic Correlations}
 SC(3,2) and SC(4,2) are compared to several theoretical calculations. 
@@ -274,14 +270,13 @@ The use of SC$(m,n)$ and NSC$(m,n)$ can provide new constraints on the detailed 
 
 \begin{figure*}[h]
 	\begin{center}
-        	\resizebox{0.45\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_vish.eps}}
-        	\resizebox{0.45\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_vish.eps}}
+        	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_vish.eps}}
+        	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_vish.eps}}
         \caption{SC(3,2) (a) and SC(4,2) (b) are compared to various VISH2+1 calculations~\cite{Zhu:2016puf} with different settings. Upper (lower) panels show SC($m$,$n$) (NSC($m$,$n$)).
         Calculations with three initial conditions from AMPT, MC-KLN, and MC-Glauber are drawn as different colors and markers. The $\eta/s$ parameters are shown in line styles, the small $\eta/s=0.08$ are shown as solid lines, and large $\eta/s=0.2$ for MC-KLN and MC-Glauber, 0.16 for AMPT are drawn as dashed lines. }
          \label{fig:Figure_3}
         \end{center}   
  \end{figure*}
- 
 The results with the comparison to VISH2+1 calculation~\cite{Zhu:2016puf} are shown in Fig.~\ref{fig:Figure_3}.  All calculations with large $\eta/s$ regardless of the initial conditions ($\eta/s=0.2$ for MC-KLN and MC-Glauber initial conditions and $\eta/s=0.16$ for AMPT initial condition) fail to capture the centrality dependence of SC(3,2) and SC(4,2). 
 Among the calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial condition describes the data better both for SC(3,2) and SC(4,2) in general but it cannot describe the data quantitively for most of the centrality ranges.
 Similarly to hydrodynamic calculations~\cite{Niemi:2015qia}, the sign of the normalized NSC(3,2) in the model calculations in Fig~\ref{fig:Figure_3} is opposite to that in data in 0-10\% central collisions. NSC(3,2) does not show sensitivity to initial conditions nor to different $\eta/s$ parameterizations and cannot be described by these models quantitively.
@@ -291,13 +286,12 @@ SC(4,2) can be only described by smaller $\eta/s$ from AMPT and MC-Glauber initi
 
 \begin{figure*}[!]
 	\begin{center}
-        	\resizebox{0.45\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_ampt.eps}}
-        	\resizebox{0.45\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_ampt.eps}}
+        	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_ampt.eps}}
+        	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_ampt.eps}}
         \caption{SC(3,2) (a) and SC(4,2) (b) are compared to various AMPT models. Upper panels (lower) are the results of SC$(m,n)$ (NSC$(m,n)$). The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
         \label{fig:Figure_4}
         \end{center}   
  \end{figure*}
- 
 The SC($m$,$n$) calculated from AMPT simulations are compared to data in Fig.~\ref{fig:Figure_4}.
 As for SC(3,2), none of the calculations can describe the data and the calculation with the default AMPT setting follows the trend of the data closest. The same default calculation can describe the sign and magnitude of NSC(3,2) while the hydrodynamic calculations failed to describe the sign and magnitude of the observable in the most central collisions.
 Interestingly the string melting AMPT model cannot reproduce the data and the strength of the correlation is weaker than in data.
