@@ -239,7 +239,7 @@ NSC(4,2) shows a moderate decreasing trend as $p_{\rm T}$ or the centrality incr
 %We have used various models in this article. The {\sc HIJING} model~\cite{Wang:1991hta,Gyulassy:1994ew} was utilized to obtain the $p_{\rm T}$-weights~\cite{Bilandzic:2013kga} which were used to estimate systematic bias due to non-uniform reconstruction efficiency as a function of transverse momentum. 
 %Secondly, the HIJING model was used to estimate the strength of non-flow correlations (typically few-particle correlations insensitive to the collision geometry). 
 %We have evaluated the observables of interest in coordinate space by modeling the initial conditions with a MC-Glauber model~\cite{Miller:2007ri}. 
-We have compared the centrality dependence of our observables with the EKRT+viscous hydrodynamic calculations~\cite{Niemi:2015qia}, where the initial energy density profiles are calculated using a next-to-leading order perturbative-QCD+saturation model~\cite{Paatelainen:2012at,Paatelainen:2013eea}. The subsequent spacetime evolution is described by relativistic dissipative fluid dynamics with different parameterizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$. Each of the $\eta/s(T)$ parameterizations is adjusted to reproduce the measured $v_n$ from central to mid-peripheral collisions. 
+We have compared the centrality dependence of our observables with the event-by-event EKRT+viscous hydrodynamic calculations~\cite{Niemi:2015qia}, where the initial energy density profiles are calculated using a next-to-leading order perturbative-QCD+saturation model~\cite{Paatelainen:2012at,Paatelainen:2013eea}. The subsequent spacetime evolution is described by relativistic dissipative fluid dynamics with different parameterizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$. Each of the $\eta/s(T)$ parameterizations is adjusted to reproduce the measured $v_n$ from central to mid-peripheral collisions. 
 %\textbf{Need a short description of event-by-event viscous hydrodynamic calculations from VISH2+1}.
 
 The VISH2+1~\cite{Shen:2010uy,Shen:2014vra} event-by-event calculations for relativistic heavy-ion collisions are based on (2+1)-dimensional viscous hydrodynamics which describes both the QGP phase and the highly dissipative and even off-equilibrium late hadronic stage with fluid dynamics. With well tuned transport coefficients, decoupling temperature  and given initial condition discussed later, it could describe the $p_{\rm T}$ spectra and different flow harmonics at RHIC and the LHC~\cite{Qiu:2011hf, Shen:2010uy, Shen:2011eg, Bhalerao:2015iya}.
@@ -263,7 +263,7 @@ Even though the string melting version of AMPT~\cite{Lin:2001zk,Lin:2004en} reas
 
 \subsection{Low Order Harmonic Correlations}
 SC(3,2) and SC(4,2) are compared to several theoretical calculations. 
-The EKRT+viscous hydrodynamic predictions with the different parameterizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$ are shown in Fig.~2 of Ref.~\cite{ALICE:2016kpq}. 
+The event-by-event EKRT+viscous hydrodynamic predictions with the different parameterizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$ are shown in Fig.~2 of Ref.~\cite{ALICE:2016kpq}. 
 It has been demonstrated that NSC(3,2) observable is sensitive mainly to the initial conditions, while NSC(4,2) observable is sensitive to both the initial conditions and the system properties, which is consistent with the predictions from~\cite{Niemi:2012aj}.
 However, the sign of NSC(3,2) is positive in the models in 0-10\% central collisions while it is negative in data.
 In the most central collisions the anisotropies originate mainly from fluctuations, i.e.\ the initial ellipsoidal geometry characteristic for mid-central collisions plays little role in this regime. This observation helps to understand better the fluctuations in initial energy density.
@@ -311,7 +311,7 @@ Hence the simultaneous description of SC$(m,n)$ and NSC$(m,n)$ should give bette
 
 \subsection{Higher Order Harmonic Correlations}
 The higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are compared to several theoretical calculations. 
-The EKRT+viscous hydrodynamic predictions with the different parameterizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$ are shown on the left in Fig.~\ref{fig:Figure_5}. 
+The event-by-event EKRT+viscous hydrodynamic predictions with the different parameterizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$ are shown on the left in Fig.~\ref{fig:Figure_5}. 
 \noindent\textbf{\textcolor{blue}{[Waiting for $\eta/s(T)$ hydro calculations from Harri Niemi et. al~\cite{Niemi:2015qia}, figure will be replaced later, just a place holder]}}
 
 \begin{figure*}[h]
@@ -372,17 +372,18 @@ The opposite trend are observed for the normalized SC (NSC(5,3) $>$ NSC(5,2)). T
 NSC($m$,$n$) correlators increase with the larger $\eta/s$ in hydrodynamic calculations in 0-30\% centrality range in the same way as the event plane correlations~\cite{Bhalerao:2013ina,Teaney:2013dta}. In semi-peripheral collisions ($>$40\%), the opposite trend is observed.
 
 
-We list here a few important findings from the model comparison:
-\begin{itemize}
-	\item A hierarchy NSC(5,3) $>$ NSC(4,2) $>$ NSC(5,2) holds for centrality ranges $>20\%$ within the errors and NSC(5,2) is smaller than NSC(5,3) while SC(5,2) is larger that SC(5,3). This hierarchy is well reproduced by hydrodynamic model calculations and AMPT model calculations.
-	\item All the models with large $\eta/s$ regardless of the initial conditions failed to capture the centrality dependence of correlations.
-	\item Among the calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial condition describes the data better both for SC(3,2) and SC(4,2) in general but it cannot describe the data quantitively for most of the centrality ranges.
-	\item The sign of $v_3$ and $v_2$ correlation in 0-10\% central collisions was found to be different between the data and hydrodynamic model calculations while the default AMPT model can reproduce the sign.
-	\item The default AMPT model can describe NSC quantitively.
+We list here important findings from the model comparison:
+\begin{enumerate}[(i)]
+	\item All the VISH2+1 model calculations with large $\eta/s$ regardless of the initial conditions failed to capture the centrality dependence of correlations.
+	\item Among the VISH2+1 model calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial condition describes the data better in general but it cannot describe the data quantitively for most of the centrality ranges.
+	\item The correlation strength of $v_3$ and $v_2$,  $v_4$ and $v_3$ (NSC(3,2) and NSC(4,3)) is underestimated in hydrodynamic model calculations.
+	\item The sign of NSC(3,2) in 0-10\% central collisions was found to be different between the data and hydrodynamic model calculations while the default AMPT model can reproduce the sign.
+	\item The default AMPT model can describe the normalized symmetric cumulants (NSC($m$,$n$)) quantitively for most of centralities.
 	\item The hadronic rescattering in AMPT model makes the correlation strength (NSC) larger.
-\end{itemize}
+	\item A hierarchy NSC(5,3) $>$ NSC(4,2) $>$ NSC(5,2) holds for centrality ranges $>20\%$ within the errors and NSC(5,2) is smaller than NSC(5,3) while SC(5,2) is larger that SC(5,3). This hierarchy is well reproduced both by hydrodynamic and AMPT model calculations.
 
-\pagebreak
+\end{enumerate}
+
 
 \subsection{Transverse Momentum Dependence of Correlations between $v_2$, $v_3$ and $v_4$}
 \label{sec:ptdepsc}
