@@ -61,7 +61,7 @@ The new observables are particularly robust against few-particle non-flow correl
 It was demonstrated that they are sensitive to the temperature dependence of $\eta/s$ of the expanding medium and therefore simultaneous descriptions of different order harmonic correlations would constrain both the initial conditions and the medium properties~\cite{ALICE:2016kpq,Zhu:2016puf}.
 In this article, we have extended the analysis of SC observables to higher order Fourier harmonics (up to $5^{\mathrm{th}}$ order) as well as to $p_{\rm T}$ dependence of correlations for the lower order harmonics ($v_3$-$v_2$ and $v_4$-$v_2$).  We also include extensive comparison to hydrodynamic and AMPT model calculations.
 In Sec.~\ref{sec:method} we summarize our findings from the previous work~\cite{ALICE:2016kpq} and present the analysis methods. The experimental setting and measurements are described in Sec.~\ref{sec:experiment} and the sources of systematic uncertainties are explained in Sec.~\ref{sec:uncertainties}. The results of the measurements are presented in Sec.~\ref{sec:results}. 
- In Sec.~\ref{sec:theory} we present comparisons to theoretical calculations. Various theoretical models used in the article are described in Sec.~\ref{sec:models}. Sec.~\ref{sec:summary} summarizes our findings.
+ In Sec.~\ref{sec:theory} we present comparisons to theoretical calculations. Various theoretical models used in the article are described in Sec.~\ref{sec:theory}. Sec.~\ref{sec:summary} summarizes our findings.
  
  
 % Experimental observables
@@ -233,14 +233,14 @@ NSC(4,2) shows a moderate decreasing trend as $p_{\rm T}$ or the centrality incr
 
 \section{Model Comparisons}
 \label{sec:theory}
-\subsection{Theoretical models}
-\label{sec:models}
+%\subsection{Theoretical models}
+%\label{sec:models}
 %We have used various models in this article. The {\sc HIJING} model~\cite{Wang:1991hta,Gyulassy:1994ew} was utilized to obtain the $p_{\rm T}$-weights~\cite{Bilandzic:2013kga} which were used to estimate systematic bias due to non-uniform reconstruction efficiency as a function of transverse momentum. 
 %Secondly, the HIJING model was used to estimate the strength of non-flow correlations (typically few-particle correlations insensitive to the collision geometry). 
 %We have evaluated the observables of interest in coordinate space by modeling the initial conditions with a MC-Glauber model~\cite{Miller:2007ri}. 
 We have compared the centrality dependence of our observables with the event-by-event EKRT+viscous hydrodynamic calculations~\cite{Niemi:2015qia}, where the initial energy density profiles are calculated using a next-to-leading order perturbative-QCD+saturation model~\cite{Paatelainen:2012at,Paatelainen:2013eea}. The subsequent spacetime evolution is described by relativistic dissipative fluid dynamics with different parameterizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$. 
 This model gives a good description of the charged hadron multiplicity and the low $p_{\rm T}$ region of the charged hadron spectra at RHIC and the LHC (see Fig.~11-13 in \cite{Niemi:2015qia}).
-Each of the $\eta/s(T)$ parameterizations is adjusted to reproduce the measured $v_n$ from central to mid-peripheral collisions. 
+Each of the $\eta/s(T)$ parameterizations is adjusted to reproduce the measured $v_n$ from central to mid-peripheral collisions (see Fig.~14 in \cite{Niemi:2015qia}). 
 %\textbf{Need a short description of event-by-event viscous hydrodynamic calculations from VISH2+1}.
 
 The VISH2+1~\cite{Shen:2010uy,Shen:2014vra} event-by-event calculations for relativistic heavy-ion collisions are based on (2+1)-dimensional viscous hydrodynamics which describes both the QGP phase and the highly dissipative and even off-equilibrium late hadronic stage with fluid dynamics. With well tuned transport coefficients, decoupling temperature  and given initial condition discussed later, it could describe the $p_{\rm T}$ spectra and different flow harmonics at RHIC and the LHC~\cite{Qiu:2011hf, Shen:2010uy, Shen:2011eg, Bhalerao:2015iya}.
@@ -278,21 +278,23 @@ The use of SC$(m,n)$ and NSC$(m,n)$ can provide new constraints on the detailed 
         \end{center}   
  \end{figure*}
  
-The results with the comparison to VISH2+1 calculation~\cite{Zhu:2016puf} are shown in Fig.~\ref{fig:Figure_3}.  All calculations with large $\eta/s$ regardless of the initial conditions ($\eta/s=0.2$ for MC-KLN and MC-Glauber initial conditions and $\eta/s=0.16$ for AMPT initial condition) fail to capture the centrality dependence of SC(3,2) and SC(4,2). 
-Among the calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial condition describes the data better both for SC(3,2) and SC(4,2) in general but it cannot describe the data quantitively for most of the centrality ranges.
-Similarly to hydrodynamic calculations~\cite{Niemi:2015qia}, the sign of the normalized NSC(3,2) in the model calculations in Fig~\ref{fig:Figure_3} is opposite to that in data in 0-10\% central collisions. NSC(3,2) does not show sensitivity to initial conditions nor to different $\eta/s$ parameterizations and cannot be described by these models quantitively.
-However NSC(4,2) is sensitive both to initial conditions and $\eta/s$ parameterizations.
-Even though NSC(4,2) favors both AMPT initial condition with $\eta/s=0.08$ and MC-Glauber initial condition with $\eta/s=0.20$,
-SC(4,2) can be only described by smaller $\eta/s$ from AMPT and MC-Glauber initial conditions. Hence the calculations with large $\eta/s=0.20$ is ruled out. We conclude that $\eta/s$ should be small and AMPT initial condition is favored by the data.
-
 \begin{figure*}[!]
 	\begin{center}
         	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC32_ampt.eps}}
         	\resizebox{0.42\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC42_ampt.eps}}
-        \caption{SC(3,2) (a) and SC(4,2) (b) are compared to various AMPT models. Upper panels (lower) are the results of SC$(m,n)$ (NSC$(m,n)$). The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
+        \caption{SC(3,2) (a) and SC(4,2) (b) are compared to various AMPT models. Upper panels (lower) are the results of SC$(m,n)$ (NSC$(m,n)$).}
         \label{fig:Figure_4}
         \end{center}   
  \end{figure*}
+ 
+The results with the comparison to VISH2+1 calculation~\cite{Zhu:2016puf} are shown in Fig.~\ref{fig:Figure_3}.  All calculations with large $\eta/s$ regardless of the initial conditions ($\eta/s=0.2$ for MC-KLN and MC-Glauber initial conditions and $\eta/s=0.16$ for AMPT initial condition) fail to capture the centrality dependence of SC(3,2) and SC(4,2). 
+Among the calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial condition describes the data better both for SC(3,2) and SC(4,2) in general but it cannot describe the data quantitively for most of the centrality ranges.
+Similarly to the event-by-event EKRT+viscous hydrodynamic calculations~\cite{Niemi:2015qia}, the sign of the normalized NSC(3,2) in the model calculations in Fig~\ref{fig:Figure_3} is opposite to that in data in 0-10\% central collisions. NSC(3,2) does not show sensitivity to the initial conditions nor to the different $\eta/s$ parameterizations used in the models and cannot be described by these models quantitively.
+However NSC(4,2) is sensitive both to the initial conditions and the $\eta/s$ parameterizations used in the models.
+Even though NSC(4,2) favors both AMPT initial condition with $\eta/s=0.08$ and MC-Glauber initial condition with $\eta/s=0.20$,
+SC(4,2) can be only described by smaller $\eta/s$ from AMPT and MC-Glauber initial conditions. Hence the calculations with large $\eta/s=0.20$ is ruled out. We conclude that $\eta/s$ should be small and AMPT initial condition is favored by the data.
+
+ 
 The SC($m$,$n$) calculated from AMPT simulations are compared to data in Fig.~\ref{fig:Figure_4}.
 As for SC(3,2), none of the calculations can describe the data and the calculation with the default AMPT setting follows the trend of the data closest. The same default calculation can describe the sign and magnitude of NSC(3,2) while the hydrodynamic calculations failed to describe the sign and magnitude of the observable in the most central collisions.
 Interestingly the string melting AMPT model cannot reproduce the data and the strength of the correlation is weaker than in data.
@@ -344,7 +346,7 @@ SC(4,3) data is clearly favored by smaller $\eta/s$ but NSC(4,3) cannot be descr
         	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC52_ampt.eps}}
         	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC53_ampt.eps}}
         	\resizebox{0.32\columnwidth}{!}{\includegraphics{figs/fig3_QConly_ModelComparison_SC43_ampt.eps}}
-        \caption{Results of  SC(5,2), SC(5,3) and SC(4,3) are compared to various AMPT models. Upper panels are the results of SC$(m,n)$ and the lower panels are the results of NSC$(m,n)$. The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
+        \caption{Results of  SC(5,2), SC(5,3) and SC(4,3) are compared to various AMPT models. Upper panels are the results of SC$(m,n)$ and the lower panels are the results of NSC$(m,n)$.}
         \label{fig:Figure_7}
         \end{center}   
  \end{figure*}
@@ -376,9 +378,9 @@ We list here important findings from the model comparison:
 	\item Among the VISH2+1 model calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial condition describes the data better in general but it cannot describe the data quantitively for most of the centrality ranges.
 	\item The correlation strength of $v_3$ and $v_2$,  $v_4$ and $v_3$ (NSC(3,2) and NSC(4,3)) is underestimated in hydrodynamic model calculations.
 	\item The sign of NSC(3,2) in 0-10\% central collisions was found to be different between the data and hydrodynamic model calculations while the default AMPT model can reproduce the sign.
-	\item The default AMPT model can describe the normalized symmetric cumulants (NSC($m$,$n$)) quantitively for most of centralities.
+	\item The default AMPT model can describe the normalized symmetric cumulants (NSC($m$,$n$)) quantitively for most of centralities while the string melting AMPT model fails to describe them.
 	\item The hadronic rescattering in AMPT model makes the correlation strength (NSC) larger.
-	\item A hierarchy NSC(5,3) $>$ NSC(4,2) $>$ NSC(5,2) holds for centrality ranges $>20\%$ within the errors and NSC(5,2) is smaller than NSC(5,3) while SC(5,2) is larger that SC(5,3). This hierarchy is well reproduced both by hydrodynamic and AMPT model calculations.
+	\item A hierarchy NSC(5,3) $>$ NSC(4,2) $>$ NSC(5,2) holds for centrality ranges $>20\%$ within the errors. This hierarchy is well reproduced both by hydrodynamic and AMPT model calculations.
 
 \end{enumerate}
 
@@ -395,7 +397,7 @@ In oder to see the trend more clearly, we show NSC($m$,$n$) results as a functio
               \resizebox{0.95\textwidth}{!}{\includegraphics{figs/fig5_QConly_xminpt_nSC32.eps}}
               \resizebox{0.95\textwidth}{!}{\includegraphics{figs/fig5_QConly_xminpt_nSC42.eps}}
               \end{center}
-             \caption{NSC(3,2) (Top) and NSC(4,2) (Bottom) as a function of minimum $p_{\rm T}$ cuts are compared to various AMPT models. The details of the AMPT configurations can be found in Sec.~\ref{sec:models}.}
+             \caption{NSC(3,2) (Top) and NSC(4,2) (Bottom) as a function of minimum $p_{\rm T}$ cuts are compared to various AMPT models.}
              \label{fig:Figure_8}
 \end{figure}
 
