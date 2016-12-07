@@ -54,7 +54,7 @@ $v_4$ and higher order flow coefficients can arise from initial anisotropies in 
 The higher harmonics ($n>3$) can be understood as superpositions of linear and nonlinear responses, through which they are correlated with lower order harmonics~\cite{Teaney:2012ke,Bravina:2013ora,Gubser:2010ui,Hatta:2014jva}. When the order of the harmonic is large, the nonlinear response contribution in viscous hydrodynamics is dominant and increases in more peripheral collisions~\cite{Teaney:2012ke,Bravina:2013ora}.
 The magnitude of the viscous corrections as a function of $p_{\rm T}$ for $v_4$ and $v_5$ is sensitive to the ansatz used for the viscous distribution function, a correction for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad,Teaney:2012ke}.
 %and the $p_{\rm T}$ dependence of linear and nonlinear response contributions to the higher order flow harmonics is discussed further in~\cite{Teaney:2012ke}. 
-Hence, studies of the higher order ($n>3$) to lower order ($v_2$ or $v_3$) harmonic correlations and their $p_{\rm T}$ dependence can help to understand the viscous correction to the momentum distribution at hadronic freeze-out which is among the least understood parts of hydrodynamic calculations~\cite{Teaney:2012ke,Niemi:2015qia}.
+Hence, studies of the higher order ($n>3$) to lower order ($v_2$ or $v_3$) harmonic correlations and their $p_{\rm T}$ dependence can help to understand the viscous correction to the momentum distribution at hadronic freeze-out which is among the least understood parts of hydrodynamic calculations~\cite{Dusling:2009df,Teaney:2012ke,Molnar:2014fva,Niemi:2015qia}.
 
 Recently, the ALICE Collaboration measured for the first time the Symmetric 2-harmonic 4-particle Cumulants (SC), new multiparticle observables which quantify the relationship between event-by-event fluctuations of two different flow harmonics~\cite{ALICE:2016kpq}. 
 The new observables are particularly robust against few-particle non-flow correlations and they provide independent information to recently analyzed symmetry plane correlators. 
@@ -312,11 +312,10 @@ Hence the simultaneous description of SC$(m,n)$ and NSC$(m,n)$ should give bette
 \subsection{Higher Order Harmonic Correlations}
 The higher order harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are compared to several theoretical calculations. 
 The event-by-event EKRT+viscous hydrodynamic predictions with the different parameterizations for the temperature dependence of the shear viscosity to entropy density ratio $\eta/s(T)$ are shown in Fig.~\ref{fig:Figure_5}. 
-While we discussed the comparison to these hydrodynamic model calculations with various temperature dependent $\eta/s$, only the calculations with two parameters which describe the lower order harmonic correlations better are compared to the higher order harmonic correlations. 
-It is seen that the temperature at the minimum of $\eta/s$ for "parm1" is larger than the other parameters.
-The correlations between $v_5$ and $v_2$ and between $v_5$ and $v_3$ are described better than the lower order harmonic correlations. 
-The discrepancy between data and model is observed for the correlation between $v_3$ and $v_2$ is seen also for the correlation between $v_4$ and $v_3$. 
-
+While we discussed the comparison to these hydrodynamic model calculations with various temperature dependent $\eta/s$, only two calculations with the parameters which describe the lower order harmonic correlations better are compared to the higher order harmonic correlations. The other calculations show a quite clear deviation from the data. 
+As it is seen in Fig.~1 from Ref.~\cite{Niemi:2015qia} that the temperature at the minimum of $\eta/s$ for "param1" (at $T$ = 150~MeV) is smaller than the other parameters used. The model calculations with the parameters whose temperature at the minimum of $\eta/s$ is larger than "param1" can be ruled out.
+As shown in Fig.~\ref{fig:Figure_5}, the correlations between $v_5$ and $v_2$ and between $v_5$ and $v_3$ are well described. The model calculations give better description than the correlations between $v_4$ and $v_2$. 
+In the case of the correlation between $v_4$ and $v_3$, the same models underestimate the data significantly like the correlation between $v_3$ and $v_2$.
 
 \begin{figure*}[!]
             \begin{center}
@@ -379,10 +378,10 @@ NSC($m$,$n$) correlators increase with the larger $\eta/s$ in hydrodynamic calcu
 
 We list here important findings from the model comparison:
 \begin{enumerate}[(i)]
-	\item NSC(3,2) observable is sensitive mainly to the initial conditions, while the other observables are sensitive to both the initial conditions and the temperature dependence of $\eta/s$.
 	\item All the VISH2+1 model calculations with large $\eta/s$ regardless of the initial conditions failed to capture the centrality dependence of correlations.
 	\item Among the VISH2+1 model calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial condition describes the data better in general but it cannot describe the data quantitively for most of the centrality ranges.
-	\item The correlation strength of $v_3$ and $v_2$,  $v_4$ and $v_3$ (NSC(3,2) and NSC(4,3)) is underestimated in hydrodynamic model calculations.
+	\item NSC(3,2) observable is sensitive mainly to the initial conditions, while the other observables are sensitive to both the initial conditions and the temperature dependence of $\eta/s$.
+	\item The correlation strength between $v_3$ and $v_2$ and between $v_4$ and $v_3$ (NSC(3,2) and NSC(4,3)) is significantly underestimated in hydrodynamic model calculations.
 	\item The sign of NSC(3,2) in 0-10\% central collisions was found to be different between the data and hydrodynamic model calculations while the default AMPT model can reproduce the sign.
 	\item The default AMPT model can describe the normalized symmetric cumulants (NSC($m$,$n$)) quantitively for most of centralities while the string melting AMPT model fails to describe them.
 	%\item The hadronic rescattering in AMPT model makes the correlation strength (NSC) larger.
@@ -403,7 +402,7 @@ In oder to see the trend more clearly, we show NSC($m$,$n$) results as a functio
               \resizebox{0.95\textwidth}{!}{\includegraphics{figs/fig5_QConly_xminpt_nSC32_EKRT.eps}}
               \resizebox{0.95\textwidth}{!}{\includegraphics{figs/fig5_QConly_xminpt_nSC42_EKRT.eps}}
               \end{center}
-             \caption{NSC(3,2) (Top) and NSC(4,2) (Bottom) as a function of minimum $p_{\rm T}$ cuts in $\PbPb$ collisions at $\snn=2.76$~TeV are compared to various AMPT models and event-by-event EKRT+viscous hydrodynamic calculations~\ref{Niemi:2015qia}.}
+             \caption{NSC(3,2) (Top) and NSC(4,2) (Bottom) as a function of minimum $p_{\rm T}$ cuts in $\PbPb$ collisions at $\snn=2.76$~TeV are compared to various AMPT models and event-by-event EKRT+viscous hydrodynamic calculations~\cite{Niemi:2015qia}.}
              \label{fig:Figure_8}
 \end{figure}
 
@@ -415,8 +414,11 @@ As for  NSC(4,2), the same model which describes NSC(3,2) also can reproduce the
 When the string melting AMPT model is compared to the same model with the hadronic rescattering off, it is observed that the very strong $p_{\rm T}$ dependence as well as the correlation strength gets weaker by the hadronic rescattering.
 This might imply that the hadronic interaction is the source of this observed $p_{\rm T}$ dependence even though the relative contributions from partonic and hadronic stage in the final state particle should be studied further.
 
-The event-by-event EKRT+viscous hydrodynamic calculations are compared to data in Fig.~\ref{fig:Figure_8}.
-Only two calculations which describe the data better are shown. 
+The event-by-event EKRT+viscous hydrodynamic calculations are compared to the data in Fig.~\ref{fig:Figure_8}.
+As it has been discussed in Sec~\ref{sec:theory_loworder}, NSC(3,2) is underestimated by the hydrodynamic calculations. 
+The hydrodynamic calculations show very weak $p_{\rm T}$ dependence for NSC(3,2) and a moderate $p_{\rm T}$ dependence for NSC(4,2).
+The $p_{\rm T}$ dependence of NSC(3,2) is well described by the model calculations except for the centrality range 40-50\% where the correlation strength gets stronger with increasing $p_{\rm T}$. 
+In the case of NSC(4,2), the $p_{\rm T}$ dependence is well described in all centrality ranges reported. 
 
 This observed moderate $p_{\rm T}$ dependence in mid-central collisions both for NSC(3,2) and NSC(4,2) might be an indication of possible viscous corrections for the equilibrium distribution at hadronic freeze-out predicted in ~\cite{Luzum:2010ad}.
 The comparisons to hydrodynamic models can further help to understand the viscous correction to the momentum distribution at hadronic freeze-out~\cite{Teaney:2012ke,Niemi:2015qia}.
@@ -439,8 +441,9 @@ The default configuration of AMPT model describes well the normalized symmetric 
 Finally, we have found that $v_3$ and $v_2$, $v_4$ and $v_2$ correlations have moderate $p_{\rm T}$ dependence in mid-central collisions. This might be an indication of possible viscous corrections for the equilibrium distribution at hadronic freeze-out.
 The results presented in this article can be used to further optimize model parameters and put better constraints on the initial conditions and the transport properties of nuclear matter in ultra-relativistic heavy-ion collisions.
 
-%\section{Discussion}
+%\section{Outlooks}
+%\label{sec:outlook}
 %Interpretation of flow results obtained with multiparticle correlation techniques in small colliding systems, like pp and p--Pb at LHC, remains a challenge. The underlying difficulty stems from the fact that when anisotropic flow harmonic $v_n$ is estimated with $k$-particle correlator, the statistical spread of that estimate scales to leading order as $\sigma_{v_{n}}\sim\frac{1}{\sqrt{N}}\frac{1}{M^{k/2}}\frac{1}{v_{n}^{k-1}}$, where $M$ is the number of particles in an event (multiplicity) and $N$ is total number of events. This generic scaling ensures that multiparticle correlations are precision method only in heavy-ion collisions, characterized both with large values of multiplicity and flow. To leading order the measurements in small systems~\cite{Aad:2013fja,Abelev:2014mda,Khachatryan:2015waa,Adamczyk:2015xjc,Adare:2015ctn} and the measurements in heavy-ion collisions resemble the same features, which can be attributed to collective anisotropic flow in both cases. However, such interpretation is challenged by the outcome of recent Monte Carlo study~\cite{Loizides:2016tew} for $e^+e^-$ systems in which collective effects are not expected. Nonetheless, in this study to leading order multiparticle correlations exhibit yet again the similar universal trends first seen in heavy-ion collisions, both for elliptic and triangular flow. Therefore, it seems unlikely that the analysis of individual flow harmonics with multiparticle techniques will answer whether collective effects can develop and QGP be formed in small systems.
-%Instead observables like SC may shed light on multiparticle correlation measurements in pp and p--Pb. 
-%%%instead new observables, like SC, might provide the final answer due to their better sensitivity~\cite{Niemi:2012aj,ALICE:2016kpq}.
+%%Instead observables like SC may shed light on multiparticle correlation measurements in pp and p--Pb. 
+%%%%instead new observables, like SC, might provide the final answer due to their better sensitivity~\cite{Niemi:2012aj,ALICE:2016kpq}.
 
