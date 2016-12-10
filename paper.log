@@ -1,0 +1,1098 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.22)  10 DEC 2016 21:13
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**paper.tex
+(./paper.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./cernphprep.cls
+Document Style 'cernphprep'. Version <1.07>, <25 Apr 2016>
+Document Class: cernphprep 2014/01/10
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks20
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+\TX@col@width=\dimen116
+\TX@old@table=\dimen117
+\TX@old@col=\dimen118
+\TX@target=\dimen119
+\TX@delta=\dimen120
+\TX@cols=\count100
+\TX@ftn=\toks21
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip48
+\subfigcapskip=\skip49
+\subfigcaptopadj=\dimen121
+\subfigbottomskip=\skip50
+\subfigcapmargin=\dimen122
+\subfiglabelskip=\skip51
+\c@subfigure=\count101
+\c@lofdepth=\count102
+\c@subtable=\count103
+\c@lotdepth=\count104
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip52
+\subfig@bottom=\skip53
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+Document Class "cernphprep" 1.04 (6 June 2010)
+\c@instfoot=\count105
+(/usr/local/texlive/2015/texmf-dist/tex/latex/truncate/truncate.sty
+Package: truncate 2001/08/20  ver 3.6
+\@Trunc@RestHyph=\toks22
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip54
+\f@ncyO@elh=\skip55
+\f@ncyO@erh=\skip56
+\f@ncyO@olh=\skip57
+\f@ncyO@orh=\skip58
+\f@ncyO@elf=\skip59
+\f@ncyO@erf=\skip60
+\f@ncyO@olf=\skip61
+\f@ncyO@orf=\skip62
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip63
+\bibsep=\skip64
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen123
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count109
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count110
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen124
+\Fld@menulength=\count111
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count115
+\c@bookmark@seq@number=\count116
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip65
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count117
+\output=\toks23
+\linenoprevgraf=\count118
+\linenumbersep=\dimen127
+\linenumberwidth=\dimen128
+\c@linenumber=\count119
+\c@pagewiselinenumber=\count120
+\c@LN@truepage=\count121
+\c@internallinenumber=\count122
+\c@internallinenumbers=\count123
+\quotelinenumbersep=\dimen129
+\bframerule=\dimen130
+\bframesep=\dimen131
+\bframebox=\box28
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+\@enLab=\toks24
+) (./paper.aux)
+\openout1 = `paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 10.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count124
+\scratchdimen=\dimen132
+\scratchbox=\box29
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen133
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks26
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring OFF on input line 10.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count130
+)
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
+
+(./paper.out) (./paper.out)
+\@outlinefile=\write3
+\openout3 = `paper.out'.
+
+ <alicelogo.pdf, id=48, 116.1138pt x 142.61281pt>
+File: alicelogo.pdf Graphic file (type pdf)
+
+<use alicelogo.pdf>
+Package pdftex.def Info: alicelogo.pdf used on input line 35.
+(pdftex.def)             Requested size: 46.3313pt x 56.9055pt.
+ <cernlogo.pdf, id=49, 426.59375pt x 427.5975pt>
+File: cernlogo.pdf Graphic file (type pdf)
+
+<use cernlogo.pdf>
+Package pdftex.def Info: cernlogo.pdf used on input line 35.
+(pdftex.def)             Requested size: 56.76749pt x 56.9055pt.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 35.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 35
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 35
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 35
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 35
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+
+(./abstract.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+) [1
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./alice
+logo.pdf> <./cernlogo.pdf>] (./longSC.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+ [2
+
+] [3] [4]
+[5]
+Package epstopdf Info: Source file: <figs/fig2_QConly_higherSC.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 11207 bytes
+(epstopdf)             Output file: <figs/fig2_QConly_higherSC-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 12055 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig2_QConly_higherSC-
+eps-converted-to.pdf figs/fig2_QConly_higherSC.eps>
+(epstopdf)             \includegraphics on input line 188.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig2_QConly_higherSC-eps-converted-to.pdf, id=257, 569.12625pt x 409.53pt
+>
+File: figs/fig2_QConly_higherSC-eps-converted-to.pdf Graphic file (type pdf)
+ <use figs/fig2_QConly_higherSC-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig2_QConly_higherSC-eps-converted-to.pdf used on
+ input line 188.
+(pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
+Package epstopdf Info: Source file: <figs/fig2_QConly_higherNSC.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 16726 bytes
+(epstopdf)             Output file: <figs/fig2_QConly_higherNSC-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 12458 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig2_QConly_higherNSC
+-eps-converted-to.pdf figs/fig2_QConly_higherNSC.eps>
+(epstopdf)             \includegraphics on input line 189.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig2_QConly_higherNSC-eps-converted-to.pdf, id=258, 569.12625pt x 409.53p
+t>
+File: figs/fig2_QConly_higherNSC-eps-converted-to.pdf Graphic file (type pdf)
+ <use figs/fig2_QConly_higherNSC-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig2_QConly_higherNSC-eps-converted-to.pdf used o
+n input line 189.
+(pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
+ [6 <./figs/fig2_QConly_higherSC-eps-converted-to.pdf> <./figs/fig2_QConly_high
+erNSC-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/fig4_QConly_SC_ptdep.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 15552 bytes
+(epstopdf)             Output file: <figs/fig4_QConly_SC_ptdep-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 13710 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig4_QConly_SC_ptdep-
+eps-converted-to.pdf figs/fig4_QConly_SC_ptdep.eps>
+(epstopdf)             \includegraphics on input line 210.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig4_QConly_SC_ptdep-eps-converted-to.pdf, id=298, 569.12625pt x 409.53pt
+>
+File: figs/fig4_QConly_SC_ptdep-eps-converted-to.pdf Graphic file (type pdf)
+ <use figs/fig4_QConly_SC_ptdep-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig4_QConly_SC_ptdep-eps-converted-to.pdf used on
+ input line 210.
+(pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
+Package epstopdf Info: Source file: <figs/fig4_QConly_nSC_ptdep.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 18198 bytes
+(epstopdf)             Output file: <figs/fig4_QConly_nSC_ptdep-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 14577 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig4_QConly_nSC_ptdep
+-eps-converted-to.pdf figs/fig4_QConly_nSC_ptdep.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig4_QConly_nSC_ptdep-eps-converted-to.pdf, id=299, 569.12625pt x 409.53p
+t>
+File: figs/fig4_QConly_nSC_ptdep-eps-converted-to.pdf Graphic file (type pdf)
+ <use figs/fig4_QConly_nSC_ptdep-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig4_QConly_nSC_ptdep-eps-converted-to.pdf used o
+n input line 211.
+(pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
+Package epstopdf Info: Source file: <figs/fig4b_QConly_SC_ptdep.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 15825 bytes
+(epstopdf)             Output file: <figs/fig4b_QConly_SC_ptdep-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 14162 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig4b_QConly_SC_ptdep
+-eps-converted-to.pdf figs/fig4b_QConly_SC_ptdep.eps>
+(epstopdf)             \includegraphics on input line 212.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig4b_QConly_SC_ptdep-eps-converted-to.pdf, id=300, 569.12625pt x 409.53p
+t>
+File: figs/fig4b_QConly_SC_ptdep-eps-converted-to.pdf Graphic file (type pdf)
+ <use figs/fig4b_QConly_SC_ptdep-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig4b_QConly_SC_ptdep-eps-converted-to.pdf used o
+n input line 212.
+(pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
+Package epstopdf Info: Source file: <figs/fig4b_QConly_nSC_ptdep.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 20037 bytes
+(epstopdf)             Output file: <figs/fig4b_QConly_nSC_ptdep-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 15513 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig4b_QConly_nSC_ptde
+p-eps-converted-to.pdf figs/fig4b_QConly_nSC_ptdep.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig4b_QConly_nSC_ptdep-eps-converted-to.pdf, id=301, 569.12625pt x 409.53
+pt>
+File: figs/fig4b_QConly_nSC_ptdep-eps-converted-to.pdf Graphic file (type pdf)
+ <use figs/fig4b_QConly_nSC_ptdep-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig4b_QConly_nSC_ptdep-eps-converted-to.pdf used 
+on input line 213.
+(pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
+ [7 <./figs/fig4_QConly_SC_ptdep-eps-converted-to.pdf> <./figs/fig4_QConly_nSC_
+ptdep-eps-converted-to.pdf> <./figs/fig4b_QConly_SC_ptdep-eps-converted-to.pdf>
+ <./figs/fig4b_QConly_nSC_ptdep-eps-converted-to.pdf>] [8]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 281.
+
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC32_vish
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 25069 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC32_vish
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 17894 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC32_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC32_vis
+h.eps>
+(epstopdf)             \includegraphics on input line 283.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC32_vish-eps-converted-to.pdf, id=449, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC32_vish-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC32_vish-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC32_vish-eps-convert
+ed-to.pdf used on input line 283.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC42_vish
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 18964 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC42_vish
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 16006 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC42_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC42_vis
+h.eps>
+(epstopdf)             \includegraphics on input line 284.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC42_vish-eps-converted-to.pdf, id=450, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC42_vish-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC42_vish-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC42_vish-eps-convert
+ed-to.pdf used on input line 284.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 291.
+
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC32_ampt
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 19188 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC32_ampt
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-10 20:51:29
+(epstopdf)                    size: 15572 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC32_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC32_amp
+t.eps>
+(epstopdf)             \includegraphics on input line 293.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC32_ampt-eps-converted-to.pdf, id=453, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC32_ampt-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC32_ampt-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC32_ampt-eps-convert
+ed-to.pdf used on input line 293.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC42_ampt
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 17178 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC42_ampt
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 14577 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC42_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC42_amp
+t.eps>
+(epstopdf)             \includegraphics on input line 294.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC42_ampt-eps-converted-to.pdf, id=454, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC42_ampt-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC42_ampt-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC42_ampt-eps-convert
+ed-to.pdf used on input line 294.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+ [9]
+[10 <./figs/fig3_QConly_ModelComparison_SC32_vish-eps-converted-to.pdf> <./figs
+/fig3_QConly_ModelComparison_SC42_vish-eps-converted-to.pdf> <./figs/fig3_QConl
+y_ModelComparison_SC32_ampt-eps-converted-to.pdf> <./figs/fig3_QConly_ModelComp
+arison_SC42_ampt-eps-converted-to.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 337.
+
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC52_EKRT
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 16646 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC52_EKRT
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 14809 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC52_EKRT-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC52_EKR
+T.eps>
+(epstopdf)             \includegraphics on input line 339.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC52_EKRT-eps-converted-to.pdf, id=532, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC52_EKRT-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC52_EKRT-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC52_EKRT-eps-convert
+ed-to.pdf used on input line 339.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC53_EKRT
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 17477 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC53_EKRT
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 15154 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC53_EKRT-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC53_EKR
+T.eps>
+(epstopdf)             \includegraphics on input line 340.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC53_EKRT-eps-converted-to.pdf, id=533, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC53_EKRT-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC53_EKRT-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC53_EKRT-eps-convert
+ed-to.pdf used on input line 340.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC43_EKRT
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 18346 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC43_EKRT
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 14862 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC43_EKRT-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC43_EKR
+T.eps>
+(epstopdf)             \includegraphics on input line 341.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC43_EKRT-eps-converted-to.pdf, id=534, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC43_EKRT-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC43_EKRT-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC43_EKRT-eps-convert
+ed-to.pdf used on input line 341.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+ [11 <./figs/fig3_QConly_ModelComparison_SC52_EKRT-eps-converted-to.pdf> <./fig
+s/fig3_QConly_ModelComparison_SC53_EKRT-eps-converted-to.pdf> <./figs/fig3_QCon
+ly_ModelComparison_SC43_EKRT-eps-converted-to.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 356.
+
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC52_vish
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 21082 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC52_vish
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 16856 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC52_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC52_vis
+h.eps>
+(epstopdf)             \includegraphics on input line 358.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC52_vish-eps-converted-to.pdf, id=593, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC52_vish-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC52_vish-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC52_vish-eps-convert
+ed-to.pdf used on input line 358.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC53_vish
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 20390 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC53_vish
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 16396 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC53_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC53_vis
+h.eps>
+(epstopdf)             \includegraphics on input line 359.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC53_vish-eps-converted-to.pdf, id=594, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC53_vish-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC53_vish-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC53_vish-eps-convert
+ed-to.pdf used on input line 359.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC43_vish
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 25146 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC43_vish
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 18241 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC43_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC43_vis
+h.eps>
+(epstopdf)             \includegraphics on input line 360.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC43_vish-eps-converted-to.pdf, id=595, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC43_vish-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC43_vish-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC43_vish-eps-convert
+ed-to.pdf used on input line 360.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 366.
+
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC52_ampt
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 18626 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC52_ampt
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 15413 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC52_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC52_amp
+t.eps>
+(epstopdf)             \includegraphics on input line 368.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC52_ampt-eps-converted-to.pdf, id=598, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC52_ampt-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC52_ampt-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC52_ampt-eps-convert
+ed-to.pdf used on input line 368.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC53_ampt
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 18654 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC53_ampt
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 15262 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC53_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC53_amp
+t.eps>
+(epstopdf)             \includegraphics on input line 369.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC53_ampt-eps-converted-to.pdf, id=599, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC53_ampt-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC53_ampt-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC53_ampt-eps-convert
+ed-to.pdf used on input line 369.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC43_ampt
+.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 20040 bytes
+(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC43_ampt
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 16157 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
+arison_SC43_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC43_amp
+t.eps>
+(epstopdf)             \includegraphics on input line 370.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig3_QConly_ModelComparison_SC43_ampt-eps-converted-to.pdf, id=600, 510.9
+0875pt x 739.76375pt>
+File: figs/fig3_QConly_ModelComparison_SC43_ampt-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figs/fig3_QConly_ModelComparison_SC43_ampt-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig3_QConly_ModelComparison_SC43_ampt-eps-convert
+ed-to.pdf used on input line 370.
+(pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
+ [12 <./figs/fig3_QConly_ModelComparison_SC52_vish-eps-converted-to.pdf> <./fig
+s/fig3_QConly_ModelComparison_SC53_vish-eps-converted-to.pdf> <./figs/fig3_QCon
+ly_ModelComparison_SC43_vish-eps-converted-to.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 410.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 410.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 410.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 410.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 410.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 410.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 410.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 410.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 410.
+
+Package epstopdf Info: Source file: <figs/fig5_QConly_xminpt_nSC32_EKRT.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 36672 bytes
+(epstopdf)             Output file: <figs/fig5_QConly_xminpt_nSC32_EKRT-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 26111 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig5_QConly_xminpt_nS
+C32_EKRT-eps-converted-to.pdf figs/fig5_QConly_xminpt_nSC32_EKRT.eps>
+(epstopdf)             \includegraphics on input line 419.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig5_QConly_xminpt_nSC32_EKRT-eps-converted-to.pdf, id=665, 569.12625pt x
+ 367.3725pt>
+File: figs/fig5_QConly_xminpt_nSC32_EKRT-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use figs/fig5_QConly_xminpt_nSC32_EKRT-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig5_QConly_xminpt_nSC32_EKRT-eps-converted-to.pd
+f used on input line 419.
+(pdftex.def)             Requested size: 569.12486pt x 367.37158pt.
+Package epstopdf Info: Source file: <figs/fig5_QConly_xminpt_nSC42_EKRT.eps>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 43698 bytes
+(epstopdf)             Output file: <figs/fig5_QConly_xminpt_nSC42_EKRT-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2016-12-08 23:00:21
+(epstopdf)                    size: 28824 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/fig5_QConly_xminpt_nS
+C42_EKRT-eps-converted-to.pdf figs/fig5_QConly_xminpt_nSC42_EKRT.eps>
+(epstopdf)             \includegraphics on input line 427.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/fig5_QConly_xminpt_nSC42_EKRT-eps-converted-to.pdf, id=668, 569.12625pt x
+ 367.3725pt>
+File: figs/fig5_QConly_xminpt_nSC42_EKRT-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use figs/fig5_QConly_xminpt_nSC42_EKRT-eps-converted-to.pdf>
+Package pdftex.def Info: figs/fig5_QConly_xminpt_nSC42_EKRT-eps-converted-to.pd
+f used on input line 427.
+(pdftex.def)             Requested size: 569.12486pt x 367.37158pt.
+
+[13 <./figs/fig3_QConly_ModelComparison_SC52_ampt-eps-converted-to.pdf> <./figs
+/fig3_QConly_ModelComparison_SC53_ampt-eps-converted-to.pdf> <./figs/fig3_QConl
+y_ModelComparison_SC43_ampt-eps-converted-to.pdf>] [14 <./figs/fig5_QConly_xmin
+pt_nSC32_EKRT-eps-converted-to.pdf> <./figs/fig5_QConly_xminpt_nSC42_EKRT-eps-c
+onverted-to.pdf>] [15]) (./paper.bbl [16] [17] [18] [19] [20]) [21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+ [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+
+(./paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
+Package rerunfilecheck Info: File `paper.out' has not changed.
+(rerunfilecheck)             Checksum: 834152C11E604075A95C93088A32A5A7;690.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
+ ) 
+Here is how much of TeX's memory you used:
+ 7844 strings out of 493089
+ 117364 string characters out of 6134841
+ 204357 words of memory out of 5000000
+ 10980 multiletter control sequences out of 15000+600000
+ 72205 words of font info for 160 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,15n,45p,1639b,756s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on paper.pdf (22 pages, 547802 bytes).
+PDF statistics:
+ 1121 PDF objects out of 1200 (max. 8388607)
+ 957 compressed objects within 10 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+
