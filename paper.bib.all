@@ -292,6 +292,20 @@
       reportNumber   = "CERN-PH-TH-2013-306",
       SLACcitation   = "%%CITATION = ARXIV:1312.5482;%%"
 }
+@article{Borghini:2005kd,
+      author         = "Borghini, Nicolas and Ollitrault, Jean-Yves",
+      title          = "{Momentum spectra, anisotropic flow, and ideal fluids}",
+      journal        = "Phys. Lett.",
+      volume         = "B642",
+      year           = "2006",
+      pages          = "227-231",
+      doi            = "10.1016/j.physletb.2006.09.062",
+      eprint         = "nucl-th/0506045",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      reportNumber   = "CERN-PH-TH-2005-102, SPHT-T05-107",
+      SLACcitation   = "%%CITATION = NUCL-TH/0506045;%%"
+}
 
 @article{Bravina:2013xla,
       author         = "Bravina, L. V. and Brusheim Johansson, B. H. and
@@ -726,6 +740,20 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevLett.110.012302}}
 
+@article{Luzum:2011mm,
+	Archiveprefix = {arXiv},
+	Author = {Luzum, Matthew},
+	Booktitle = {{Quark matter. Proceedings, 22nd International Conference on Ultra-Relativistic Nucleus-Nucleus Collisions, Quark Matter 2011, Annecy, France, May 23-28, 2011}},
+	Doi = {10.1088/0954-3899/38/12/124026},
+	Eprint = {1107.0592},
+	Journal = {J. Phys.},
+	Pages = {124026},
+	Primaryclass = {nucl-th},
+	Slaccitation = {%%CITATION = ARXIV:1107.0592;%%},
+	Title = {{Flow fluctuations and long-range correlations: elliptic flow and beyond}},
+	Volume = {G38},
+	Year = {2011},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1088/0954-3899/38/12/124026}}
 
 @article{Miller:2003kd,
 	Archiveprefix = {arXiv},
@@ -812,6 +840,21 @@
 	Year = {2011},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevLett.107.032301}}
 	
+@article{Adare:2011tg,
+      author         = "Adare, A. and others",
+      title          = "{Measurements of Higher-Order Flow Harmonics in Au+Au
+                        Collisions at $\sqrt{s_{NN}} = 200$ GeV}",
+      collaboration  = "PHENIX",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "107",
+      year           = "2011",
+      pages          = "252301",
+      doi            = "10.1103/PhysRevLett.107.252301",
+      eprint         = "1105.3928",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1105.3928;%%"
+}
 
 @article{Alver:2010dn,
       author         = "Alver, Burak Han and Gombeaud, Clement and Luzum, Matthew
@@ -863,6 +906,139 @@
       SLACcitation   = "%%CITATION = ARXIV:1605.08303;%%"
 }
 
+@article{Aad:2013fja,
+      author         = "Aad, Georges and others",
+      title          = "{Measurement with the ATLAS detector of multi-particle
+                        azimuthal correlations in p+Pb collisions at
+                        $\sqrt{s_{NN}}$ =5.02 TeV}",
+      collaboration  = "ATLAS",
+      journal        = "Phys. Lett.",
+      volume         = "B725",
+      year           = "2013",
+      pages          = "60-78",
+      doi            = "10.1016/j.physletb.2013.06.057",
+      eprint         = "1303.2084",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2013-029",
+      SLACcitation   = "%%CITATION = ARXIV:1303.2084;%%"
+}
+
+@article{Abelev:2014mda,
+      author         = "Abelev, Betty Bezverkhny and others",
+      title          = "{Multiparticle azimuthal correlations in p -Pb and Pb-Pb
+                        collisions at the CERN Large Hadron Collider}",
+      collaboration  = "ALICE",
+      journal        = "Phys. Rev.",
+      volume         = "C90",
+      year           = "2014",
+      number         = "5",
+      pages          = "054901",
+      doi            = "10.1103/PhysRevC.90.054901",
+      eprint         = "1406.2474",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "CERN-PH-EP-2014-105",
+      SLACcitation   = "%%CITATION = ARXIV:1406.2474;%%"
+}
+
+@article{Khachatryan:2015waa,
+      author         = "Khachatryan, Vardan and others",
+      title          = "{Evidence for Collective Multiparticle Correlations in
+                        p-Pb Collisions}",
+      collaboration  = "CMS",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "115",
+      year           = "2015",
+      number         = "1",
+      pages          = "012301",
+      doi            = "10.1103/PhysRevLett.115.012301",
+      eprint         = "1502.05382",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "CMS-HIN-14-006, CERN-PH-EP-2015-011",
+      SLACcitation   = "%%CITATION = ARXIV:1502.05382;%%"
+}
+
+@article{Adamczyk:2015xjc,
+      author         = "Adamczyk, L. and others",
+      title          = "{Long-range pseudorapidity dihadron correlations in
+                        $d$+Au collisions at $\sqrt{s_{\rm NN}}=200$ GeV}",
+      collaboration  = "STAR",
+      journal        = "Phys. Lett.",
+      volume         = "B747",
+      year           = "2015",
+      pages          = "265-271",
+      doi            = "10.1016/j.physletb.2015.05.075",
+      eprint         = "1502.07652",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1502.07652;%%"
+}
+
+@article{Adare:2015ctn,
+      author         = "Adare, A. and others",
+      title          = "{Measurements of elliptic and triangular flow in
+                        high-multiplicity $^{3}$He$+$Au collisions at
+                        $\sqrt{s_{_{NN}}}=200$ GeV}",
+      collaboration  = "PHENIX",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "115",
+      year           = "2015",
+      number         = "14",
+      pages          = "142301",
+      doi            = "10.1103/PhysRevLett.115.142301",
+      eprint         = "1507.06273",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1507.06273;%%"
+}
+
+@inproceedings{Loizides:2016tew,
+      author         = "Loizides, Constantin",
+      title          = "{Experimental overview on small collision systems at the
+                        LHC}",
+      booktitle      = "{Proceedings, 25th International Conference on
+                        Ultra-Relativistic Nucleus-Nucleus Collisions (Quark
+                        Matter 2015): Kobe, Japan, September 27-October 3, 2015}",
+      year           = "2016",
+      url            = "https://inspirehep.net/record/1424892/files/arXiv:1602.09138.pdf",
+      doi            = "10.1016/j.nuclphysa.2016.04.022",
+      eprint         = "1602.09138",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1602.09138;%%"
+}
+
+
+@article{Renk:2014jja,
+	Archiveprefix = {arXiv},
+	Author = {Renk, Thorsten and Niemi, Harri},
+	Doi = {10.1103/PhysRevC.89.064907},
+	Eprint = {1401.2069},
+	Journal = {Phys. Rev.},
+	Number = {6},
+	Pages = {064907},
+	Primaryclass = {nucl-th},
+	Slaccitation = {%%CITATION = ARXIV:1401.2069;%%},
+	Title = {{Constraints from $v_2$ fluctuations for the initial-state geometry of heavy-ion collisions}},
+	Volume = {C89},
+	Year = {2014},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevC.89.064907}}
+
+@article{Yan:2014nsa,
+	Archiveprefix = {arXiv},
+	Author = {Yan, Li and Ollitrault, Jean-Yves and Poskanzer, Arthur M.},
+	Doi = {10.1016/j.physletb.2015.01.039},
+	Eprint = {1408.0921},
+	Journal = {Phys. Lett.},
+	Pages = {290-295},
+	Primaryclass = {nucl-th},
+	Slaccitation = {%%CITATION = ARXIV:1408.0921;%%},
+	Title = {{Azimuthal Anisotropy Distributions in High-Energy Collisions}},
+	Volume = {B742},
+	Year = {2015},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1016/j.physletb.2015.01.039}}
 
 @article{Teaney:2012ke,
 	Archiveprefix = {arXiv},
@@ -940,6 +1116,19 @@
 	Year = {2014},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevC.89.064904}}
 
+@article{Borghini:2001vi,
+	Archiveprefix = {arXiv},
+	Author = {Borghini, Nicolas and Dinh, Phuong Mai and Ollitrault, Jean-Yves},
+	Doi = {10.1103/PhysRevC.64.054901},
+	Eprint = {nucl-th/0105040},
+	Journal = {Phys. Rev.},
+	Pages = {054901},
+	Primaryclass = {nucl-th},
+	Slaccitation = {%%CITATION = NUCL-TH/0105040;%%},
+	Title = {{Flow analysis from multiparticle azimuthal correlations}},
+	Volume = {C64},
+	Year = {2001},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevC.64.054901}}
 
 @article{Niemi:2012aj,
 	Archiveprefix = {arXiv},
@@ -956,6 +1145,66 @@
 	Year = {2013},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevC.87.054901}}
 
+@article{Bilandzic:2010jr,
+	Archiveprefix = {arXiv},
+	Author = {Bilandzic, Ante and Snellings, Raimond and Voloshin, Sergei},
+	Doi = {10.1103/PhysRevC.83.044913},
+	Eprint = {1010.0233},
+	Journal = {Phys. Rev.},
+	Pages = {044913},
+	Primaryclass = {nucl-ex},
+	Slaccitation = {%%CITATION = ARXIV:1010.0233;%%},
+	Title = {{Flow analysis with cumulants: Direct calculations}},
+	Volume = {C83},
+	Year = {2011},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevC.83.044913}}
+
+@article{PhysRevC.44.1091,
+	Author = {Wang, S. and Jiang, Y. Z. and Liu, Y. M. and Keane, D. and Beavis, D. and Chu, S. Y. and Fung, S. Y. and Vient, M. and Hartnack, C. and St\"ocker, H.},
+	Doi = {10.1103/PhysRevC.44.1091},
+	Issue = {3},
+	Journal = {Phys. Rev. C},
+	Month = {Sep},
+	Numpages = {0},
+	Pages = {1091--1095},
+	Publisher = {American Physical Society},
+	Title = {Measurement of collective flow in heavy-ion collisions using particle-pair correlations},
+	Url = {http://link.aps.org/doi/10.1103/PhysRevC.44.1091},
+	Volume = {44},
+	Year = {1991},
+	Bdsk-Url-1 = {http://link.aps.org/doi/10.1103/PhysRevC.44.1091},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1103/PhysRevC.44.1091}}
+
+@article{Poskanzer:1998yz,
+	Archiveprefix = {arXiv},
+	Author = {Poskanzer, Arthur M. and Voloshin, S. A.},
+	Doi = {10.1103/PhysRevC.58.1671},
+	Eprint = {nucl-ex/9805001},
+	Journal = {Phys. Rev.},
+	Pages = {1671-1678},
+	Primaryclass = {nucl-ex},
+	Slaccitation = {%%CITATION = NUCL-EX/9805001;%%},
+	Title = {{Methods for analyzing anisotropic flow in relativistic nuclear collisions}},
+	Volume = {C58},
+	Year = {1998},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevC.58.1671}}
+
+@article{Luzum:2012da,
+	Archiveprefix = {arXiv},
+	Author = {Luzum, Matthew and Ollitrault, Jean-Yves},
+	Doi = {10.1103/PhysRevC.87.044907},
+	Eprint = {1209.2323},
+	Journal = {Phys. Rev.},
+	Number = {4},
+	Pages = {044907},
+	Primaryclass = {nucl-ex},
+	Reportnumber = {SACLAY-T12-074},
+	Slaccitation = {%%CITATION = ARXIV:1209.2323;%%},
+	Title = {{Eliminating experimental bias in anisotropic-flow measurements of high-energy nuclear collisions}},
+	Volume = {C87},
+	Year = {2013},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevC.87.044907}}
+
 @article{Bilandzic:2013kga,
 	Archiveprefix = {arXiv},
 	Author = {Bilandzic, Ante and Christensen, Christian Holm and Gulbrandsen, Kristjan and Hansen, Alexander and Zhou, You},
@@ -971,6 +1220,15 @@
 	Year = {2014},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevC.89.064904}}
 
+@phdthesis{Bilandzic:2012wva,
+	Author = {Bilandzic, Ante},
+	Reportnumber = {CERN-THESIS-2012-018},
+	School = {Utrecht U.},
+	Slaccitation = {%%CITATION = CERN-THESIS-2012-018;%%},
+	Title = {{Anisotropic flow measurements in ALICE at the large hadron collider}},
+	Url = {https://inspirehep.net/record/1186272/files/CERN-THESIS-2012-018.pdf},
+	Year = {2012},
+	Bdsk-Url-1 = {https://inspirehep.net/record/1186272/files/CERN-THESIS-2012-018.pdf}}
 
 @article{Voloshin:1994mz,
 	Archiveprefix = {arXiv},
@@ -986,6 +1244,21 @@
 	Year = {1996},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s002880050141}}
 
+@article{Barrette:1994xr,
+	Archiveprefix = {arXiv},
+	Author = {Barrette, J. and others},
+	Collaboration = {E877},
+	Doi = {10.1103/PhysRevLett.73.2532},
+	Eprint = {hep-ex/9405003},
+	Journal = {Phys. Rev. Lett.},
+	Pages = {2532-2535},
+	Primaryclass = {hep-ex},
+	Reportnumber = {SUNY-RHI-94-08},
+	Slaccitation = {%%CITATION = HEP-EX/9405003;%%},
+	Title = {{Observation of anisotropic event shapes and transverse flow in Au + Au collisions at AGS energy}},
+	Volume = {73},
+	Year = {1994},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1103/PhysRevLett.73.2532}}
 
 @article{Aamodt:2008zz,
 	Author = {Aamodt, K. and others},
@@ -1103,6 +1376,21 @@
 	Year = {1994},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1016/0010-4655(94)90057-4}}
 
+@article{Abelev:2014ffa,
+	Archiveprefix = {arXiv},
+	Author = {Abelev, Betty Bezverkhny and others},
+	Collaboration = {ALICE},
+	Doi = {10.1142/S0217751X14300440},
+	Eprint = {1402.4476},
+	Journal = {Int. J. Mod. Phys.},
+	Pages = {1430044},
+	Primaryclass = {nucl-ex},
+	Reportnumber = {CERN-PH-EP-2014-031},
+	Slaccitation = {%%CITATION = ARXIV:1402.4476;%%},
+	Title = {{Performance of the ALICE Experiment at the CERN LHC}},
+	Volume = {A29},
+	Year = {2014},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1142/S0217751X14300440}}
 
 @article{Miller:2007ri,
 	Archiveprefix = {arXiv},
@@ -1395,3 +1683,16 @@
 	Volume = {09},
 	Year = {2016},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1007/JHEP09(2016)164}}
+
+@inproceedings{Eskola:2015uda,
+	Archiveprefix = {arXiv},
+	Author = {Eskola, K. J. and Niemi, H. and Paatelainen, R.},
+	Doi = {10.1016/j.nuclphysbps.2016.05.034},
+	Eprint = {1509.02767},
+	Primaryclass = {hep-ph},
+	Slaccitation = {%%CITATION = ARXIV:1509.02767;%%},
+	Title = {{Pinning down QCD-matter shear viscosity in ultrarelativistic heavy-ion collisions via EbyE fluctuations using pQCD + saturation + hydrodynamics}},
+	Url = {http://inspirehep.net/record/1392658/files/arXiv:1509.02767.pdf},
+	Year = {2016},
+	Bdsk-Url-1 = {http://inspirehep.net/record/1392658/files/arXiv:1509.02767.pdf},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.nuclphysbps.2016.05.034}}
