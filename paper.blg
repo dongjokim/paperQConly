@@ -7,6 +7,7 @@ Repeated entry---line 179 of file paper.bib.bib
  : @article{Abelev:2012di
  :                       ,
 I'm skipping whatever remains of this entry
+<<<<<<< HEAD
 Repeated entry---line 714 of file paper.bib.bib
  : @article{Gale:2012rq
  :                     ,
@@ -36,6 +37,37 @@ Repeated entry---line 1150 of file paper.bib.bib
  :                     ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 1216 of file paper.bib.bib
+=======
+Repeated entry---line 728 of file paper.bib.bib
+ : @article{Gale:2012rq
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 891 of file paper.bib.bib
+ : @article{Giacalone:2016afq
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1057 of file paper.bib.bib
+ : @article{Bravina:2013ora
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1208 of file paper.bib.bib
+ : @article{Bilandzic:2013kga
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1315 of file paper.bib.bib
+ : @article{Aamodt:2010cz
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1331 of file paper.bib.bib
+ : @article{Aamodt:2010pa
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1438 of file paper.bib.bib
+ : @article{Zhu:2016puf
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1504 of file paper.bib.bib
+>>>>>>> origin/master
  : @article{Bhalerao:2015iya
  :                          ,
 I'm skipping whatever remains of this entry
