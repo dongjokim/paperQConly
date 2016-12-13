@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.22)  10 DEC 2016 21:13
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.22)  8 DEC 2016 22:34
->>>>>>> origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.22)  10 DEC 2016 21:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -381,7 +377,6 @@ Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
-<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
@@ -397,23 +392,6 @@ LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 10.
-=======
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 9.
->>>>>>> origin/master
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -446,11 +424,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box30
-<<<<<<< HEAD
 Package hyperref Info: Link coloring OFF on input line 10.
-=======
-Package hyperref Info: Link coloring OFF on input line 9.
->>>>>>> origin/master
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -460,15 +434,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count130
 )
-<<<<<<< HEAD
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
 LaTeX Info: Redefining \nameref on input line 10.
-=======
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
->>>>>>> origin/master
 
 (./paper.out) (./paper.out)
 \@outlinefile=\write3
@@ -478,78 +446,48 @@ LaTeX Info: Redefining \nameref on input line 9.
 File: alicelogo.pdf Graphic file (type pdf)
 
 <use alicelogo.pdf>
-<<<<<<< HEAD
 Package pdftex.def Info: alicelogo.pdf used on input line 35.
-=======
-Package pdftex.def Info: alicelogo.pdf used on input line 34.
->>>>>>> origin/master
 (pdftex.def)             Requested size: 46.3313pt x 56.9055pt.
  <cernlogo.pdf, id=49, 426.59375pt x 427.5975pt>
 File: cernlogo.pdf Graphic file (type pdf)
 
 <use cernlogo.pdf>
-<<<<<<< HEAD
 Package pdftex.def Info: cernlogo.pdf used on input line 35.
 (pdftex.def)             Requested size: 56.76749pt x 56.9055pt.
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 35.
-=======
-Package pdftex.def Info: cernlogo.pdf used on input line 34.
-(pdftex.def)             Requested size: 56.76749pt x 56.9055pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 34.
->>>>>>> origin/master
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-<<<<<<< HEAD
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 35
-=======
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 34
->>>>>>> origin/master
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 35
-=======
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 34
->>>>>>> origin/master
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 35
-=======
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 34
->>>>>>> origin/master
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 35
-=======
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 34
->>>>>>> origin/master
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-<<<<<<< HEAD
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
@@ -567,25 +505,6 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-=======
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
->>>>>>> origin/master
 
 (./abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -602,19 +521,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 ] [3] [4]
 [5]
 Package epstopdf Info: Source file: <figs/fig2_QConly_higherSC.eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 11207 bytes
 (epstopdf)             Output file: <figs/fig2_QConly_higherSC-eps-converted-to
 .pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 11207 bytes
-(epstopdf)             Output file: <figs/fig2_QConly_higherSC-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 12055 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig2_QConly_higherSC-
 eps-converted-to.pdf figs/fig2_QConly_higherSC.eps>
@@ -629,19 +540,11 @@ Package pdftex.def Info: figs/fig2_QConly_higherSC-eps-converted-to.pdf used on
  input line 188.
 (pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
 Package epstopdf Info: Source file: <figs/fig2_QConly_higherNSC.eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 16726 bytes
 (epstopdf)             Output file: <figs/fig2_QConly_higherNSC-eps-converted-t
 o.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 16726 bytes
-(epstopdf)             Output file: <figs/fig2_QConly_higherNSC-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 12458 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig2_QConly_higherNSC
 -eps-converted-to.pdf figs/fig2_QConly_higherNSC.eps>
@@ -658,19 +561,11 @@ n input line 189.
  [6 <./figs/fig2_QConly_higherSC-eps-converted-to.pdf> <./figs/fig2_QConly_high
 erNSC-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/fig4_QConly_SC_ptdep.eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 15552 bytes
 (epstopdf)             Output file: <figs/fig4_QConly_SC_ptdep-eps-converted-to
 .pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 15552 bytes
-(epstopdf)             Output file: <figs/fig4_QConly_SC_ptdep-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 13710 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig4_QConly_SC_ptdep-
 eps-converted-to.pdf figs/fig4_QConly_SC_ptdep.eps>
@@ -685,19 +580,11 @@ Package pdftex.def Info: figs/fig4_QConly_SC_ptdep-eps-converted-to.pdf used on
  input line 210.
 (pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
 Package epstopdf Info: Source file: <figs/fig4_QConly_nSC_ptdep.eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 18198 bytes
 (epstopdf)             Output file: <figs/fig4_QConly_nSC_ptdep-eps-converted-t
 o.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 18198 bytes
-(epstopdf)             Output file: <figs/fig4_QConly_nSC_ptdep-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 14577 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig4_QConly_nSC_ptdep
 -eps-converted-to.pdf figs/fig4_QConly_nSC_ptdep.eps>
@@ -712,19 +599,11 @@ Package pdftex.def Info: figs/fig4_QConly_nSC_ptdep-eps-converted-to.pdf used o
 n input line 211.
 (pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
 Package epstopdf Info: Source file: <figs/fig4b_QConly_SC_ptdep.eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 15825 bytes
 (epstopdf)             Output file: <figs/fig4b_QConly_SC_ptdep-eps-converted-t
 o.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 15825 bytes
-(epstopdf)             Output file: <figs/fig4b_QConly_SC_ptdep-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 14162 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig4b_QConly_SC_ptdep
 -eps-converted-to.pdf figs/fig4b_QConly_SC_ptdep.eps>
@@ -739,19 +618,11 @@ Package pdftex.def Info: figs/fig4b_QConly_SC_ptdep-eps-converted-to.pdf used o
 n input line 212.
 (pdftex.def)             Requested size: 569.12486pt x 409.52899pt.
 Package epstopdf Info: Source file: <figs/fig4b_QConly_nSC_ptdep.eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 20037 bytes
 (epstopdf)             Output file: <figs/fig4b_QConly_nSC_ptdep-eps-converted-
 to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 20037 bytes
-(epstopdf)             Output file: <figs/fig4b_QConly_nSC_ptdep-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 15513 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig4b_QConly_nSC_ptde
 p-eps-converted-to.pdf figs/fig4b_QConly_nSC_ptdep.eps>
@@ -774,19 +645,11 @@ LaTeX Warning: No positions in optional float specifier.
 
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC32_vish
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 25069 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC32_vish
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 25069 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC32_vish
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 17894 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC32_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC32_vis
@@ -805,19 +668,11 @@ ed-to.pdf used on input line 283.
 (pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC42_vish
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 18964 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC42_vish
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 18964 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC42_vish
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 16006 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC42_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC42_vis
@@ -841,21 +696,12 @@ LaTeX Warning: No positions in optional float specifier.
 
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC32_ampt
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 19188 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC32_ampt
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-10 20:51:29
 (epstopdf)                    size: 15572 bytes
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 19188 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC32_ampt
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 15641 bytes
->>>>>>> origin/master
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC32_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC32_amp
 t.eps>
@@ -873,19 +719,11 @@ ed-to.pdf used on input line 293.
 (pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC42_ampt
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 17178 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC42_ampt
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 17178 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC42_ampt
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 14577 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC42_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC42_amp
@@ -913,19 +751,11 @@ LaTeX Warning: No positions in optional float specifier.
 
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC52_EKRT
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 16646 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC52_EKRT
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 16646 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC52_EKRT
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 14809 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC52_EKRT-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC52_EKR
@@ -944,19 +774,11 @@ ed-to.pdf used on input line 339.
 (pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC53_EKRT
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 17477 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC53_EKRT
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 17477 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC53_EKRT
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 15154 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC53_EKRT-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC53_EKR
@@ -975,19 +797,11 @@ ed-to.pdf used on input line 340.
 (pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC43_EKRT
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 18346 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC43_EKRT
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 18346 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC43_EKRT
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 14862 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC43_EKRT-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC43_EKR
@@ -1013,19 +827,11 @@ LaTeX Warning: No positions in optional float specifier.
 
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC52_vish
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 21082 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC52_vish
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 21082 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC52_vish
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 16856 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC52_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC52_vis
@@ -1044,19 +850,11 @@ ed-to.pdf used on input line 358.
 (pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC53_vish
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 20390 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC53_vish
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 20390 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC53_vish
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 16396 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC53_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC53_vis
@@ -1075,19 +873,11 @@ ed-to.pdf used on input line 359.
 (pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC43_vish
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 25146 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC43_vish
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 25146 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC43_vish
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 18241 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC43_vish-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC43_vis
@@ -1111,19 +901,11 @@ LaTeX Warning: No positions in optional float specifier.
 
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC52_ampt
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 18626 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC52_ampt
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 18626 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC52_ampt
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 15413 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC52_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC52_amp
@@ -1142,19 +924,11 @@ ed-to.pdf used on input line 368.
 (pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC53_ampt
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 18654 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC53_ampt
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 18654 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC53_ampt
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 15262 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC53_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC53_amp
@@ -1173,19 +947,11 @@ ed-to.pdf used on input line 369.
 (pdftex.def)             Requested size: 510.9075pt x 739.76193pt.
 Package epstopdf Info: Source file: <figs/fig3_QConly_ModelComparison_SC43_ampt
 .eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 20040 bytes
 (epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC43_ampt
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 20040 bytes
-(epstopdf)             Output file: <figs/fig3_QConly_ModelComparison_SC43_ampt
--eps-converted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 16157 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig3_QConly_ModelComp
 arison_SC43_ampt-eps-converted-to.pdf figs/fig3_QConly_ModelComparison_SC43_amp
@@ -1242,19 +1008,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 410.
 
 Package epstopdf Info: Source file: <figs/fig5_QConly_xminpt_nSC32_EKRT.eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 36672 bytes
 (epstopdf)             Output file: <figs/fig5_QConly_xminpt_nSC32_EKRT-eps-con
 verted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 36672 bytes
-(epstopdf)             Output file: <figs/fig5_QConly_xminpt_nSC32_EKRT-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 26111 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig5_QConly_xminpt_nS
 C32_EKRT-eps-converted-to.pdf figs/fig5_QConly_xminpt_nSC32_EKRT.eps>
@@ -1270,19 +1028,11 @@ Package pdftex.def Info: figs/fig5_QConly_xminpt_nSC32_EKRT-eps-converted-to.pd
 f used on input line 419.
 (pdftex.def)             Requested size: 569.12486pt x 367.37158pt.
 Package epstopdf Info: Source file: <figs/fig5_QConly_xminpt_nSC42_EKRT.eps>
-<<<<<<< HEAD
 (epstopdf)                    date: 2016-12-08 23:00:21
 (epstopdf)                    size: 43698 bytes
 (epstopdf)             Output file: <figs/fig5_QConly_xminpt_nSC42_EKRT-eps-con
 verted-to.pdf>
 (epstopdf)                    date: 2016-12-08 23:00:21
-=======
-(epstopdf)                    date: 2016-12-08 15:31:46
-(epstopdf)                    size: 43698 bytes
-(epstopdf)             Output file: <figs/fig5_QConly_xminpt_nSC42_EKRT-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2016-12-08 15:31:46
->>>>>>> origin/master
 (epstopdf)                    size: 28824 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/fig5_QConly_xminpt_nS
 C42_EKRT-eps-converted-to.pdf figs/fig5_QConly_xminpt_nSC42_EKRT.eps>
@@ -1303,7 +1053,6 @@ f used on input line 427.
 y_ModelComparison_SC43_ampt-eps-converted-to.pdf>] [14 <./figs/fig5_QConly_xmin
 pt_nSC32_EKRT-eps-converted-to.pdf> <./figs/fig5_QConly_xminpt_nSC42_EKRT-eps-c
 onverted-to.pdf>] [15]) (./paper.bbl [16] [17] [18] [19] [20]) [21]
-<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
  [22]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
@@ -1316,28 +1065,10 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 7844 strings out of 493089
- 117364 string characters out of 6134841
- 204357 words of memory out of 5000000
- 10980 multiletter control sequences out of 15000+600000
-=======
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
- [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
-
-(./paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
-Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 834152C11E604075A95C93088A32A5A7;690.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
- ) 
-Here is how much of TeX's memory you used:
  7843 strings out of 493089
  117357 string characters out of 6134841
  204357 words of memory out of 5000000
  10979 multiletter control sequences out of 15000+600000
->>>>>>> origin/master
  72205 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,15n,45p,1639b,756s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1358,11 +1089,7 @@ nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-<<<<<<< HEAD
 Output written on paper.pdf (22 pages, 547802 bytes).
-=======
-Output written on paper.pdf (22 pages, 547800 bytes).
->>>>>>> origin/master
 PDF statistics:
  1121 PDF objects out of 1200 (max. 8388607)
  957 compressed objects within 10 object streams
