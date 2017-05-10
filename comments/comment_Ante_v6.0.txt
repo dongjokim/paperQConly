@@ -1,0 +1,177 @@
+18 See if you can be more quantitative instead of “A small average value", the present form is a bit vague...
+R : Probably it is ok. 
+
+31 “more particles emitted" => I think the number of particles is the same in both directions, but their momentum is larger in this direction, please cross-check
+R : This is correct.
+
+41 See if it is more correct "can be conjectured" instead of "can be calculated"
+R : Done
+
+45 See if you want to drop “nowadays"
+R : Done
+
+47 broken reference
+R : Done
+
+48 and Eq. (1): a) it’s bit unfortunate to choose "p" for total three-momentum, see if you want to replace it with the bold font, or even \vec{p}... ; b) "N" remained undefined in the text
+R : I changed to bold which is usually used. Probably no need to introduce “N”
+
+59 It is not clear what "it" refers to here... It's a bit confusing, because it appears that \eta/s depends on the initial conditions, while I would expect it to be completely independent, i.e. it shall be a genuine system property? Please cross-check
+R : yes, i think it is ok since it is said “depends on the specific choice of the initial conditions in the models used for comparison” 
+
+Eq. (2): On the RHS, see if you need to use \varphi instead of \phi
+R :   \phi and r are the spatial parameters, \phi is also in Eq1. Let me see if i want to add this here or the reference is enough.
+
+82 It’s bit unclear what "viscous distribution function" stands for
+R : I have used “viscous correction” from the paper cited, Alice suggested it to put in more general words. I think it is ok since the details can be found in the cited paper. Let me see if i can find a better word or give more detail later.
+
+105 See if you want to drop definition of “T" from here, and introduce it somewhere earlier, e.g. in 36
+R : i don’t know what is best, I thought we don’t need to define it earlier since only at this point it comes to the details and T would matter for the latter parts.
+
+107 See if you have perhaps one extra empty character between “in" and "[42]", same in 108
+R : Fixed
+
+113 “between two" => "between amplitudes of two"
+R : Done
+
+117 “heavy-ion system evolution" => "system produced in heavy-ion collisions", or some analogous rephrasing
+R : I am fine with the current one, let’s wait for CR review.
+
+117-119 The first part is a bit of a repetition of what is in 92-93, while the second part of what is in 110-111
+R : I think it is ok, the first part for harri’s original paper, later one is from our short SC paper.
+
+122 Here you write "Symmetric Cumulants (SC)," while in 89-90 you have the longer definition, see if you want to unify the terminology. If so, I vote for the shorter version
+R : yes, done.
+
+122-124 I would drop this sentence, since both statements were already mentioned in the previous text
+R : Done
+
+123,91 nonflow or non-flow? I vote for the first version
+R : done
+
+124-125 I would drop this one as well, since this is a repetition of 90
+R : done
+
+135 “in this case” => "in this observable"
+R : done
+
+149 See if “with full azimuthal coverage" is too strong statement, in the light of the fact that there are 18 dead sectors in TPC
+R : i think it is ok, almost…
+
+165 See if you want to drop “(DCA)”, in the case you never need it later in the text
+R : done
+
+184,185,188 See if it’s a bit more precise to write "magnetic field polarity" instead of "magnet polarity"
+R : done 
+201 See perhaps if you would like here to embed the following text (taken & bit modified from the reply to one of the referees of 'short SC paper'): 
+
+This systematic bias is not present in the HIJING model, but only in real data, and therefore needs to be estimated separately. It can be attributed mostly to the so-called `flowing clusters', where cluster denotes decay products of particle which exhibits anisotropic flow. All decay products will then flow as well. Such a`flowing cluster' contributes to cumulants by definition as being genuine four-particle correlation, and it cannot be estimated from HIJING, because there is no anisotropic flow in that model. However, due to charge conservation, we will have in the cluster always particles of opposite charge. Therefore, by performing an independent analysis only with like-sign charges, we are estimating the contribution from `flowing clusters'.
+R : Maybe it is not necessary. 
+
+203 “the efficiency." => "the reconstruction efficiency."
+R : done
+
+207-208 This is a bit of a tricky statement, and I am not sure if it's really true. Namely, it is highly unlikely that we will have in the non-uniform acceptance the modulation which will resemble one of the higher harmonics. Next, when it comes to absolute contribution, I would subscribe the statement that the biggest NUA can be in general attributed to v1, but when it comes to relative contribution, it is not clear (at least not to me) which harmonic is most sensitive. Therefore, please keep this sentence in the text at your own peril! 
+R : yep. This comes to the observables we measure, so n>1. I removed it. 
+
+Figure 1a, legend: I think you have an unnecessary empty character in front of "x" in the parentheses, and see if you could replace "x" with #times (in might look nicer...). Also, I think you can pull down a bit the lower horizontal end of the legend, to get some more space within it
+R : Done
+
+Figures 1a and 1b: 1) In the short SC paper we were NOT allowed to use horizontal ends at the error bars (editorial board request); 2) Also, in the legend the lines round the colorful fields were NOT black in the short SC paper, but dark red and dark blue, respectively... But this is really a minor comment; 3) I think you can start a y-axis of 1a) from the even smaller value, to reduce the amount of blank space in the bottom part; 4) 
+R : Done
+
+In the caption, and since there is no $v_1$, see if you want to replace “with flow harmonics up to" with "with flow harmonics from $2^{\rm nd}$ up to"; 
+R : Done
+
+5) In the caption: "with boxes" => "with boxes for higher order harmonic correlations.”; 6) I see when you write \sqrt{s_{NN}} in the figures the \sqrt does NOT go over "NN", while in the text it does, see if this is worth attention...
+R : Done/Done. Good eyes.
+
+232 anticorrelated => anti-correlated (see 136,214)
+R : Done
+232 “with" => "and have" (I think)
+R : it is better with your suggestion. Changed.
+
+238 See if you want to drop/rephrase the second part “or $p_{T,min}…$", since this is said in the very previous sentence
+R : maybe it is ok.
+
+239 “minimum cuts" => "minimum cuts for transverse momentum"
+R : changed to “$p_{\rm T, min}$”
+
+Figures 2c): Strictly speaking, it is not clear what is on x-axis…
+R : added the title for left panel as well.
+
+295 Since you were writing before “pT dependent" I think then also it shall be "pT differential"
+R : I think it is ok.
+
+298 Somewhere I got a comment that it's a bad habit to start a sentence with mathematical symbol... See if you want to write "SC(m,n) and NSC(m,n)" => "The SC(m,n) and NSC(m,n) observables", this then also might help with the line breaking. Similar comments also for 305, 333, 339, 341, 344, etc. See actually if this is worth attention
+R : Done, few more are fixed.
+
+310-311 See if you want to drop this sentence, since it appears a bit trivial, in the light of what is already said in the previous two sentences
+R : Done
+
+Figures 2, 3, 4: In the legends, “/c” => "/$c$"
+R : Done
+
+Figure 3, left column: Title is missing on the x-axis, see if you can put “Centrality percentile" in the middle, perhaps. (same comment also for Figs. 4 and 5)
+R : Done
+
+322 anticorrelation => anti-correlation
+R : Done
+
+Figure 3, caption: a) See if you have an extra empty character between “in" and "[30]"; b) See if you want to indicate somewhere in the text that this is centrality dependence (same comment also for Figs. 4 and 5)
+R : Done 
+
+Figures 2, 3, 4, 5: To be honest, I fail to recall why it is important to have common y-axis between left and right column, and not separate like in Fig. 1? I mean, observables are different, scale is different, etc. Let's see if somebody else will request is as well, but I would not be surprised if the request is coming to re-plot these three figures in the same way as Fig. 1 is done. But as long as I am the only person making such a comment, please ignore it. 
+R : let’s see what happens during CR1.
+
+333-334 This makes me wonder to what then this observable is sensitive to... Is this conclusion still coherent with what we were claiming in the "short SC paper", cite from there: "These findings indicate that the normalized SC(3,2) observable is sensitive mainly to the initial conditions,"? I think we need to be very careful here with the phrasing, so as it doesn't appear that two ALICE papers conflict each other... See also the statement you have in 389
+R : It is stated that it is based on the model configurations used in this particular model. 3 ICs used in VISH show only small differences. Since the argument of IC insensitivity in the short paper was based on harri’s old calculation  and we also didn’t say how strong it is supposed to be, I think we are just fine. Note we only demonstrated NSC(3,2) is insensitive to eta/s(T) parameterizations. As a conservative approach, I changed “does not show sensitivity” to “does not show strong sensitivity”.
+
+338-339 See if you want to drop “We conclude that..." since this information is contained in the previous two sentences, eventually drop it later in the Summary
+R : maybe i will keep it at this point.
+
+339 “and SC(5,3) are quite sensitive to both the initial conditions" => Please cross-check, to me it appears that for all three initial conditions, SC(5,3) results are on top of each other
+R : mistake, SC(5,3)->NSC(5,3)… Y scale is big for NSC(5,3) than NSC(5,2).
+
+348 "Interestingly, the string melting AMPT configuration cannot reproduce the data," => As far as I am allowed to judge, SC(4,2) and SC(5,3) are best described by it, please cross-check. Well, I see later that you meant for SC(3,2), see if you want to somehow clarify that better, in order to remove the ambiguity, as somebody might take this sentence out of context
+R : Yes, removed.
+
+361 "The hadronic rescattering makes NSC(4,2) slightly smaller. “ => I do not see this (if the reference point is "default"), please cross-check
+R : the comparison should be made only between 1.(string melting) and 2.(string melting w/o hadronic rescattering), the default is different setting. Since 1<2, the statement is correct. We have yet another ampt run with “default w/o hadronic rescattering. Let me see if i want to include it into the paper.
+
+367 “ In the case of SC(4,3)," => " In the case of SC(4,3) and NSC(4,3),", and then you could drop the sentence "The string melting AMPT model..." in the next line
+R :  since NSC(4,3) is well described by the default version, it is not working in this way. I add one more sentence
+“The NSC(4,3) observable is well described by the default AMPT model but cannot be reproduced by the string melting AMPT model.” It should be complete.
+
+371 “string melting AMPT model overestimates NSC(5,2)" => please cross-check, because for a vast majority of centralities this is also true for other normalized observables
+R: I add “NSC(4,2)” as well, also the following one. Now “the string melting AMPT model overestimates NSC(4,2) and NSC(5,2) and predicts a very weak correlation both for NSC(4,2) and NSC(4,3).”
+
+373 “larger that" => "larger than"
+R : Fixed
+
+372-373 See if you want also to provide pointers to the relevant figures, where thus hierarchy is demonstrated
+R : probably not.. i don’t know.
+
+373 "NSC(5,2) is smaller than NSC(5,3)" => note that this is already said in the very previous line, see if something needs to be rephrased. And then again in 376 “The opposite trend is ..." holds the very same statement...
+R : I rephrased it a bit.
+
+377 "This can be attributed to the fact that flow..." => I do not see this conclusion immediately, but perhaps that is my personal problem... What does it actually mean that fluctuations of one harmonic are stronger than of the other? Does such comparison make a sense at all at absolute scale, I guess it makes sense to speak only about the strength of relative fluctuations… 
+R : I think this is ok. Let’s see if we can improve it over CR1.
+
+387 “ describes the data qualitatively but it cannot describe the data quantitively for most of the centrality ranges.” => reads bit awkward, see if it needs to be rephrased
+R : I rephrased to “captures the data qualitatively, but not quantitively for most of the centrality ranges.”
+
+400 “<30" => "< 30" (see 243), and similar in the next line for >30
+R : Fixed
+
+Figures 6 and 7, title of y-axis: See if you want to use NSC terminology, as in the previous figures (but then most likely you would also need to modify the legends, so I do not know if its worth it…)
+R : I changed the ones in the legend to NSC and done for fig2. 
+
+409 Please cross-check that when you are writing numerical centrality ranges, that you use same format everywhere, e.g. 40 - 50% here is formatted with extract empty characters, while 5-20% in 423 was not
+R : fixed
+
+411 See if you want to drop “where some deviations are observed." since this is self-evident, given the previous content
+R : Done
+
+419 "The pT dependence of NSC(3,2) is well described by the model calculations in all collision centralities except for 40–50%" => What do you mean here, just the overall tendency (i.e. flat dependence), or also the strength? In the latter case, there is clearly a disagreement, so please see if this needs to be clarified... Same for the statement in 424
+R : pT dependence means the shape of the distribution (overall tendency… ). I think it was OK but it was confusing since the Y-axis difference was not clearly mentioned. Now I added “the magnitude” for the parts where we are comparing it’s magnitude. Hope it is clear enough.

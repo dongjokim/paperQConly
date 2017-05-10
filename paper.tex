@@ -23,7 +23,7 @@
  % off by redefinding RHNOTE
 \newcommand{\RHNOTE}[1]{{\bf RH:  #1}} 
 \renewcommand{\RHNOTE}[1]{}  % switch off
-
+\newcommand{\multfigsize}{0.95}
 \begin{titlepage}
 %
 \PHyear{2016}
@@ -71,13 +71,12 @@
 %\bibliography{paper}
 \bibliographystyle{utphys}
 \bibliography{paper.bib}
-
 \newpage
 %
 %\input{}               %%%%%%%%%%% put your appendices here
+\input{appendix.tex}
 %
 %%%%%%%%% appendix with author list
-\appendix
 \section{The ALICE Collaboration}
 \label{app:collab}
 %\input{Alice_Authorlist_2015-Feb-18.tex}  %%%%%%% done by webmaster team
