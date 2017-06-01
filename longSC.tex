@@ -53,7 +53,7 @@ where the curly brackets denote the average over the transverse plane, i.e. $\{\
 There is experimental and theoretical evidence~\cite{Alver:2010gr,Qiu:2011iv,ALICE:2011ab} that the lower order harmonics, $v_2$ and $v_3$, to a good approximation, are linearly proportional to the deformations in the initial energy density in the transverse plane (e.g. $v_n \propto \varepsilon_n$ for $n~=~$2 or 3).
 Harmonic $v_4$ and higher order flow harmonics can arise from initial anisotropies in the same harmonic~\cite{Alver:2010gr,Teaney:2010vd,Gubser:2010ui,Hatta:2014jva} (linear response) or can be induced by lower order harmonics~\cite{Bravina:2013xla,Bravina:2013ora} (nonlinear response).
 Therefore, the higher harmonics ($n>3$) can be understood as superpositions of linear and nonlinear responses, through which they are correlated with lower order harmonics~\cite{Teaney:2012ke,Bravina:2013ora,Gubser:2010ui,Hatta:2014jva}. When the order of the harmonic is large, the nonlinear response contribution in viscous hydrodynamics is dominant and increases in more peripheral collisions~\cite{Teaney:2012ke,Bravina:2013ora}.
-The magnitudes of the viscous corrections as a function of $p_{\rm T}$ for $v_4$ and $v_5$ are sensitive to the ansatz used for the viscous distribution function, and to the correction for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad,Teaney:2012ke}.
+The magnitudes of the viscous corrections as a function of $p_{\rm T}$ for $v_4$ and $v_5$ are sensitive to the ansatz used for the viscous distribution function, a correction for the equilibrium distribution at hadronic freeze-out~\cite{Luzum:2010ad,Teaney:2012ke}.
 %and the $p_{\rm T}$ dependence of linear and nonlinear response contributions to the higher order flow harmonics is discussed further in~\cite{Teaney:2012ke}. 
 Hence, studies of the correlations between higher order ($n>3$) and lower order ($v_2$ or $v_3$) harmonics and their $p_{\rm T}$ dependence can help to understand the viscous correction to the momentum distribution at hadronic freeze-out which is among the least understood parts of hydrodynamic calculations~\cite{Dusling:2009df,Teaney:2012ke,Molnar:2014fva,Niemi:2015qia}.
 
@@ -185,7 +185,7 @@ The centrality dependence of the higher order harmonic correlations (SC($m$,$n$)
               \end{center}
 \end{figure*}
 
-The higher order flow harmonic correlations (SC(4,3), SC(5,2) and SC(5,3)) are much smaller compared to the lower order harmonic correlations.
+The higher order flow harmonic correlations are much smaller compared to the lower order harmonic correlations.
 In particular SC(5,2) is 10 times smaller than SC(4,2) and SC(4,3) is about 20 times smaller than SC(3,2).
 
 Unlike SC$(m,n)$, the NSC$(m,n)$ results with the higher order flow harmonics show almost the same order of the correlation strength as the lower order flow harmonic correlations (NSC(3,2) or NSC(4,2)).
@@ -222,12 +222,16 @@ The NSC(4,2) observable shows a moderate decreasing trend as $p_{\rm T, min}$ in
 
 \begin{figure*}
 	\begin{center}
-        	\resizebox{0.92\columnwidth}{!}{\includegraphics{figs/Fig2A_vn_xpt.eps}}
-        \caption{The individual flow harmonics $v_n$ (n=2, 3, 4 and 5) in $\PbPb$ collisions at $\snn=2.76$~TeV are shown on the left panels. The $p_{\rm T}$  dependence of $v_n$ (n=2, 3 and 4) is shown on the right panels. }
+        	\resizebox{0.6\columnwidth}{!}{\includegraphics{figs/Fig2A_vn_xpt.eps}}
+        \caption{The individual flow harmonics $v_n$ (n=2, 3, 4 and 5) in $\PbPb$ collisions at $\snn=2.76$~TeV are shown on the left panels ((A), (B) and (C)). The $p_{\rm T, min}$ dependence of $v_n$ (n=2, 3 and 4) is shown on the right panels ((a), (b) and (c)). Note that $v_5$ is shown in the panel (C) with $v_4$.}
         \label{fig:Figure_2A}
         \end{center}   
 \end{figure*}
 
+As discussed in Sec.~\ref{sec:method}, the NSC($m$,$n$) observables are normalized by the product $\left<v_{m}^2\right>\left<v_{n}^2\right>$.
+These products are obtained from two-particle correlations using a pseudorapidity gap of $|\Delta\eta| > 1.0$. 
+%While these product are reconstructed and normalized directly for NSC calculations,
+The complete sets of the individual flow harmonics $v_n$ used to calculate the NSC observables are shown in Fig.~\ref{fig:Figure_2A}. The centrality dependence of $v_n$ (n=2, 3, 4 and 5) is shown in the left panels ((A), (B) and (C)) of  Fig.~\ref{fig:Figure_2A}. The results of $v_n$ (n $<$ 5) are equivalent to those in \cite{Adam:2016izf}. The fifth order flow harmonics $v_5$ is shown on the panel (C) as an new addition in this article. The $p_{\rm T, min}$ dependence of $v_n$ (n=2, 3 and 4) is shown in the right panels ((a), (b) and (c)) of Fig.~\ref{fig:Figure_2A} in all centrality ranges relevant to the measured NSC($m$,$n$) observables.
 
 \section{Model Comparisons}
 \label{sec:theory}
@@ -246,7 +250,7 @@ The AMPT model can be run in two main configurations, the default and the string
 In the default version, partons are recombined with their parent strings when they stop interacting. The resulting strings are later converted into hadrons using the Lund string fragmentation model~\cite{Andersson:1986gw,NilssonAlmqvist:1986rx}. In the string melting version, the initial strings are melted into partons whose interactions are described by the ZPC parton cascade model~\cite{Zhang:1997ej}. These partons are then combined into the final state hadrons via a quark coalescence model. 
 In both configurations, the dynamics of the subsequent hadronic matter is described by a hadronic cascade based on A Relativistic Transport (ART) model~\cite{Li:2001xh} which also includes resonance decays.
 The third version used in this article is based on the string melting configuration in which the hadronic rescattering phase is switched off to study its influence on the development of anisotropic flow. 
-Even though the string melting version of AMPT~\cite{Lin:2001zk,Lin:2004en} reasonably reproduces particle yields, $p_{\rm T}$ spectra, and $v_2$ of low $p_{\rm T}$ pions and kaons in central and mid-central $\AuAu$ collisions at $\snn=200$~GeV and $\PbPb$ collisions at $\snn=2.76$~TeV~\cite{Lin:2014tya}, it was seen clearly in a recent study~\cite{Adam:2016nfo} that it fails to quantitatively reproduce the flow harmonics of identified hadrons ($v_2$, $v_3$, $v_4$ and $v_5$) at $\snn=2.76$~TeV (see Appendix~\ref{sec:vn} for the quantitative comparisons). It turns out that the radial flow in AMPT is 25\% lower than that measured at the LHC, which is responsible for the quantitative disagreement~\cite{Adam:2016nfo}. The details of the AMPT configurations used in this article and the comparisons of $p_{\rm T}$-differential $v_{n}$ for pions, kaons and protons to the data can be found in \cite{Adam:2016nfo}.
+Even though the string melting version of AMPT~\cite{Lin:2001zk,Lin:2004en} reasonably reproduces particle yields, $p_{\rm T}$ spectra, and $v_2$ of low $p_{\rm T}$ pions and kaons in central and mid-central $\AuAu$ collisions at $\snn=200$~GeV and $\PbPb$ collisions at $\snn=2.76$~TeV~\cite{Lin:2014tya}, it was seen clearly in a recent study~\cite{Adam:2016nfo} that it fails to quantitatively reproduce the flow harmonics of identified hadrons ($v_2$, $v_3$, $v_4$ and $v_5$) at $\snn=2.76$~TeV. It turns out that the radial flow in AMPT is 25\% lower than that measured at the LHC, which is responsible for the quantitative disagreement~\cite{Adam:2016nfo}. The details of the AMPT configurations used in this article and the comparisons of $p_{\rm T}$-differential $v_{n}$ for pions, kaons and protons to the data can be found in \cite{Adam:2016nfo}. The quantitative comparisons of the measured $v_n$ to various AMPT configurations are provided in Appendix~\ref{sec:vn}.
 
 \subsection{Centrality Dependence of SC($m$,$n$) and NSC($m$,$n$)}
 \label{sec:theory_allorder}
@@ -332,11 +336,11 @@ NSC($m$,$n$) correlators increase with larger $\eta/s$ in hydrodynamic calculati
 
 We list here the important findings from the model comparisons to the centrality dependence of SC($m$,$n$) and NSC($m$,$n$):
 \begin{enumerate}[(i)]
-	\item All the VISH2+1 model calculations with large $\eta/s$ fail to capture the centrality dependence of the correlations regardless of the initial conditions.
-	\item Among the VISH2+1 model calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial conditions captures the data qualitatively, but not quantitively for most of the centrality ranges.
 	\item The NSC(3,2) observable is sensitive mainly to the initial conditions, while the other observables are sensitive to both the initial conditions and the temperature dependence of $\eta/s$.
 	\item The correlation strength between $v_3$ and $v_2$ and between $v_4$ and $v_3$ (NSC(3,2) and NSC(4,3)) is significantly underestimated in hydrodynamic model calculations.
 	\item The sign of NSC(3,2) in 0--10\% central collisions was found to be different in the data and the hydrodynamic model calculations while the default AMPT model can reproduce the sign.
+	\item All the VISH2+1 model calculations with large $\eta/s$ fail to capture the centrality dependence of the correlations regardless of the initial conditions.
+	\item Among the VISH2+1 model calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial conditions captures the data qualitatively, but not quantitively for most of the centrality ranges.
 	\item The default AMPT model can describe the normalized symmetric cumulants (NSC($m$,$n$)) quantitively for most centralities while the string melting AMPT model fails to describe them.
 	%\item The hadronic rescattering in AMPT model makes the correlation strength (NSC) larger.
 	\item A hierarchy NSC(5,3) $>$ NSC(4,2) $>$ NSC(5,2) holds for centrality ranges $>~20\%$ within the errors. This hierarchy is reproduced well both by hydrodynamic and AMPT model calculations.
