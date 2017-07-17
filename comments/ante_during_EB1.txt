@@ -1,0 +1,60 @@
+10,90 non-flow or nonflow, please check also elsewhere in the text
+R : nonflow everywhere, it was forgotten in the abstract file.
+
+101 Since in 97 you already have a phrase "our findings", see if you want to replace it in this line with "our new results"
+R : Done.
+
+139 See if you want to insert here a short sentence a la "These measurements were recently extended to other collision systems by CMS Collaboration [\cite http://inspirehep.net/record/1512648?ln=en ]"
+
+140 See if you want to update theoretical list of references [42,45-48] with some latest work on SC, for instance: https://arxiv.org/abs/1612.01066 , https://arxiv.org/abs/1703.04077 , https://arxiv.org/abs/1703.10792 , https://arxiv.org/abs/1704.04060 , https://arxiv.org/abs/1704.04983 and https://arxiv.org/abs/1706.06260 .
+
+207,208 I have some problems with buying m+n > 6 as the definition of higher order harmonics correlations (and analogously for the lower order ones). In particular, according to such definitions, SC(4,3) would be classified as higher order one, while hypothetical SC(5,1) as the lower order one, although it includes v5, which is higher than both harmonics in SC(4,3). What about the following alternative simple definition: lower order SCs are only SC(3,2) and SC(4,2), while higher order SCs are all remaining possibilities which do not include v1, which will at some point deserve a special treatment (once we fully understand the systematics, I can imagine a standalone study only on SC(1,m), when they can acquire a special new name)? If you accept this suggestion, that perhaps the naming convention for "higher order SCs" and "lower order SCs" could be introduced already on lines 94-96. (I see later that in the 2nd sentence in the caption of Fig. 2 you already have it this way!)
+R : going back to the old version, it was based on Shudir's comments. Since he gave this comment twice, i couldn't avoid it. Now you have found good reasoning for the rejection. 
+
+Figure 1: Please cross-check if you need really "." after "PRL" in both legends
+
+229 "and have the similar magnitude." is a bit of repetition of the first part of 219
+
+Figure 3: I think you can safely remove "Note that..." sentence, since that is clear from: a) First part of first sentence here; b) Legend; c) y-axis title
+
+250 Here you write "fifth order", while in first sentence of caption of Fig. 1 you have "5th", see if you have to unify the style
+
+252 See if you need to comment: a) That all harmonics show non-negligible dependence on p_T,min, in all centralities; b) why dependence of v5 on p_T,min is not shown, in a brief statement
+
+265 See if it is better to replace "later" with "next"
+R : Done
+
+274 "coordinate" => "coordinates". See also if you want to replace "position" with "spatial", as in 283 
+R : Done.
+
+298 "the quantitative" => "this quantitative" (I think) 
+R : Done.
+
+306 are => as
+R : was taken care of based on Babara's comment
+
+327 "anticorrelation" => "anti-correlation" (since for instance in 132,211,229 you have "anti-correlated")
+
+327 In fact, it reads a bit awkwardly that here you use both "correlation" and "anticorrelation" as synonyms. See if you want just to drop "the correlation between"
+
+Figures 4 and 5: See if it's necessary to indicate in the caption (or in the main text, or in the legend), that the two top panels are from previous publication (like you have done for instance in the legend of Fig. 1)
+
+338 My problem here still remains the same: To what then NSC(3,2) is actually sensitive? There is a great potential here, since apparently this observable can be used to tune some other parameter in the models, since it is insensitive to the initial conditions and system properties. But I guess we cannot be more specific here...
+
+378 Please check whether NSC(4,2) needs to be replaced with NSC(3,2) here
+
+382 "hierarchy SC" => "hierarchy, SC"
+
+392 Please cross-check whether this statement holds water also for SC(3,2) and SC(4,3) (looking at Fig. 4, it seems so...)
+
+Figures 7 and 8: See if you want to unify the notation for the titles of y-axes and in the legends, in both cases
+
+409 Please cross-check the statement in sentence "The observed...", I do not see this clearly, especially not for NSC(4,2)
+
+424 "except for 40-50%" => please cross check, to me it appears that EKRT fails also in other centralities
+
+685 It is not clear why "Individual" is capitalized in the title, while "comparisons", "flow" and "harmonics" were not, please cross-check the convention you are using
+R : others are now capitalized
+
+698 "nicely describe" => "describe well"
+R : Done.
