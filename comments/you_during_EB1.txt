@@ -1,0 +1,27 @@
+You's comments during the first EB round, received on July 18th 2017
+
+General comments: we had this discussion during non-linear response paper, we should try to use the same name in every ALICE flow paper, e.g. can v_n as n-order flow coefficient.
+R : The current naming convention is based on the short SC paper and consistent through the paper. I think it is ok.
+
+L77, “For instance … “, this sentence is not precise, or even incorrect. As we discussed in the non-linear response paper, the linear response is to the same order cumulant-defined \epsilon_n, cite {PRC90, 024902 & PRC95, 054908}.
+R : I think it is correctly described as you said.
+
+L308, hydrodynamics or hydrodynamic?
+R : fixed
+
+L309, ;these -> ,which?
+R : taken from EB's suggeston
+
+L330, “within the errors” -> “considering the relatively larger uncertainty”
+R : Since the suggestion is valid only for the peripheral collisions, i would leave it as it is.
+
+L330-333, should we explain the SC(4,3) with SC(2,3) during to the significant non-linear contributions in v4?
+R : Probably not since we can't quantify it in the paper.
+
+L342, “not very sensitive” -> have weak sensitivities (not very is already a bit too strong statement)
+R : It looks same to me. Let's see it over CR1.
+
+L410 and after, perhaps you can consider to cite {Zhou:2015eya} which show very similar study of SC with AMPT.
+R : Since the setting of the calculation is different and it was mentationed in the short SC paper, i think we focus on what we have, where we have more insight on hadronic rescattering effect.
+
+The rest is fine.
