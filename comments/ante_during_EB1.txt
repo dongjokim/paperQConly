@@ -62,7 +62,7 @@ R : Done.
 R : Right, i add those and also include "in mid-central collisions."
 
 Figures 7 and 8: See if you want to unify the notation for the titles of y-axes and in the legends, in both cases
-R : Done. Todo
+R : Done.
 
 409 Please cross-check the statement in sentence "The observed...", I do not see this clearly, especially not for NSC(4,2)
 R : removed NSC(4,2)
