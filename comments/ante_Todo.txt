@@ -1,0 +1,11 @@
+139 See if you want to insert here a short sentence a la "These measurements were recently extended to other collision systems by CMS Collaboration [\cite http://inspirehep.net/record/1512648?ln=en ]"
+R : probably not.
+
+140 See if you want to update theoretical list of references [42,45-48] with some latest work on SC, for instance: https://arxiv.org/abs/1612.01066 , https://arxiv.org/abs/1703.04077 , https://arxiv.org/abs/1703.10792 , https://arxiv.org/abs/1704.04060 , https://arxiv.org/abs/1704.04983 and https://arxiv.org/abs/1706.06260 .
+R : Let me check those and probably during CR, we can add them.
+
+Btw, if you decide eventually to update the list of theoretical references, please take into account also this fresh new one: https://arxiv.org/abs/1707.05592
+
+
+338 My problem here still remains the same: To what then NSC(3,2) is actually sensitive? There is a great potential here, since apparently this observable can be used to tune some other parameter in the models, since it is insensitive to the initial conditions and system properties. But I guess we cannot be more specific here...
+R : I understand that you want to have more generic statement but this sentence is for those specifice settings in the models. Let's see if we can get more specific or drop those during CR.
