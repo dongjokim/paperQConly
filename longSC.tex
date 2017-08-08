@@ -5,7 +5,7 @@
 The main emphasis of the ultra-relativistic heavy-ion collision programs at the Relativistic Heavy Ion Collider (RHIC) and the Large Hadron Collider (LHC) is to study the deconfined phase of strongly interacting nuclear matter, the Quark-Gluon Plasma (QGP). 
 %This matter exhibits strong anisotropic flow in the plane transverse to the beam direction, which is driven by anisotropic pressure gradients, resulting in more particles emitted in the direction of the largest gradients.
 The matter produced in a heavy-ion collision exhibits strong collective radial expansion. Due to anisotropic pressure gradients in the plane transverse to the beam direction, more particles emitted in the direction of the largest gradients result in anisotropic transverse flow.
-The large elliptic flow discovered at RHIC energies~\cite{Ackermann:2000tr} is also observed at LHC energies~\cite{Aamodt:2010pa,Adam:2016izf}. The measurements are well described by calculations utilizing viscous hydrodynamics~\cite{Romatschke:2007mq,Shen:2011eg,Schenke:2011zz,Bozek:2012qs,Gale:2012rq,Hirano:2010je}.
+The large elliptic flow discovered at RHIC energies~\cite{Ackermann:2000tr} is also observed at LHC energies~\cite{Aamodt:2010pa,Adam:2016izf,Aad:2014eoa}. The measurements are well described by calculations utilizing viscous hydrodynamics~\cite{Romatschke:2007mq,Shen:2011eg,Schenke:2011zz,Bozek:2012qs,Gale:2012rq,Hirano:2010je}.
 %and microscopic transport models ~\cite{Xu:2007jv}.  
 These calculations also demonstrated that the shear viscosity to the entropy density ratio ($\eta/s$) of the QGP in heavy-ion collisions at RHIC and LHC energies is close to a universal lower bound $1/4\pi$~\cite{Kovtun:2004de}.
 
@@ -23,7 +23,7 @@ E\frac{\mathrm{d}^3N}{\mathrm{d}\bold{p}^3} = \frac{1}{2\pi}\frac{\mathrm{d}^2N}
 \label{Eq:Fourier}
 \end{equation}
 
-\noindent where $E$, $\bold{p}$, $p_{\mathrm{T}}$, $\varphi$ and $\eta$ are the particle's energy, momentum, transverse momentum, azimuthal angle and pseudorapidity, respectively, and $\Psi_n$ is the azimuthal angle of the symmetry plane of the $n^{\mathrm{th}}$-order harmonic. Harmonic $v_n$ can be calculated as $v_{n} = \langle{\cos[n(\varphi - \Psi_n)]}\rangle$, where the brackets denote an average over all particles in all events.
+\noindent where $E$, $\bold{p}$, $p_{\mathrm{T}}$, $\varphi$ and $\eta$ are the particle's energy, momentum, transverse momentum, azimuthal angle and pseudorapidity, respectively, and $\Psi_n$ is the azimuthal angle of the symmetry plane of the $n^{\mathrm{th}}$-order harmonic. Harmonic $v_n$ can be calculated as $v_{n} = \langle{\cos[n(\varphi - \Psi_n)]}\rangle$, where the angle brackets denote an average over all particles in all events.
 %Anisotropic flow in Heavy-ion collision can be written as an azimuthal ($\phi$) asymmetry of the single-particle distribution~\cite{Luzum:2011mm}:
 %\begin{equation}
 %\label{defVn}
@@ -63,8 +63,9 @@ The first results for new multiparticle observables which quantify the relations
 The new observables are particularly robust against few-particle nonflow correlations and they provide independent, complementary information to recently analyzed symmetry plane correlators~\cite{Aad:2014fla}. 
 It was demonstrated that they are sensitive to the temperature dependence of $\eta/s$ of the expanding medium and therefore simultaneous descriptions of correlations between different order harmonics would constrain both the initial conditions and the medium properties~\cite{ALICE:2016kpq,Zhu:2016puf}.
 In this article, we have extended the analysis of SC observables to higher order harmonics (up to $5^{\mathrm{th}}$ order) as well as to the measurement of the $p_{\rm T}$ dependence of correlations for the lower order harmonics ($v_3$-$v_2$ and $v_4$-$v_2$).  We also present a systematic comparison to hydrodynamic and AMPT model calculations.
-In Sec.~\ref{sec:method} we summarize our findings from the previous work~\cite{ALICE:2016kpq} and present the analysis methods. The experimental setup and measurements are described in Sec.~\ref{sec:experiment} and the sources of systematic uncertainties are explained in Sec.~\ref{sec:uncertainties}. The results of the measurements are presented in Sec.~\ref{sec:results}. 
- In Sec.~\ref{sec:theory} we present comparisons to model calculations. Various models used in this article are described in Sec.~\ref{sec:theory}. Finally, Sec.~\ref{sec:summary} summarizes our new results.
+In Sec.~\ref{sec:method} we summarize our findings from the previous work~\cite{ALICE:2016kpq} and present the analysis methods. The experimental setup and measurements are described in Sec.~\ref{sec:experiment} and the sources of systematic uncertainties are explained in Sec.~\ref{sec:uncertainties}. The results of the measurements are presented in Sec.~\ref{sec:results}. In Sec.~\ref{sec:theory} we present comparisons to model calculations.
+%Various models used in this article are described in Sec.~\ref{sec:theory}. 
+Finally, Sec.~\ref{sec:summary} summarizes our new results.
  
 \section{Experimental Observables}
 \label{sec:method}
@@ -126,7 +127,7 @@ contamination from secondary charged particles and fake tracks.
 The track reconstruction efficiency and contamination
 were estimated from HIJING Monte Carlo
 simulations~\cite{Wang:1991hta} combined with a GEANT3~\cite{Brun:1994aa} detector model and were found to be independent of
-the collision centrality. The reconstruction efficiency increases from
+the collision centrality. The reconstruction efficiency increases with transverse momenta from
 70\% to 80\% for particles with $0.2<p_{\rm T}<1$~GeV/$c$ and remains
 constant at $(80 \pm 5)$\% for $p_{\rm T}>1$~GeV/$c$. The estimated
 contamination by secondary charged particles from weak decays and
@@ -134,7 +135,7 @@ photon conversions is less than 6\% at $p_{\rm T}=0.2$~GeV/$c$ and falls
 below 1\% for $p_{\rm T}>1$~GeV/$c$.
 The $p_{\rm T}$ cut-off of 0.2~GeV/$c$ reduces event-by-event biases due to small reconstruction efficiency 
 at lower $p_{\rm T}$, while the high $p_{\rm T}$ cut-off of 5~GeV/$c$ reduces the effects of jets on the measured correlations. 
-Reconstructed TPC tracks were required to have at least 70 space points (out of a maximum of 159). 
+Reconstructed TPC tracks are required to have at least 70 space points (out of a maximum of 159). 
 Only tracks with a transverse distance of closest approach to the primary vertex less than 3 mm, both in the longitudinal and transverse directions, are accepted. This reduces the contamination from secondary tracks produced in the detector material, particles from weak decays, etc. Tracks with kinks (i.e. tracks that appear to change direction due to multiple scattering or $K^{\pm}$ decays) were rejected.
 
 
@@ -160,7 +161,7 @@ The uncertainty on the $p_{\rm T}$ dependent track reconstruction efficiency was
 %Moreover, the effects from $p_{\rm T}$ dependence reconstruction efficiency were taken into systematic uncertainty. 
 Magnetic field polarity variation and reconstruction efficiency effects contribute less than 2\% to the systematic uncertainty.
 
-The systematic uncertainty due to the track reconstruction was estimated from comparisons between results for the so-called standalone TPC tracks with the 
+The systematic uncertainty due to the track reconstruction procedure was estimated from comparisons between results for the so-called standalone TPC tracks with the 
 same parameters as described in Sec.~\ref{sec:experiment}, and tracks from a combination of the TPC and the Inner Tracking System (ITS) detectors with tighter selection criteria.
 To avoid non-uniform azimuthal acceptance due to dead zones in the SPD, and to get the best transverse momentum resolution, a hybrid track selection utilizing SPD hits and/or ITS refit tracks combined with TPC information was used.
 Then each track reconstruction strategy was evaluated by varying the threshold on parameters used to select the tracks at the reconstruction level. 
@@ -207,7 +208,7 @@ Both NSC(3,2) and NSC(4,3) are getting more anti-correlated toward peripheral co
         \end{center}   
 \end{figure*}
 
-To study the $p_{\rm T}$ dependence of SC$(m,n)$, we show the results as a function of the low $p_{\rm T}$ cut-off ($p_{\rm T, min}$), instead of using independent $p_{\rm T}$ intervals; this avoids large statistical fluctuations in the results. Various minimum $p_{\rm T}$ cuts from 0.2 to 1.5~GeV/$c$ are applied.
+To study the $p_{\rm T}$ dependence of SC$(m,n)$, we obtain the results as a function of the low $p_{\rm T}$ cut-off ($p_{\rm T, min}$), instead of using independent $p_{\rm T}$ intervals; this decreases large statistical fluctuations in the results. Various minimum $p_{\rm T}$ cuts from 0.2 to 1.5~GeV/$c$ are applied.
 The $p_{\rm T}$ dependent results for SC(3,2) and SC(4,2) as a function of minimum $p_{\rm T}$ cuts are shown in Figs.~\ref{fig:Figure_2}a and \ref{fig:Figure_2}c.
 The strength of SC$(m,n)$ becomes larger as $p_{\rm T, min}$ increases. 
 %This indicates that the relationship between event-by-event fluctuations of two different flow harmonics $v_m$ and $v_n$ is stronger for high $p_{\rm T}$ particles. 
@@ -272,7 +273,7 @@ The measurement of SC$(m,n)$ and NSC$(m,n)$ can provide new constraints for the 
             \begin{center}
                        \resizebox{\multfigsize\textwidth}{!}{\includegraphics{figs/Fig3_ModelComparison_EKRT.eps}}
               \end{center}
-        \caption{The centrality dependence of SC($m$,$n$) and NSC($m$,$n$) in $\PbPb$ collisions at $\snn=2.76$~TeV are compared to the event-by-event EKRT+viscous hydrodynamic calculations~\cite{Niemi:2015qia}. The lines are hydrodynamic predictions with two different $\eta/s(T)$ parameterizations, labeled in the same way as in~\cite{Niemi:2015qia}. Left (right) panels show SC$(m,n)$ (NSC$(m,n)$).}        
+        \caption{The centrality dependence of SC($m$,$n$) and NSC($m$,$n$) in $\PbPb$ collisions at $\snn=2.76$~TeV are compared to the event-by-event EKRT+viscous hydrodynamic calculations~\cite{Niemi:2015qia}. The lines are hydrodynamic predictions with two different $\eta/s(T)$ parameterizations. Left (right) panels show SC$(m,n)$ (NSC$(m,n)$).}        
         \label{fig:Figure_3}
 \end{figure*}
 
@@ -346,7 +347,7 @@ We list here the important findings from the model comparisons to the centrality
 \begin{enumerate}[(i)]
 	\item The NSC(3,2) observable is sensitive mainly to the initial conditions, while the other observables are sensitive to both the initial conditions and the temperature dependence of $\eta/s$.
 	\item The correlation strength between $v_3$ and $v_2$ and between $v_4$ and $v_3$ (SC(3,2), SC(4,2), NSC(3,2) and NSC(4,3)) is significantly underestimated in hydrodynamic model calculations in mid-central collisions.
-	\item The sign of NSC(3,2) in 0--10\% central collisions was found to be different in the data and the hydrodynamic model calculations while the default AMPT model can reproduce the sign.
+	\item The sign of NSC(3,2) in 0--10\% central collisions was found to be different in the data and the hydrodynamic model calculations while the default AMPT model can reproduce it.
 	\item All the VISH2+1 model calculations with large $\eta/s$ fail to capture the centrality dependence of the correlations regardless of the initial conditions.
 	\item Among the VISH2+1 model calculations with small $\eta/s$ ($\eta/s=0.08$), the one with the AMPT initial conditions captures the data qualitatively, but not quantitively for most of the centrality ranges.
 	\item The default AMPT model can describe the normalized symmetric cumulants (NSC($m$,$n$)) quantitively for most centralities while the string melting AMPT model fails to describe them.
