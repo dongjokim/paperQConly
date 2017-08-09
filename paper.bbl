@@ -2,7 +2,7 @@
 
 \bibitem{Ackermann:2000tr}
 {\bfseries STAR} Collaboration, K.~H. Ackermann {\em et~al.}, ``{Elliptic flow
-  in Au + Au collisions at (S(NN))**(1/2) = 130 GeV},''
+  in Au + Au collisions at $\sqrt{s_{\mathrm {NN}}}=130 GeV$},''
   \href{http://dx.doi.org/10.1103/PhysRevLett.86.402}{{\em Phys. Rev. Lett.}
   {\bfseries 86} (2001) 402--407},
 \href{http://arxiv.org/abs/nucl-ex/0009011}{{\ttfamily arXiv:nucl-ex/0009011
@@ -24,6 +24,15 @@
   Lett.} {\bfseries 116} no.~13, (2016) 132302},
 \href{http://arxiv.org/abs/1602.01119}{{\ttfamily arXiv:1602.01119 [nucl-ex]}}.
 %%CITATION = ARXIV:1602.01119;%%.
+
+\bibitem{Aad:2014eoa}
+{\bfseries ATLAS} Collaboration, G.~Aad {\em et~al.}, ``{Measurement of the
+  centrality and pseudorapidity dependence of the integrated elliptic flow in
+  lead-lead collisions at $\sqrt{s_{\mathrm {NN}}}=2.76$ TeV with the ATLAS
+  detector},'' \href{http://dx.doi.org/10.1140/epjc/s10052-014-2982-4}{{\em
+  Eur. Phys. J.} {\bfseries C74} no.~8, (2014) 2982},
+\href{http://arxiv.org/abs/1405.3936}{{\ttfamily arXiv:1405.3936 [hep-ex]}}.
+%%CITATION = ARXIV:1405.3936;%%.
 
 \bibitem{Romatschke:2007mq}
 P.~Romatschke and U.~Romatschke, ``{Viscosity Information from Relativistic
@@ -50,7 +59,7 @@ B.~Schenke, S.~Jeon, and C.~Gale, ``{Elliptic and triangular flows in 3 + 1D
 
 \bibitem{Bozek:2012qs}
 P.~Bozek and I.~Wyskiel-Piekarska, ``{Particle spectra in Pb-Pb collisions at
-  $\sqrt{S_NN} = 2.76 TeV$},''
+  $\sqrt{s_{NN}} = 2.76 TeV$},''
   \href{http://dx.doi.org/10.1103/PhysRevC.85.064915}{{\em Phys. Rev.}
   {\bfseries C85} (2012) 064915},
 \href{http://arxiv.org/abs/1203.6513}{{\ttfamily arXiv:1203.6513 [nucl-th]}}.
@@ -427,9 +436,9 @@ X.-N. Wang and M.~Gyulassy, ``{HIJING: A Monte Carlo model for multiple jet
 %%CITATION = PHRVA,D44,3501;%%.
 
 \bibitem{Brun:1994aa}
-
-``{GEANT Detector Description and Simulation Tool},''.
-%%CITATION = CERN-W5013;%%.
+R.~Brun, F.~Bruyant, F.~Carminati, S.~Giani, M.~Maire, A.~McPherson,
+  G.~Patrick, and L.~Urban, ``{{GEANT Detector Description and Simulation
+  Tool}},'' {\em CERN-W5013, CERN-W-5013, W5013, W-5013} (1994) .
 
 \bibitem{Abbas:2013taa}
 {\bfseries ALICE} Collaboration, E.~Abbas {\em et~al.}, ``{Performance of the
@@ -569,33 +578,6 @@ H.-j. Xu, Z.~Li, and H.~Song, ``{High-order flow harmonics of identified
 \href{http://arxiv.org/abs/1602.02029}{{\ttfamily arXiv:1602.02029 [nucl-th]}}.
 %%CITATION = ARXIV:1602.02029;%%.
 
-\bibitem{Zhang:1999bd}
-B.~Zhang, C.~M. Ko, B.-A. Li, and Z.-w. Lin, ``{A multiphase transport model
-  for nuclear collisions at RHIC},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.61.067901}{{\em Phys. Rev.}
-  {\bfseries C61} (2000) 067901},
-\href{http://arxiv.org/abs/nucl-th/9907017}{{\ttfamily arXiv:nucl-th/9907017
-  [nucl-th]}}.
-%%CITATION = NUCL-TH/9907017;%%.
-
-\bibitem{Lin:2000cx}
-Z.-w. Lin, S.~Pal, C.~M. Ko, B.-A. Li, and B.~Zhang, ``{Charged particle
-  rapidity distributions at relativistic energies},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.64.011902}{{\em Phys. Rev.}
-  {\bfseries C64} (2001) 011902},
-\href{http://arxiv.org/abs/nucl-th/0011059}{{\ttfamily arXiv:nucl-th/0011059
-  [nucl-th]}}.
-%%CITATION = NUCL-TH/0011059;%%.
-
-\bibitem{Lin:2004en}
-Z.-W. Lin, C.~M. Ko, B.-A. Li, B.~Zhang, and S.~Pal, ``{A Multi-phase transport
-  model for relativistic heavy ion collisions},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.72.064901}{{\em Phys. Rev.}
-  {\bfseries C72} (2005) 064901},
-\href{http://arxiv.org/abs/nucl-th/0411110}{{\ttfamily arXiv:nucl-th/0411110
-  [nucl-th]}}.
-%%CITATION = NUCL-TH/0411110;%%.
-
 \bibitem{Kurkela:2015qoa}
 A.~Kurkela and Y.~Zhu, ``{Isotropization and hydrodynamization in weakly
   coupled heavy-ion collisions},''
@@ -650,6 +632,15 @@ Z.-w. Lin and C.~M. Ko, ``{Partonic effects on the elliptic flow at RHIC},''
 \href{http://arxiv.org/abs/nucl-th/0108039}{{\ttfamily arXiv:nucl-th/0108039
   [nucl-th]}}.
 %%CITATION = NUCL-TH/0108039;%%.
+
+\bibitem{Lin:2004en}
+Z.-W. Lin, C.~M. Ko, B.-A. Li, B.~Zhang, and S.~Pal, ``{A Multi-phase transport
+  model for relativistic heavy ion collisions},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.72.064901}{{\em Phys. Rev.}
+  {\bfseries C72} (2005) 064901},
+\href{http://arxiv.org/abs/nucl-th/0411110}{{\ttfamily arXiv:nucl-th/0411110
+  [nucl-th]}}.
+%%CITATION = NUCL-TH/0411110;%%.
 
 \bibitem{Lin:2014tya}
 Z.-W. Lin, ``{Evolution of transverse flow and effective temperatures in the
