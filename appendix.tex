@@ -15,7 +15,7 @@ As discussed in Sec.~\ref{sec:method}, NSC$(m,n)$ is expected to be insensitive 
 \end{figure*}
 
 The measured $v_n$ ($n$ = 2, 3 and 4) in $\PbPb$ collisions at $\snn=2.76$~TeV are compared to the event-by-event EKRT+viscous hydrodynamic calculations~\cite{Niemi:2015qia} in Fig.~\ref{fig:Figure_A1}. In these calculations the initial conditions and $\eta/s$ parameterizations are chosen to reproduce the LHC $v_n$ data.
-The calculations capture the centrality dependence of $v_n$ in the central and midcentral collisions within 5\% for $v_2$ and 10\% for $v_3$ and $v_4$.
+The calculations capture the centrality dependence of $v_n$ in the central and mid-central collisions within 5\% for $v_2$ and 10\% for $v_3$ and $v_4$.
 
 \begin{figure*}[h]
             \begin{center}
@@ -28,7 +28,7 @@ The calculations capture the centrality dependence of $v_n$ in the central and m
 \end{figure*}
 
 The VISH2+1 calculations with various initial conditions and $\eta/s$ parameters are compared to the $v_n$ data in Fig.~\ref{fig:Figure_A2}.
-Neither MC-Glauber nor MC-KLN initial conditions can simultaneously describe $v_2$, $v_3$ and $v_4$. In particular, for MC-Glauber initial conditions, VISH2+1 with $\eta/s$ = 0.08 can describe well $v_2$ from central to midcentral collisions, but overestimates $v_3$ and $v_4$ for the same centrality ranges. For MC-KLN initial conditions, VISH2+1 with $\eta/s$ = 0.20 reproduces $v_2$ but underestimates $v_3$ and $v_4$ for the presented centrality regions. The calculations with AMPT initial conditions improves the simultaneous descriptions of $v_n$ ($n$ = 2, 3 and 4). The overall difference to the data is quite large if all the model settings are considered, about 30\% for $v_n$ ($n$ = 2 and 3) and 50\% for $v_4$. The calculations with AMPT initial conditions reproduce the observed centrality dependence with an accuracy of 10--20\%.
+Neither MC-Glauber nor MC-KLN initial conditions can simultaneously describe $v_2$, $v_3$ and $v_4$. In particular, for MC-Glauber initial conditions, VISH2+1 with $\eta/s$ = 0.08 can describe well $v_2$ from central to mid-central collisions, but overestimates $v_3$ and $v_4$ for the same centrality ranges. For MC-KLN initial conditions, VISH2+1 with $\eta/s$ = 0.20 reproduces $v_2$ but underestimates $v_3$ and $v_4$ for the presented centrality regions. The calculations with AMPT initial conditions improves the simultaneous descriptions of $v_n$ ($n$ = 2, 3 and 4). The overall difference to the data is quite large if all the model settings are considered, about 30\% for $v_n$ ($n$ = 2 and 3) and 50\% for $v_4$. The calculations with AMPT initial conditions reproduce the observed centrality dependence with an accuracy of 10--20\%.
 
 \begin{figure*}[h]
             \begin{center}
@@ -58,26 +58,31 @@ Finally, few selected calculations from three theoretical models which describe 
 The calculations from event-by-event EKRT+viscous hydrodynamics, VISH2+1 with AMPT initial conditions ($\eta/s$ = 0.08) and the string melting version of AMPT give the best description of the individual flow harmonics $v_n$ ($n$ = 2, 3 and 4) with an accuracy of 5--20\%. The centrality dependence differs in the three models as well as in the different order flow harmonics.
 Together with SC$(m,n)$ and NSC$(m,n)$, the simultaneous description of individual flow harmonics $v_n$ at all orders is necessary to further optimize model parameters and put better constraints on the initial conditions and the transport properties of nuclear matter in ultra-relativistic heavy-ion collisions.
 
+\newpage
 \section{Chi-Square test for SC observables}
-
+\label{sec:chisq}
 We perform a least-square test to the models for each SC observable via a log-likelihood or least squares-${\chi}^2$ method~\cite{PDBook} as following,
 
 \begin{equation}
-\chi^{2} = \sum_{i=0}^{nbins} \frac{{(y_i-f_i)}^{2}}{{\sigma_i}^{2}},
+\chi^{2} = \sum_{i=1}^{N} \frac{{(y_i-f_i)}^{2}}{{\sigma_i}^{2}},
 \label{Eq:chisq}
 \end{equation}
-where $y_i$ is a measurement in a centrality bin, and the systematic and statistical errors  are combined in quadrature $\sigma_i = \sqrt{\sigma_{i, stat}^2 + \sigma_{i, syst}^2}$.
-The resulting ${\chi}^2$ for few selected calculations from three theoretical models which describe the SC obserables best is shown in Fig.~\ref{fig:Figure_A5}.
+
+where $y_i$ ($f_i$) is a measurement (model) in a centrality bin, and the systematic and statistical errors  are combined in quadrature $\sigma_i = \sqrt{\sigma_{i, stat}^2 + \sigma_{i, syst}^2}$.
+The centrality range is restricted in 10--50\% bins, corresponding the total number of data sets in each observable (N) is 4.
+The resulting ${\chi}^2$ for few selected calculations from three theoretical models which describe the SC observables best is shown in Fig.~\ref{fig:Figure_A5}.
 \begin{figure*}[h]
             \begin{center}
                        \resizebox{0.8\textwidth}{!}{\includegraphics{figs/chisq_bestfits.eps}}
-        \caption{The resulting ${\chi}^2$ from the comparison of few selected calculations from three theoretical models are shown for each SC observable. Closed (open) markers show SC($m$,$n$) (NSC($m$,$n$).}
+        \caption{The ${\chi}^2$ values from the comparison of few selected calculations from three theoretical models are shown for all SC observables. Closed (open) markers are for SC($m$,$n$) (NSC($m$,$n$)).}
         \label{fig:Figure_A5}
               \end{center}
 \end{figure*}
 
-We found that the overall ${\chi}^2$ for SC($m$,$n$) is larger than one for NSC($m$,$n$) and ${\chi}^2$. 
-Even with the best model calculations from three theoretical models, ${\chi}^2$ varies a lot depending on the models, which implies that the different order harmonic correlations have different sensitivities to the initial conditions and the system properties. 
+We found that in case of VISH2+1 calculations, the ${\chi}^2$ values of SC($m$,$n$) is larger than those of NSC($m$,$n$). This can be explained by the fact that the individual flow harmonics $v_n$ is not well described as shown in Fig.~\ref{fig:Figure_A4} compared to other models.
+Even though the calculations from event-by-event EKRT+viscous hydrodynamics give best ${\chi}^2$ values both for SC($m$,$n$) and NSC($m$,$n$), the ${\chi}^2$
+values are bit large especially for the observables related with $v_3$. 
+Even with the best model calculations from three theoretical models, the ${\chi}^2$ value varies a lot depending both on the model parameters and/or different order SC observables, which implies that the different order harmonic correlations have different sensitivities to the initial conditions and the system properties. 
 
 
 
