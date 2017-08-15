@@ -55,7 +55,8 @@ U.~Heinz and R.~Snellings, ``{Collective flow and viscosity in relativistic
 %%CITATION = NUCL-EX/0410020;%%.
 
 \bibitem{Back:2004je}
-B.~B. Back {\em et~al.}, ``{The PHOBOS perspective on discoveries at RHIC},''
+{\bfseries PHOBOS} Collaboration, B.~B. Back {\em et~al.}, ``{The PHOBOS
+  perspective on discoveries at RHIC},''
   \href{http://dx.doi.org/10.1016/j.nuclphysa.2005.03.084}{{\em Nucl. Phys.}
   {\bfseries A757} (2005) 28--101},
 \href{http://arxiv.org/abs/nucl-ex/0410022}{{\ttfamily arXiv:nucl-ex/0410022
@@ -437,6 +438,13 @@ D.~Teaney and L.~Yan, ``{Non linearities in the harmonic spectrum of heavy ion
   {\bfseries C86} (2012) 044908},
 \href{http://arxiv.org/abs/1206.1905}{{\ttfamily arXiv:1206.1905 [nucl-th]}}.
 %%CITATION = ARXIV:1206.1905;%%.
+
+\bibitem{Acharya:2017zfg}
+{\bfseries ALICE} Collaboration, S.~Acharya {\em et~al.}, ``{Linear and
+  non-linear flow modes in Pb-Pb collisions at $\sqrt{s_{\rm NN}} =$ 2.76
+  TeV},''
+\href{http://arxiv.org/abs/1705.04377}{{\ttfamily arXiv:1705.04377 [nucl-ex]}}.
+%%CITATION = ARXIV:1705.04377;%%.
 
 \bibitem{Luzum:2010ad}
 M.~Luzum and J.-Y. Ollitrault, ``{Constraining the viscous freeze-out
