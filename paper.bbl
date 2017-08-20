@@ -608,23 +608,6 @@ S.~A. Voloshin, A.~M. Poskanzer, and R.~Snellings, ``{Collective phenomena in
 \href{http://arxiv.org/abs/1205.5761}{{\ttfamily arXiv:1205.5761 [nucl-ex]}}.
 %%CITATION = ARXIV:1205.5761;%%.
 
-\bibitem{Paatelainen:2012at}
-R.~Paatelainen, K.~J. Eskola, H.~Holopainen, and K.~Tuominen, ``{Multiplicities
-  and $p_T$ spectra in ultrarelativistic heavy ion collisions from a
-  next-to-leading order improved perturbative QCD + saturation + hydrodynamics
-  model},'' \href{http://dx.doi.org/10.1103/PhysRevC.87.044904}{{\em Phys.
-  Rev.} {\bfseries C87} no.~4, (2013) 044904},
-\href{http://arxiv.org/abs/1211.0461}{{\ttfamily arXiv:1211.0461 [hep-ph]}}.
-%%CITATION = ARXIV:1211.0461;%%.
-
-\bibitem{Paatelainen:2013eea}
-R.~Paatelainen, K.~J. Eskola, H.~Niemi, and K.~Tuominen, ``{Fluid dynamics with
-  saturated minijet initial conditions in ultrarelativistic heavy-ion
-  collisions},'' \href{http://dx.doi.org/10.1016/j.physletb.2014.02.018}{{\em
-  Phys. Lett.} {\bfseries B731} (2014) 126--130},
-\href{http://arxiv.org/abs/1310.3105}{{\ttfamily arXiv:1310.3105 [hep-ph]}}.
-%%CITATION = ARXIV:1310.3105;%%.
-
 \bibitem{Shen:2010uy}
 C.~Shen, U.~Heinz, P.~Huovinen, and H.~Song, ``{Systematic parameter study of
   hadron spectra and elliptic flow from viscous hydrodynamic simulations of
@@ -641,6 +624,40 @@ C.~Shen, Z.~Qiu, H.~Song, J.~Bernhard, S.~Bass, and U.~Heinz, ``{The
   Commun.} {\bfseries 199} (2016) 61--85},
 \href{http://arxiv.org/abs/1409.8164}{{\ttfamily arXiv:1409.8164 [nucl-th]}}.
 %%CITATION = ARXIV:1409.8164;%%.
+
+\bibitem{Lin:2004en}
+Z.-W. Lin, C.~M. Ko, B.-A. Li, B.~Zhang, and S.~Pal, ``{A Multi-phase transport
+  model for relativistic heavy ion collisions},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.72.064901}{{\em Phys. Rev.}
+  {\bfseries C72} (2005) 064901},
+\href{http://arxiv.org/abs/nucl-th/0411110}{{\ttfamily arXiv:nucl-th/0411110
+  [nucl-th]}}.
+%%CITATION = NUCL-TH/0411110;%%.
+
+\bibitem{Lin:2014tya}
+Z.-W. Lin, ``{Evolution of transverse flow and effective temperatures in the
+  parton phase from a multi-phase transport model},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.90.014904}{{\em Phys. Rev.}
+  {\bfseries C90} no.~1, (2014) 014904},
+\href{http://arxiv.org/abs/1403.6321}{{\ttfamily arXiv:1403.6321 [nucl-th]}}.
+%%CITATION = ARXIV:1403.6321;%%.
+
+\bibitem{Paatelainen:2012at}
+R.~Paatelainen, K.~J. Eskola, H.~Holopainen, and K.~Tuominen, ``{Multiplicities
+  and $p_T$ spectra in ultrarelativistic heavy ion collisions from a
+  next-to-leading order improved perturbative QCD + saturation + hydrodynamics
+  model},'' \href{http://dx.doi.org/10.1103/PhysRevC.87.044904}{{\em Phys.
+  Rev.} {\bfseries C87} no.~4, (2013) 044904},
+\href{http://arxiv.org/abs/1211.0461}{{\ttfamily arXiv:1211.0461 [hep-ph]}}.
+%%CITATION = ARXIV:1211.0461;%%.
+
+\bibitem{Paatelainen:2013eea}
+R.~Paatelainen, K.~J. Eskola, H.~Niemi, and K.~Tuominen, ``{Fluid dynamics with
+  saturated minijet initial conditions in ultrarelativistic heavy-ion
+  collisions},'' \href{http://dx.doi.org/10.1016/j.physletb.2014.02.018}{{\em
+  Phys. Lett.} {\bfseries B731} (2014) 126--130},
+\href{http://arxiv.org/abs/1310.3105}{{\ttfamily arXiv:1310.3105 [hep-ph]}}.
+%%CITATION = ARXIV:1310.3105;%%.
 
 \bibitem{Qiu:2011hf}
 Z.~Qiu, C.~Shen, and U.~Heinz, ``{Hydrodynamic elliptic and triangular flow in
@@ -726,6 +743,24 @@ A.~Kurkela and Y.~Zhu, ``{Isotropization and hydrodynamization in weakly
 \href{http://arxiv.org/abs/1506.06647}{{\ttfamily arXiv:1506.06647 [hep-ph]}}.
 %%CITATION = ARXIV:1506.06647;%%.
 
+\bibitem{Zhang:1999bd}
+B.~Zhang, C.~M. Ko, B.-A. Li, and Z.-w. Lin, ``{A multiphase transport model
+  for nuclear collisions at RHIC},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.61.067901}{{\em Phys. Rev.}
+  {\bfseries C61} (2000) 067901},
+\href{http://arxiv.org/abs/nucl-th/9907017}{{\ttfamily arXiv:nucl-th/9907017
+  [nucl-th]}}.
+%%CITATION = NUCL-TH/9907017;%%.
+
+\bibitem{Lin:2000cx}
+Z.-w. Lin, S.~Pal, C.~M. Ko, B.-A. Li, and B.~Zhang, ``{Charged particle
+  rapidity distributions at relativistic energies},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.64.011902}{{\em Phys. Rev.}
+  {\bfseries C64} (2001) 011902},
+\href{http://arxiv.org/abs/nucl-th/0011059}{{\ttfamily arXiv:nucl-th/0011059
+  [nucl-th]}}.
+%%CITATION = NUCL-TH/0011059;%%.
+
 \bibitem{Gyulassy:1994ew}
 M.~Gyulassy and X.-N. Wang, ``{HIJING 1.0: A Monte Carlo program for parton and
   particle production in high-energy hadronic and nuclear collisions},''
@@ -773,23 +808,6 @@ Z.-w. Lin and C.~M. Ko, ``{Partonic effects on the elliptic flow at RHIC},''
   [nucl-th]}}.
 %%CITATION = NUCL-TH/0108039;%%.
 
-\bibitem{Lin:2004en}
-Z.-W. Lin, C.~M. Ko, B.-A. Li, B.~Zhang, and S.~Pal, ``{A Multi-phase transport
-  model for relativistic heavy ion collisions},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.72.064901}{{\em Phys. Rev.}
-  {\bfseries C72} (2005) 064901},
-\href{http://arxiv.org/abs/nucl-th/0411110}{{\ttfamily arXiv:nucl-th/0411110
-  [nucl-th]}}.
-%%CITATION = NUCL-TH/0411110;%%.
-
-\bibitem{Lin:2014tya}
-Z.-W. Lin, ``{Evolution of transverse flow and effective temperatures in the
-  parton phase from a multi-phase transport model},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.90.014904}{{\em Phys. Rev.}
-  {\bfseries C90} no.~1, (2014) 014904},
-\href{http://arxiv.org/abs/1403.6321}{{\ttfamily arXiv:1403.6321 [nucl-th]}}.
-%%CITATION = ARXIV:1403.6321;%%.
-
 \bibitem{Adam:2016nfo}
 {\bfseries ALICE} Collaboration, J.~Adam {\em et~al.}, ``{Higher harmonic flow
   coefficients of identified hadrons in Pb-Pb collisions at $\sqrt{s_{\rm NN}}$
@@ -822,40 +840,7 @@ D.~Teaney and L.~Yan, ``{Event-plane correlations and hydrodynamic simulations
 %%CITATION = ARXIV:1312.3689;%%.
 
 \bibitem{PDBook}
-W.-M. {Yao}, C.~{Amsler}, D.~{Asner}, R.~{Barnett}, J.~{Beringer},
-  P.~{Burchat}, C.~{Carone}, C.~{Caso}, O.~{Dahl}, G.~{D'Ambrosio},
-  A.~{DeGouvea}, M.~{Doser}, S.~{Eidelman}, J.~{Feng}, T.~{Gherghetta},
-  M.~{Goodman}, C.~{Grab}, D.~{Groom}, A.~{Gurtu}, K.~{Hagiwara}, K.~{Hayes},
-  J.~{Hern\'andez-Rey}, K.~{Hikasa}, H.~{Jawahery}, C.~{Kolda}, K.~Y.,
-  M.~{Mangano}, A.~{Manohar}, A.~{Masoni}, R.~{Miquel}, K.~{M\"onig},
-  H.~{Murayama}, K.~{Nakamura}, S.~{Navas}, K.~{Olive}, L.~{Pape},
-  C.~{Patrignani}, A.~{Piepke}, G.~{Punzi}, G.~{Raffelt}, J.~{Smith},
-  M.~{Tanabashi}, J.~{Terning}, N.~{T\"ornqvist}, T.~{Trippe}, P.~{Vogel},
-  T.~{Watari}, C.~{Wohl}, R.~{Workman}, P.~{Zyla}, B.~{Armstrong}, G.~{Harper},
-  V.~{Lugovsky}, P.~{Schaffner}, M.~{Artuso}, K.~{Babu}, H.~{Band},
-  E.~{Barberio}, M.~{Battaglia}, H.~{Bichsel}, O.~{Biebel}, P.~{Bloch},
-  E.~{Blucher}, R.~{Cahn}, D.~{Casper}, A.~{Cattai}, A.~{Ceccucci},
-  D.~{Chakraborty}, R.~{Chivukula}, G.~{Cowan}, T.~{Damour}, T.~{DeGrand},
-  K.~{Desler}, M.~{Dobbs}, M.~{Drees}, A.~{Edwards}, D.~{Edwards}, V.~{Elvira},
-  J.~{Erler}, V.~{Ezhela}, W.~{Fetscher}, B.~{Fields}, B.~{Foster},
-  D.~{Froidevaux}, T.~{Gaisser}, L.~{Garren}, H.-J. {Gerber}, G.~{Gerbier},
-  L.~{Gibbons}, F.~{Gilman}, G.~{Giudice}, A.~{Gritsan}, M.~{Gr\"unewald},
-  H.~{Haber}, C.~{Hagmann}, I.~{Hinchliffe}, A.~{H\"ocker}, P.~{Igo-Kemenes},
-  J.~{Jackson}, K.~{Johnson}, D.~{Karlen}, B.~{Kayser}, D.~{Kirkby},
-  S.~{Klein}, K.~{Kleinknecht}, I.~{Knowles}, R.~{Kowalewski}, P.~{Kreitz},
-  B.~{Krusche}, Y.~{Kuyanov}, O.~{Lahav}, P.~{Langacker}, A.~{Liddle},
-  Z.~{Ligeti}, T.~{Liss}, L.~{Littenberg}, L.~{Liu}, K.~{Lugovsky},
-  S.~{Lugovsky}, T.~{Mannel}, D.~{Manley}, W.~{Marciano}, A.~{Martin},
-  D.~{Milstead}, M.~{Narain}, P.~{Nason}, Y.~{Nir}, J.~{Peacock}, S.~{Prell},
-  A.~{Quadt}, S.~{Raby}, B.~{Ratcliff}, E.~{Razuvaev}, B.~{Renk},
-  P.~{Richardson}, S.~{Roesler}, G.~{Rolandi}, M.~{Ronan}, L.~{Rosenberg},
-  C.~{Sachrajda}, S.~{Sarkar}, M.~{Schmitt}, O.~{Schneider}, D.~{Scott},
-  T.~{Sj\"ostrand}, G.~{Smoot}, P.~{Sokolsky}, S.~{Spanier}, H.~{Spieler},
-  A.~{Stahl}, T.~{Stanev}, R.~{Streitmatter}, T.~{Sumiyoshi}, N.~{Tkachenko},
-  G.~{Trilling}, G.~{Valencia}, K.~{van Bibber}, M.~{Vincter}, D.~{Ward},
-  B.~{Webber}, J.~{Wells}, M.~{Whalley}, L.~{Wolfenstein}, J.~{Womersley},
-  C.~{Woody}, A.~{Yamamoto}, O.~{Zenin}, J.~{Zhang}, and R.-Y. {Zhu}, ``{Review
-  of Particle Physics},'' {\em {Journal of Physics G}} {\bfseries 33} (2006)
-  1+. \url{http://pdg.lbl.gov}.
+W.-M. {Yao} {\em et~al.}, ``{Review of Particle Physics},'' {\em {Journal of
+  Physics G}} {\bfseries 33} (2006) 1+. \url{http://pdg.lbl.gov}.
 
 \end{thebibliography}\endgroup
