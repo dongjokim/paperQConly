@@ -1,7 +1,7 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: figs/chisqndf_bestfits_3pad.eps
 %%Creator: matplotlib version 2.0.2, http://matplotlib.org/
-%%CreationDate: Mon Aug 21 03:43:36 2017
+%%CreationDate: Mon Aug 21 09:46:47 2017
 %%Orientation: portrait
 %%BoundingBox: -149 236 761 555
 %%EndComments
@@ -42,7 +42,7 @@ newpath
 /FontMatrix[.001 0 0 .001 0 0]def
 /FontBBox[-1021 -463 1793 1232]def
 /FontType 3 def
-/Encoding [ /space /percent /parenleft /parenright /plus /comma /hyphen /period /slash /zero /one /two /three /four /five /six /seven /eight /equal /A /C /E /H /I /K /L /M /N /P /R /S /T /V /a /b /c /d /e /f /i /l /m /n /o /p /r /s /t /u /y ] def
+/Encoding [ /space /percent /parenleft /parenright /plus /comma /hyphen /period /slash /zero /one /two /three /four /five /six /seven /eight /equal /A /C /E /H /I /K /L /M /N /P /R /S /T /V /a /b /c /d /e /f /i /l /m /n /o /p /r /s /t /u /y /minus ] def
 /FontInfo 10 dict dup begin
 /FamilyName (DejaVu Sans) def
 /FullName (DejaVu Sans) def
@@ -54,7 +54,7 @@ newpath
 /UnderlinePosition -130 def
 /UnderlineThickness 90 def
 end readonly def
-/CharStrings 50 dict dup begin
+/CharStrings 51 dict dup begin
 /space{318 0 0 0 0 0 _sc
 }_d
 /percent{{950 0 55 -13 895 742 _sc
@@ -984,6 +984,13 @@ _cl}_d
 562 547 _l
 322 -50 _l
 _cl}_d
+/minus{838 0 106 272 732 355 _sc
+106 355 _m
+732 355 _l
+732 272 _l
+106 272 _l
+106 355 _l
+_cl}_d
 end readonly def
 
 /BuildGlyph
@@ -1507,7 +1514,50 @@ grestore
 66.6 62.5177 o
 grestore
 gsave
-54.100000 57.580247 translate
+32.100000 57.369309 translate
+0.000000 rotate
+/DejaVuSans findfont
+13.0 scalefont
+setfont
+0.000000 0.384375 moveto
+/one glyphshow
+
+8.270996 0.384375 moveto
+/zero glyphshow
+
+/DejaVuSans findfont
+9.1 scalefont
+setfont
+16.666406 5.360938 moveto
+/minus glyphshow
+
+24.291211 5.360938 moveto
+/one glyphshow
+
+
+grestore
+gsave
+/o {
+gsave
+newpath
+translate
+0.8 setlinewidth
+1 setlinejoin
+0 setlinecap
+0 0 m
+8 0 l
+
+gsave
+0.000 setgray
+fill
+grestore
+stroke
+grestore
+} bind def
+66.6 131.818 o
+grestore
+gsave
+54.100000 126.880247 translate
 0.000000 rotate
 /DejaVuSans findfont
 13.0 scalefont
@@ -1535,10 +1585,10 @@ grestore
 stroke
 grestore
 } bind def
-66.6 131.818 o
+66.6 201.118 o
 grestore
 gsave
-46.100000 126.880247 translate
+46.100000 196.180247 translate
 0.000000 rotate
 /DejaVuSans findfont
 13.0 scalefont
@@ -1548,46 +1598,6 @@ setfont
 
 8.270996 0.343750 moveto
 /zero glyphshow
-
-
-grestore
-gsave
-/o {
-gsave
-newpath
-translate
-0.8 setlinewidth
-1 setlinejoin
-0 setlinecap
-0 0 m
-8 0 l
-
-gsave
-0.000 setgray
-fill
-grestore
-stroke
-grestore
-} bind def
-66.6 201.118 o
-grestore
-gsave
-40.100000 195.969309 translate
-0.000000 rotate
-/DejaVuSans findfont
-13.0 scalefont
-setfont
-0.000000 0.264063 moveto
-/one glyphshow
-
-8.270996 0.264063 moveto
-/zero glyphshow
-
-/DejaVuSans findfont
-9.1 scalefont
-setfont
-16.666406 5.240625 moveto
-/two glyphshow
 
 
 grestore
@@ -1627,7 +1637,7 @@ setfont
 9.1 scalefont
 setfont
 16.666406 5.240625 moveto
-/three glyphshow
+/two glyphshow
 
 
 grestore
