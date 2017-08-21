@@ -5,4 +5,5 @@
 #../git-latexdiff/git-latexdiff --main paper.tex 7f129af $1
 #../git-latexdiff/git-latexdiff --main paper.tex master EB-R1
 #../git-latexdiff/git-latexdiff --main paper.tex  EB-R1 CR-Round1
-../git-latexdiff/git-latexdiff --main paper.tex  CR-Round1 CR-Round1.EB
+#../git-latexdiff/git-latexdiff --main paper.tex  CR-Round1 CR-Round1.EB
+../git-latexdiff/git-latexdiff --main paper.tex  CR-Round1.EB CR-Round1.EB.final
