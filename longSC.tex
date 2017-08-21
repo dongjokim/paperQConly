@@ -369,38 +369,38 @@ We list here the important findings from the model comparisons to the centrality
 \end{enumerate}
 
 %Finally, we perform a least-square test to the models for each SC observable via a log-likelihood or least squares-${\chi}^2$ method~\cite{PDBook} and the resulting ${\chi}^2$ values are discussed in Appendix~\ref{sec:chisq}.
-The agreement of various model calculations with the data is quantified by calculating the $\chi^{2}_{ndf}$:
+The agreement of various model calculations with the data is quantified by calculating the $\chisqndf$:
 
 \begin{equation}
-\chi^{2}_{ndf} = \frac{1}{N} \sum_{i=1}^{N} \frac{{(y_i-f_i)}^{2}}{{\sigma_i}^{2}},
+\chi^2/N_{\rm dof} = \frac{1}{N_{\rm dof}} \sum_{i=1}^{N_{\rm dof}} \frac{{(y_i-f_i)}^{2}}{{\sigma_i}^{2}},
 \label{Eq:chisq}
 \end{equation}
 
 where $y_i$ ($f_i$) is a measurement (model) value in a centrality bin $i$. The systematical and statistical errors  are combined in quadrature $\sigma_i = \sqrt{\sigma_{i, stat}^2 + \sigma_{i, syst}^2}$.
-The total number of data samples $N$ in Eq.~\ref{Eq:chisq} is 4, which corresponds to the number of bins in the centrality range 10--50\% used in $\chi^{2}_{ndf}$ calculations.
-The $\chi^{2}_{ndf}$ for model calculations which are best in describing the SC observables for each of the three different types of models is shown in Fig.~\ref{fig:Figure_A5}.
+The total number of data samples $N_{\rm dof}$ in Eq.~\ref{Eq:chisq} is 4, which corresponds to the number of bins in the centrality range 10--50\% used in $\chisqndf$ calculations.
+The $\chisqndf$ for model calculations which are best in describing the SC observables for each of the three different types of models is shown in Fig.~\ref{fig:Figure_A5}.
 
 \begin{figure*}[h]
             \begin{center}
                        \resizebox{0.99\textwidth}{!}{\includegraphics{figs/chisqndf_bestfits_3pad.eps}}
-        \caption{The $\chi^{2}_{ndf}$ values calculated by Eq.~\ref{Eq:chisq} are shown for SC($m$,$n$) (a), NSC($m$,$n$) (b) and individual harmonics $v_n$ (c). Results are for model calculations which are best in describing the SC observables for each of the three different types of models.}
+        \caption{The $\chisqndf$ values calculated by Eq.~\ref{Eq:chisq} are shown for SC($m$,$n$) (a), NSC($m$,$n$) (b) and individual harmonics $v_n$ (c). Results are for model calculations which are best in describing the SC observables for each of the three different types of models.}
         \label{fig:Figure_A5}
               \end{center}
 \end{figure*}
 % The ${\chi}^2$ results for SC($m$,$n$) (NSC($m$,$n$)) are shown as closed (open) markers.
-The results for SC($m$,$n$) and NSC($m$,$n$) are presented in Fig.~\ref{fig:Figure_A5}a and \ref{fig:Figure_A5}b, respectively. The $\chi^{2}_{ndf}$ values for the individual flow harmonics $v_n$ for $n$=2--4 are shown in Fig.~\ref{fig:Figure_A5}c. We found that in case of the calculations from VISH2+1 with AMPT initial conditions ($\eta/s$ = 0.08) and the default configuration of the AMPT model, the $\chi^{2}_{ndf}$ values for SC($m$,$n$) are larger than those for NSC($m$,$n$). This reflects the fact that the individual flow harmonics $v_n$ are not well described by those models compared to event-by-event EKRT+viscous hydrodynamics. This is quantified in Fig.~\ref{fig:Figure_A5}c, where the $\chi^{2}_{ndf}$ values for $v_n$ are much larger both for VISH2+1 and default AMPT calculations than event-by-event EKRT+viscous hydrodynamics.
-The default configuration of the AMPT model gives the best $\chi^{2}_{ndf}$ values for NSC($m$,$n$), especially for NSC(3,2). However the $\chi^{2}_{ndf}$ values of this model are largest for $v_n$ among the models especially for $v_2$.
+The results for SC($m$,$n$) and NSC($m$,$n$) are presented in Fig.~\ref{fig:Figure_A5}a and \ref{fig:Figure_A5}b, respectively. The $\chisqndf$ values for the individual flow harmonics $v_n$ for $n$=2--4 are shown in Fig.~\ref{fig:Figure_A5}c. We found that in case of the calculations from VISH2+1 with AMPT initial conditions ($\eta/s$ = 0.08) and the default configuration of the AMPT model, the $\chisqndf$ values for SC($m$,$n$) are larger than those for NSC($m$,$n$). This reflects the fact that the individual flow harmonics $v_n$ are not well described by those models compared to event-by-event EKRT+viscous hydrodynamics. This is quantified in Fig.~\ref{fig:Figure_A5}c, where the $\chisqndf$ values for $v_n$ are much larger both for VISH2+1 and default AMPT calculations than event-by-event EKRT+viscous hydrodynamics.
+The default configuration of the AMPT model gives the best $\chisqndf$ values for NSC($m$,$n$), especially for NSC(3,2). However the $\chisqndf$ values of this model are largest for $v_n$ among the models especially for $v_2$.
 
-The $\chi^{2}_{ndf}$ values for $v_2$ and $v_3$ are significantly smaller than those for SC(3,2) and NSC(3,2) for all the hydrodynamic calculations. The $\chi^{2}_{ndf}$ values for SC(4,2) and NSC(4,2) from event-by-event EKRT+viscous hydrodynamics are comparable to that for $v_2$ but larger than for $v_4$. The $\chi^{2}_{ndf}$ for calculations for $v_n$ with constant $\eta/s$ = 0.20 (``param0'') are smaller than those with temperature dependent $\eta/s$ parameterization with a minimal value of $\eta/s$ = 0.12 at the temperature around 150 MeV (``param1''), while an opposite trend is observed for SC($m$,$n$), in particular for SC(4,2) and SC(5,3). 
+The $\chisqndf$ values for $v_2$ and $v_3$ are significantly smaller than those for SC(3,2) and NSC(3,2) for all the hydrodynamic calculations. The $\chisqndf$ values for SC(4,2) and NSC(4,2) from event-by-event EKRT+viscous hydrodynamics are comparable to that for $v_2$ but larger than for $v_4$. The $\chisqndf$ for calculations for $v_n$ with constant $\eta/s$ = 0.20 (``param0'') are smaller than those with temperature dependent $\eta/s$ parameterization with a minimal value of $\eta/s$ = 0.12 at the temperature around 150 MeV (``param1''), while an opposite trend is observed for SC($m$,$n$), in particular for SC(4,2) and SC(5,3). 
 This illustrates that a combination of the SC($m$,$n$) observables with the individual flow harmonics $v_n$ may provide sensitivity to the temperature dependence of the $\eta/s(T)$ and together they allow for better constraints of the model parameters.
 
 %This illustrates that the SC observables together with the individual flow harmonics provide better constraints for the model parameters than each of them individually.
 %Once the calculations with an average over the temperature evolution of the expanding medium (constant $\eta/s$ parameterization ($\eta/s = 0.20$, ``param0'')) is compared to the temperature dependent $\eta/s$ parameterization (``param1'', where $\eta/s$ is the lowest ($\eta/s = 0.12$) at the temperature around 150~MeV),  in case of $v_n$, the ${\chi}^2$ values with ``param0'' are smaller than those with ``param1'' but the opposite trend is observed for SC($m$,$n$). Furthermore we observe a clear separation of two parameterizations for SC(5,3) which is even larger than SC(4,2).
 %These observations support that with the SC observables one can constraint the temperature dependent $\eta/s(T)$, taking one step further from estimating the simple average quantity $\eta/s$.
 
-Even though the calculations from event-by-event EKRT+viscous hydrodynamics give the best $\chi^{2}_{ndf}$ values for both SC($m$,$n$) and NSC($m$,$n$), the $\chi^{2}_{ndf}$
+Even though the calculations from event-by-event EKRT+viscous hydrodynamics give the best $\chisqndf$ values for both SC($m$,$n$) and NSC($m$,$n$), the $\chisqndf$
 values are large especially for the observables which include $v_3$. 
-Even with the best model calculations, the $\chi^{2}_{ndf}$ value varies a lot depending on the model parameters and/or different order SC observables, which implies that the different order harmonic correlations have different sensitivity to the initial conditions and the system properties.
+Even with the best model calculations, the $\chisqndf$ value varies a lot depending on the model parameters and/or different order SC observables, which implies that the different order harmonic correlations have different sensitivity to the initial conditions and the system properties.
 
 \subsection{Transverse Momentum Dependence of Correlations between $v_2$ and $v_3$ and between $v_2$ and $v_4$}
 \label{sec:ptdepsc}

@@ -46,6 +46,7 @@ Repeated entry---line 1259 of file paper.bib.bib
 I'm skipping whatever remains of this entry
 Warning--empty author in Gale:2012rq
 Warning--empty pages in Brun:1994aa
+<<<<<<< Updated upstream
 You've used 104 entries,
             2328 wiz_defined-function locations,
             1462 strings with 29016 characters,
@@ -79,12 +80,53 @@ skip$ -- 1639
 stack$ -- 0
 substring$ -- 1557
 swap$ -- 1160
+=======
+You've used 102 entries,
+            2328 wiz_defined-function locations,
+            1444 strings with 31662 characters,
+and the built_in function-call counts, 38295 in all, are:
+= -- 3798
+> -- 1615
+< -- 0
++ -- 574
+- -- 472
+* -- 4003
+:= -- 4561
+add.period$ -- 204
+call.type$ -- 102
+change.case$ -- 106
+chr.to.int$ -- 0
+cite$ -- 104
+duplicate$ -- 2040
+empty$ -- 3334
+format.name$ -- 472
+if$ -- 9822
+int.to.chr$ -- 0
+int.to.str$ -- 102
+missing$ -- 400
+newline$ -- 505
+num.names$ -- 101
+pop$ -- 456
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1600
+stack$ -- 0
+substring$ -- 1533
+swap$ -- 1132
+>>>>>>> Stashed changes
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
+<<<<<<< Updated upstream
 while$ -- 230
 width$ -- 107
 write$ -- 943
+=======
+while$ -- 226
+width$ -- 105
+write$ -- 925
+>>>>>>> Stashed changes
 (There were 10 error messages)
