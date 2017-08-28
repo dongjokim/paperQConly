@@ -192,8 +192,9 @@ P.~Bozek and I.~Wyskiel-Piekarska, ``{Particle spectra in Pb-Pb collisions at
 %%CITATION = ARXIV:1203.6513;%%.
 
 \bibitem{Gale:2012rq}
-``{Event-by-event anisotropic flow in heavy-ion collisions from combined
-  Yang-Mills and viscous fluid dynamics},''
+C.~Gale, S.~Jeon, B.~Schenke, P.~Tribedy, and R.~Venugopalan, ``{Event-by-event
+  anisotropic flow in heavy-ion collisions from combined Yang-Mills and viscous
+  fluid dynamics},''
   \href{http://dx.doi.org/10.1103/PhysRevLett.110.012302}{{\em Phys. Rev.
   Lett.} {\bfseries 110} no.~1, (2013) 012302},
 \href{http://arxiv.org/abs/1209.6330}{{\ttfamily arXiv:1209.6330 [nucl-th]}}.
@@ -480,6 +481,8 @@ D.~Molnar and Z.~Wolff, ``{Self-consistent conversion of a viscous fluid to
 \bibitem{Zhu:2016puf}
 X.~Zhu, Y.~Zhou, H.~Xu, and H.~Song, ``{Correlations of flow harmonics in 2.76A
   TeV Pb--Pb collisions},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.95.044902}{{\em Phys. Rev.}
+  {\bfseries C95} no.~4, (2017) 044902},
 \href{http://arxiv.org/abs/1608.05305}{{\ttfamily arXiv:1608.05305 [nucl-th]}}.
 %%CITATION = ARXIV:1608.05305;%%.
 
@@ -577,8 +580,9 @@ X.-N. Wang and M.~Gyulassy, ``{HIJING: A Monte Carlo model for multiple jet
 
 \bibitem{Brun:1994aa}
 R.~Brun, F.~Bruyant, F.~Carminati, S.~Giani, M.~Maire, A.~McPherson,
-  G.~Patrick, and L.~Urban, ``{{GEANT Detector Description and Simulation
-  Tool}},'' {\em CERN-W5013, CERN-W-5013, W5013, W-5013} (1994) .
+  G.~Patrick, and L.~Urban,
+``{GEANT Detector Description and Simulation Tool},''.
+%%CITATION = CERN-W5013;%%.
 
 \bibitem{Abbas:2013taa}
 {\bfseries ALICE} Collaboration, E.~Abbas {\em et~al.}, ``{Performance of the
@@ -838,9 +842,5 @@ D.~Teaney and L.~Yan, ``{Event-plane correlations and hydrodynamic simulations
   {\bfseries C90} no.~2, (2014) 024902},
 \href{http://arxiv.org/abs/1312.3689}{{\ttfamily arXiv:1312.3689 [nucl-th]}}.
 %%CITATION = ARXIV:1312.3689;%%.
-
-\bibitem{PDBook}
-W.-M. {Yao} {\em et~al.}, ``{Review of Particle Physics},'' {\em {Journal of
-  Physics G}} {\bfseries 33} (2006) 1+. \url{http://pdg.lbl.gov}.
 
 \end{thebibliography}\endgroup
