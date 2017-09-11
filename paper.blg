@@ -3,130 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: utphys.bst
 Database file #1: paper.bib.bib
-Repeated entry---line 192 of file paper.bib.bib
- : @article{Abelev:2012di
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 752 of file paper.bib.bib
- : @article{Gale:2012rq
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 886 of file paper.bib.bib
- : @article{Giacalone:2016afq
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 919 of file paper.bib.bib
- : @article{Bravina:2013ora
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 997 of file paper.bib.bib
- : @article{Bilandzic:2013kga
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1080 of file paper.bib.bib
- : @article{Aamodt:2010cz
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1096 of file paper.bib.bib
- : @article{Aamodt:2010pa
- :                       ,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 1130 of file paper.bib.bib
- :  
- :  %     reportNumber   = "CERN-W5013, CERN-W-5013, W5013, W-5013",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 1193 of file paper.bib.bib
- : @article{Zhu:2016puf
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1259 of file paper.bib.bib
- : @article{Bhalerao:2015iya
- :                          ,
-I'm skipping whatever remains of this entry
-Warning--empty author in Gale:2012rq
-Warning--empty pages in Brun:1994aa
-<<<<<<< Updated upstream
-You've used 104 entries,
+You've used 103 entries,
             2328 wiz_defined-function locations,
-            1462 strings with 29016 characters,
-and the built_in function-call counts, 36896 in all, are:
-= -- 3876
-> -- 1145
+            1458 strings with 29026 characters,
+and the built_in function-call counts, 36855 in all, are:
+= -- 3872
+> -- 1153
 < -- 0
-+ -- 418
-- -- 314
-* -- 3745
-:= -- 4147
-add.period$ -- 208
-call.type$ -- 104
-change.case$ -- 108
++ -- 420
+- -- 317
+* -- 3739
+:= -- 4142
+add.period$ -- 207
+call.type$ -- 103
+change.case$ -- 107
 chr.to.int$ -- 0
-cite$ -- 106
-duplicate$ -- 2086
-empty$ -- 3400
-format.name$ -- 314
-if$ -- 9690
+cite$ -- 103
+duplicate$ -- 2085
+empty$ -- 3380
+format.name$ -- 317
+if$ -- 9675
 int.to.chr$ -- 0
-int.to.str$ -- 104
-missing$ -- 408
-newline$ -- 515
+int.to.str$ -- 103
+missing$ -- 404
+newline$ -- 514
 num.names$ -- 103
-pop$ -- 466
+pop$ -- 460
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1639
+skip$ -- 1650
 stack$ -- 0
-substring$ -- 1557
-swap$ -- 1160
-=======
-You've used 102 entries,
-            2328 wiz_defined-function locations,
-            1444 strings with 31662 characters,
-and the built_in function-call counts, 38295 in all, are:
-= -- 3798
-> -- 1615
-< -- 0
-+ -- 574
-- -- 472
-* -- 4003
-:= -- 4561
-add.period$ -- 204
-call.type$ -- 102
-change.case$ -- 106
-chr.to.int$ -- 0
-cite$ -- 104
-duplicate$ -- 2040
-empty$ -- 3334
-format.name$ -- 472
-if$ -- 9822
-int.to.chr$ -- 0
-int.to.str$ -- 102
-missing$ -- 400
-newline$ -- 505
-num.names$ -- 101
-pop$ -- 456
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 1600
-stack$ -- 0
-substring$ -- 1533
-swap$ -- 1132
->>>>>>> Stashed changes
+substring$ -- 1560
+swap$ -- 1168
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-<<<<<<< Updated upstream
-while$ -- 230
-width$ -- 107
-write$ -- 943
-=======
-while$ -- 226
-width$ -- 105
-write$ -- 925
->>>>>>> Stashed changes
-(There were 10 error messages)
+warning$ -- 0
+while$ -- 229
+width$ -- 106
+write$ -- 937

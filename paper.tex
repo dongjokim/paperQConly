@@ -1,11 +1,12 @@
 \documentclass[ALICE,manyauthors]{cernphprep}
+\pdfoutput=1
 \usepackage[comma,square,numbers,sort&compress]{natbib}
 \usepackage{hyperref}
 \usepackage{lineno}
 \usepackage{url,color}
 \usepackage{enumerate}   
 %\usepackage{refcheck}
-\linenumbers
+%\linenumbers
 
 \begin{document}
 %%%%%%%%%%%%% ptdr definitions %%%%%%%%%%%%%%%%%%%%%
@@ -29,7 +30,7 @@
 %
 \PHyear{2017}
 \PHnumber{215}                 % required, obtained from PH
-\PHdate{22 August}              % required, will be obtained from PH
+\PHdate{21 August}              % required, will be obtained from PH
 %
 %
 %%% Put your own title + short title here:
@@ -55,21 +56,10 @@
 \newenvironment{acknowledgement}{\relax}{\relax}
 \begin{acknowledgement}
 \section*{Acknowledgements}
-\input{acknowledgements_2017-Aug-21.tex}    %%%%%%% get the lates version before submitting
+\input{fa_2017-08-29.tex}    %%%%%%% get the lates version before submitting
 \end{acknowledgement}
-%
-%
-%%%%%%%% Bibliography (In case of using bibtex generate the bbl requested by arXiv)
-%\bibliographystyle{apsrev4-1}   % Put here the style file name for the paper, i.e.apsrev4-1
-%\bibliography{biblio}
-%\input {bibliography.tex}  
-%
 
-%\nocite{*}
 
-% \bibliographystyle{mybibstyle}
-%\bibliographystyle{utphys}
-%\bibliography{paper}
 \bibliographystyle{utphys}
 \bibliography{paper.bib}
 \newpage
