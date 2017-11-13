@@ -10,4 +10,4 @@
 #../git-latexdiff/git-latexdiff --main paper.tex  EB-R1 master 
 #../git-latexdiff/git-latexdiff --main paper.tex   f3edf67 3a440fe
 #../git-latexdiff/git-latexdiff --main paper.tex   master CR-final 
-../git-latexdiff/git-latexdiff --main paper.tex   PRC master
+../git-latexdiff/git-latexdiff --main paper.tex   master PRC
