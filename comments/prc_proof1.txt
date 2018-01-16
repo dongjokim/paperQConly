@@ -9,7 +9,7 @@ Ans : We defined it.
 
 4 Please see https://journals.aps.org/authors/multiletter-symbols-h5 and adjust notation for SC and NSC in equations
 accordingly throughout entire paper.
-Ans : ??
+Ans : We have used this notation in the previous paper (Phys. Rev. Lett. 117, 182301) and think the current notation is OK.
 
 5 Verify “two two-particle” is correct
 Ans : Yes it is correct.
@@ -28,13 +28,18 @@ Ans : We defined it.
 Ans : We defined it.
 
 10 Check order: Should CEADEN, Cuba, be alphabetized by “Cuba”?
+Ans : We have used this in other publications and it is OK.
 
 11 Please update all eprint references with publication information as applicable.
+Ans : We went through the publications and they are up to date. 
 
 12 Please provide URL or other location information
+Ans : We added the URL informations for Refs. 66--68.
 
 13 Provide URL or other information
+Ans : We added the URL informations for Refs. 71--73.
 
 FQ: This funding provider could not be uniquely identified during our search of the FundRef registry (or no Contract or Grant
 number was detected). Please check information and amend if incomplete or incorrect.
+Ans : 
 
