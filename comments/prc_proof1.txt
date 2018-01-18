@@ -31,7 +31,7 @@ Ans : We defined it.
 Ans : We have used this in other publications and it is OK.
 
 11 Please update all eprint references with publication information as applicable.
-Ans : We went through the publications and they are up to date. 
+Ans : We went through the references and they are up to date. 
 
 12 Please provide URL or other location information
 Ans : We added the URL informations for Refs. 66--68.

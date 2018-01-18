@@ -1,9 +1,9 @@
-a model for low pt hadronic reactions with generalizations to hadron - nucleus and nucleus-nucleus collisions
-a multi-phase transport model for relativistic heavy ion collisions
+a model for low pt hadronic reactions with generalizations to hadron-nucleus and nucleus-nucleus collisions
 a multiphase transport model for nuclear collisions at rhic
+a multiphase transport model for relativistic heavy ion collisions
 alice physics performance report volume i
 alice physics performance report volume ii
-alice technical design report of the inner tracking system its
+alice technical design report of the inner tracking
 anisotropic distributions in a multiphase transport
 anisotropic flow of charged hadrons pions and
 anisotropic flow of charged particles in pb-pb collisions at sqrts_rm nn502 tev
@@ -17,7 +17,7 @@ charged particle rapidity distributions at relativistic energies
 collective flow and viscosity in relativistic heavy-ion
 collective flow in event-by-event partonic transport plus hydrodynamics hybrid approach
 collective phenomena in non-central nuclear collisions
-collision geometry fluctuations and triangular flow in heavy-ion collisions
+collision geometry fluctuations and triangular flow in
 conformal hydrodynamics in minkowski and de sitter
 constraining the viscous freeze-out distribution function with data obtained at the bnl relativistic heavy ion collider rhic
 constraints on rapidity-dependent initial conditions
@@ -59,7 +59,7 @@ higher harmonic anisotropic flow measurements of charged particles in pb-pb coll
 higher harmonic flow coefficients of identified hadrons in pb-pb collisions at sqrts_rm nn  276 tev
 higher harmonics of azimuthal anisotropy in relativistic
 hijing 10 a monte carlo program for parton and particle production in high-energy hadronic and nuclear collisions
-hijing a monte carlo model for multiple jet production in p p p a and a a collisions
+hijing a monte carlo model for multiple jet production in pp pa and aa collisions
 how non-linear is the hydrodynamics of heavy ion
 hydrodynamic elliptic and triangular flow in pb-pb collisions at sqrts276atev
 hydrodynamic flow amplitude correlations in
